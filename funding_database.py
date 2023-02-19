@@ -1,28 +1,24 @@
 import sys
 import json
 import lxml.html
-from parks.utils import make_request, make_link_absolute
+from database_utils import make_request, make_link_absolute
+from selenium import webdriver
+from selenium.webdriver.support.ui import Select
 
 def scrape_park_page(url):
-    """
-    This function takes a URL to a park page and returns a
-    dictionary with the title, address, description,
-    and history of the park.
 
-    Parameters:
-        * url:  a URL to a park page
+    driver = webdriver.Firefox()
+    driver.get("https://fconline-foundationcenter-org.proxy.uchicago.edu/search/")
+    dropdown = Select(driver.find_element_by_id("accordionundefined"))
+    dropdown.select_by_visible_text("Agriculture, fishing and forestry")
+    search_button = driver.find_element_by_id("prepared-elastic-input")
+    search_button.click()
+    data_element = driver.find_element_by_class_name("top-cell")
+    data = data_element.text
+    print(data)
+    driver.quit()
 
-    Returns:
-        A dictionary with the following keys:
-            * url:          the URL of the park page
-            * name:         the name of the park
-            * address:      the address of the park
-            * description:  the description of the park
-            * history:      the history of the park
-    """
-    dict = {}
-    response = make_request(url)
-    root = lxml.html.fromstring(response.text)
+    return 
 
      # url
     dict['url'] = url

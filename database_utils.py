@@ -2,7 +2,7 @@ import time
 import requests
 from urllib.parse import urlparse
 
-ALLOWED_DOMAINS = ("https://scrapple.fly.dev",)
+ALLOWED_DOMAINS = ("https://fconline-foundationcenter-org.proxy.uchicago.edu/fdo-search/results?activity=form&_new_search=1&quicksearch=&subject_match=match_any&subject_area=SM&geographic_focus=&population_match=match_any&population_served=&organization_name=&organization_location=&staff=&government_grantmaker=1&support_strategy=&transaction_type=&organization_type=&amount_min=%240&amount_max=%2410%2C000%2C000%2C000&year_min=2003&year_max=2023&keywords=&ein=",)
 REQUEST_DELAY = 0.1
 
 
