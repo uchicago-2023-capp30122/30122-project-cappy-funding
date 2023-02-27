@@ -4,11 +4,44 @@ import lxml.html
 from database_utils import make_request, make_link_absolute
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
+import requests
+from bs4 import BeautifulSoup
+
+def scrape_funding_data():
+
+    import requests
+from bs4 import BeautifulSoup
+
+# set the URL of the page to scrape
+url = 'https://fconline-foundationcenter-org.proxy.uchicago.edu/search/'
+
+# set the filters to apply
+params = {
+    'term': 'Education',
+    'state': 'IL'
+}
+
+# send a GET request to the URL with the filters applied
+response = requests.get(url, params=params)
+
+# create a BeautifulSoup object to parse the HTML content of the page
+soup = BeautifulSoup(response.content, 'html.parser')
+
+# find the relevant HTML tags that contain the data you want to scrape
+results = soup.find_all('div', {'class': 'result-item'})
+
+# extract the desired information from the HTML tags
+for result in results:
+    name = result.find('a', {'class': 'result-item-title'}).text.strip()
+    description = result.find('p', {'class': 'result-item-desc'}).text.strip()
+    location = result.find('div', {'class': 'result-item-location'}).text.strip()
+    print(f'{name}\n{description}\n{location}\n')
+
 
 def scrape_park_page(url):
-
+    '''
     driver = webdriver.Firefox()
-    driver.get("https://fconline-foundationcenter-org.proxy.uchicago.edu/search/")
+    driver = driver.get("https://fconline-foundationcenter-org.proxy.uchicago.edu/fdo-search/results?activity=form&_new_search=1&quicksearch=&subject_match=match_any&subject_area=SM&geographic_focus=&population_match=match_any&population_served=&organization_name=&organization_location=&staff=&government_grantmaker=1&support_strategy=&transaction_type=&organization_type=&amount_min=%240&amount_max=%2410%2C000%2C000%2C000&year_min=2003&year_max=2023&keywords=&ein=")
     dropdown = Select(driver.find_element_by_id("accordionundefined"))
     dropdown.select_by_visible_text("Agriculture, fishing and forestry")
     search_button = driver.find_element_by_id("prepared-elastic-input")
@@ -17,8 +50,13 @@ def scrape_park_page(url):
     data = data_element.text
     print(data)
     driver.quit()
-
-    return 
+    '''
+    response = make_request(url)
+    root = lxml.html.fromstring(response.text)
+    output = root.xpath('//h2[@class="search-table-title medium-heading"]')
+    for item in output:
+        text = text.text_content()
+    return output
 
      # url
     dict['url'] = url
