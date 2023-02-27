@@ -19,7 +19,8 @@ def clean_census(input_filename, output_filename):
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
     # Retains only required rows
-    df = df[df["Description"].isin(["Expenditure1", "Assistance and subsidies", "Public welfare"])]
+    df = df[df["Description"].isin(["Expenditure1", "Assistance and subsidies", 
+    "Public welfare"])]
 
     # Transposes dataframe and rename columns
     df = df.transpose()
@@ -27,14 +28,16 @@ def clean_census(input_filename, output_filename):
     df = df[1:]
     df.columns = new_header
     df.reset_index(inplace=True)
-    df.rename(columns = {'Expenditure1':'State and Local Government Total Expenditure', "index" : "State", "Assistance and subsidies":"Expenditure on Assistance and Subsidies", "Public welfare":"Expenditure on Public Welfare"}, inplace = True)
+    df.rename(columns = {'Expenditure1':'State and Local Government Total Expenditure',
+     "index" : "State", "Assistance and subsidies":"Expenditure on Assistance and Subsidies",
+      "Public welfare":"Expenditure on Public Welfare"}, inplace = True)
 
     # Removes first row with total US state and local government expenditure
     df.drop(index=df.index[0], axis=0, inplace=True)
-
     output_file = df.to_csv(output_filename, index = False)
 
     return output_file
+
 
 def combine_dataframes_by_state(main_df, df_lst):
     """
@@ -51,5 +54,10 @@ def combine_dataframes_by_state(main_df, df_lst):
         return main_df
     
     other_df, col_lst = df_lst.pop()
-    new_df = main_df.merge(other_df[col_lst], on="State")
+
+    if col_lst != []:
+        new_df = main_df.merge(other_df[col_lst], on="State")
+    else:
+        new_df = main_df.merge(other_df, on="State")
+    
     return combine_dataframes_by_state(new_df, df_lst)
