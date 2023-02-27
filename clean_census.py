@@ -46,6 +46,8 @@ def combine_dataframes_by_state(main_df, df_lst):
 
     Inputs:
         df_lst (lst of tuples): (df, [cols to extract])
+        ### If extracting all columns, [cols to extract] should be an
+        empty list ###
         
     Returns:
         final_df (pandas series): concatenated pandas dataframes
