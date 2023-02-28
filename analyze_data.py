@@ -5,27 +5,40 @@ from utils_clean_and_analyze import combine_dataframes_by_state
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 
-# Clean poverty data
-poverty_df = clean_census_poverty(pd.read_csv("us_poverty_by_state.csv"))
+def clean_and_combine(years):
+    """
+    ###
 
-# Clean population data
-pop_df = clean_census_population(pd.read_csv("us_census_population.csv"))
+    Inputs:
+        years (lst of str)
 
-# Clean and combines census data and funding data from each year from 2016 to 2020
-expenditure_file_name = "_us_state_finances.csv"
-funding_file_name = "_us_funding.csv"
+    Returns:
+        cleaned_and_combined (dct)
+    """
 
-cleaned_and_combined = {}
+    # Clean poverty data
+    poverty_df = clean_census_poverty(pd.read_csv("us_poverty_by_state.csv"))
 
-for year in years:
-    expenditure_csv = year + expenditure_file_name # "2016_us_state_finances.csv"
-    funding_csv = year + expenditure_file_name # "2016_us_funding.csv"
+    # Clean population data
+    pop_df = clean_census_population(pd.read_csv("us_census_population.csv"))
 
-    expenditure_df = pd.read_csv(expenditure_csv)
-    funding_df = pd.read_csv(funding_csv)
+    # Clean and combines census data and funding data from each year from 2016 to 2020
+    expenditure_file_name = "_us_state_finances.csv"
+    funding_file_name = "_us_funding.csv"
 
-    if year == "2020":
-        cleaned_and_combined[year] = combine_dataframes_by_state([(funding_df, []), (pop_df, []), (poverty_df, [])])
+    cleaned_and_combined = {}
 
-    else:
-        cleaned_and_combined[year] = combine_dataframes_by_state([(funding_df, []), (pop_df, [])])
+    for year in years:
+        expenditure_csv = year + expenditure_file_name # "2016_us_state_finances.csv"
+        funding_csv = year + funding_file_name # "2016_us_funding.csv"
+
+        expenditure_df = pd.read_csv(expenditure_csv)
+        funding_df = pd.read_csv(funding_csv)
+
+        if year == "2020":
+            cleaned_and_combined[year] = combine_dataframes_by_state(expenditure_df, [(funding_df, []), (pop_df, []), (poverty_df, [])])
+
+        else:
+            cleaned_and_combined[year] = combine_dataframes_by_state(expenditure_df, [(funding_df, []), (pop_df, [])])
+    
+    return cleaned_and_combined
