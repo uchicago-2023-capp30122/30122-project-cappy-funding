@@ -1,15 +1,21 @@
 import pandas as pd
 
-def clean_census(input_filename, output_filename):
-    """
-    Cleans census data and retains necessarsy columns
+STATE_NAMES = ["Alaska", "Alabama", "Arkansas", "Arizona", "California",
+"Colorado", "Connecticut", "District of Columbia", "Delaware", "Florida", "Georgia",
+"Hawaii", "Iowa", "Idaho", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana",
+"Massachusetts", "Maryland", "Maine", "Michigan", "Minnesota", "Missouri", "Mississippi",
+"Montana", "North Carolina", "North Dakota", "Nebraska", "New Hampshire", "New Jersey",
+"New Mexico", "Nevada", "New York", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
+"Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Virginia",
+"Vermont", "Washington", "Wisconsin", "West Virginia", "Wyoming"]
 
-    Inputs:
-        input_filename (str): name of the file with the original data
-        output_filename (str): name of the file with the cleaned data
-    
-    Returns:
-        output_file (csv): file with cleaned census data
+STATE_NAMES_WITH_UNITED_STATES = STATE_NAMES[:]
+STATE_NAMES_WITH_UNITED_STATES.append("United States")
+
+
+def clean_census_expenditure(input_df):
+    """
+    ###
     """
 
     df['Description'] = df['Description'].str.strip()
@@ -69,9 +75,34 @@ def clean_census(input_filename, output_filename):
         df["State Expenditure"] * 100)
 
     df.set_index(["State"], inplace = True)
-        output_file = df.to_csv(output_filename)
 
-    return output_file
+    return df
+
+
+def clean_census_population(input_df):
+    """
+    ###
+    """
+    pop_df = pop_df.iloc[:,0:2]
+    pop_df.columns = ["State", "2020 Census Population"]
+    pop_df['State'] = pop_df['State'].str.strip()
+    pop_df = pop_df[pop_df["State"].isin(STATE_NAMES_WITH_UNITED_STATES)]
+    pop_df.set_index("State", inplace=True)
+
+    return pop_df
+
+
+def clean_census_poverty(input_df):
+    """
+    ###
+    """
+    poverty_df = poverty_df.iloc[:,0:2]
+    poverty_df.columns = ["State", "3-Year Average Poverty Rate (2018-2020)"]
+    poverty_df['State'] = poverty_df['State'].str.strip()
+    poverty_df = poverty_df[poverty_df["State"].isin(STATE_NAMES_WITH_UNITED_STATES)]
+    poverty_df.set_index("State", inplace=True)
+
+    return poverty_df
 
 
 def combine_dataframes_by_state(main_df, df_lst):
