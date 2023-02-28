@@ -12,15 +12,28 @@ def clean_census(input_filename, output_filename):
         output_file (csv): file with cleaned census data
     """
 
-    df = pd.read_csv(input_filename)
     df['Description'] = df['Description'].str.strip()
 
     # Retains only columns that combines state and local government finances
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
+    # Drops rows relating to revenue sources
+    df.drop(df.index[0:66], inplace=True)
+
+    social = ["Public welfare", "Hospitals", "Health", "Employment security administration", "Veterans' services"]
+    educ = ["Education", "Libraries"]
+    govt = ["Financial administration", "Judicial and legal", "General public buildings", "Other governmental administration"]
+    transport = ["Highways", "Air transportation (airports)", "Parking facilities", "Sea and inland port facilities"]
+    others = ["Utility expenditure", "Expenditure1"]
+
     # Retains only required rows
-    df = df[df["Description"].isin(["Expenditure1", "Assistance and subsidies", 
-    "Public welfare"])]
+    df = df[df["Description"].isin(social + educ + govt + transport + others)]
+
+    # Education (Education + Libraries) - 61
+    # Health & Social Services (Public welfare + Hospitals + Health + Security + Employment security administration +  Veterans' services) - 62
+    # Government Administration (Financial administration + Judicial and legal + General public buildings + Other governmental administration) - 92
+    # Utilities (Utility expenditure) - 22
+    # Transportation (Highways, Air transportation (airports), Parking facilities, Sea and inland port facilities) - 48/49
 
     # Transposes dataframe and rename columns
     df = df.transpose()
@@ -28,13 +41,34 @@ def clean_census(input_filename, output_filename):
     df = df[1:]
     df.columns = new_header
     df.reset_index(inplace=True)
-    df.rename(columns = {'Expenditure1':'State and Local Government Total Expenditure',
-     "index" : "State", "Assistance and subsidies":"Expenditure on Assistance and Subsidies",
-      "Public welfare":"Expenditure on Public Welfare"}, inplace = True)
+    df.rename(columns = {'Expenditure1':'State Expenditure', 
+    "index" : "State", "Utility expenditure" : "Utility"}, inplace = True)
 
-    # Removes first row with total US state and local government expenditure
-    df.drop(index=df.index[0], axis=0, inplace=True)
-    output_file = df.to_csv(output_filename, index = False)
+    for col in [col for col in df.columns]:
+        if col != "State":
+            df[col] = df[col].str.replace(',','')
+            df[col] = df[col].astype(int)
+
+    df["Health and Social Services"] = df[social].sum(axis=1)
+    df["Education"] = df[educ].sum(axis=1)
+    df["Public Administration"] = df[educ].sum(axis=1)
+    df["Transportation"] = df[transport].sum(axis=1)
+    df.drop(columns = social + educ + govt + transport, inplace=True)
+
+    required_col_names = [col for col in df.columns[1:]]
+
+    for col in [col for col in required_col_names]:
+        if col == "State Expenditure":
+            df[col + " as % of US Expenditure"] = df.apply(lambda x : (x[col] /
+            int(df.loc[df["State"] == "United States Total", col])) * 100, axis = 1)
+        else:
+            df[col + " (State Expenditure as % of Total US)"] = \
+                df.apply(lambda x : (x[col] / int(df.loc[df["State"] ==
+                "United States Total", col])) * 100, axis = 1)
+            df[col + " (as % of Total State Expenditure)"] = (df[col] /
+            df["State Expenditure"] * 100)
+
+    df.set_index(["State"], inplace = True)
 
     return output_file
 
