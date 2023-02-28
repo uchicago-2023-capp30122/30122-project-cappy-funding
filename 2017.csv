@@ -1,0 +1,1231 @@
+id,code,name,amount,State
+,336411,Aircraft Manufacturing,53856298183.13,Alaska
+,541330,Engineering Services,31587142895.84,Alaska
+,541712,"Research and Development in the Physical, Engineering, and Life Sciences (except Biotechnology)",30066479128.7,Alaska
+,561210,Facilities Support Services,24102002050.18,Alaska
+,541512,Computer Systems Design Services,19356518615.08,Alaska
+,236220,Commercial and Institutional Building Construction,19305819622.38,Alaska
+,336611,Ship Building and Repairing,17398525188.29,Alaska
+,336414,Guided Missile and Space Vehicle Manufacturing,15137053893.5,Alaska
+,541519,Other Computer Related Services,14349980542.05,Alaska
+,336413,Other Aircraft Parts and Auxiliary Equipment Manufacturing,14243261052.24,Alaska
+,334511,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",12561581744.01,Alaska
+,524114,Direct Health and Medical Insurance Carriers,11457149546.28,Alaska
+,541611,Administrative Management and General Management Consulting Services,11193396606.44,Alaska
+,325412,Pharmaceutical Preparation Manufacturing,8918735688.6,Alaska
+,541990,"All Other Professional, Scientific, and Technical Services",8706281026.71,Alaska
+,324110,Petroleum Refineries,7596798564.0,Alaska
+,488190,Other Support Activities for Air Transportation,7039571234.4,Alaska
+,541710,"Research and Development in the Physical, Engineering, and Life Sciences",6590409611.89,Alaska
+,621111,Offices of Physicians (except Mental Health Specialists),5687549752.32,Alaska
+,541511,Custom Computer Programming Services,5648373806.42,Alaska
+,325411,Medicinal and Botanical Manufacturing,5157164472.38,Alaska
+,336992,"Military Armored Vehicle, Tank, and Tank Component Manufacturing",5109993902.37,Alaska
+,336412,Aircraft Engine and Engine Parts Manufacturing,4962073804.59,Alaska
+,237990,Other Heavy and Civil Engineering Construction,4465356000.8,Alaska
+,561612,Security Guards and Patrol Services,4413327146.19,Alaska
+,332993,Ammunition (except Small Arms) Manufacturing,3990178952.45,Alaska
+,562910,Remediation Services,3769091294.4,Alaska
+,481212,Nonscheduled Chartered Freight Air Transportation,3484576392.8,Alaska
+,334111,Electronic Computer Manufacturing,3480757219.75,Alaska
+,511210,Software Publishers,3141822294.15,Alaska
+,517110,Wired Telecommunications Carriers,2877072290.16,Alaska
+,334220,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,2724834177.01,Alaska
+,483111,Deep Sea Freight Transportation,2451028887.58,Alaska
+,541513,Computer Facilities Management Services,2440088585.81,Alaska
+,518210,"Data Processing, Hosting, and Related Services",2368011858.19,Alaska
+,481211,Nonscheduled Chartered Passenger Air Transportation,2244990209.6,Alaska
+,334290,Other Communications Equipment Manufacturing,2183594475.69,Alaska
+,423850,Service Establishment Equipment and Supplies Merchant Wholesalers,2166471246.68,Alaska
+,541690,Other Scientific and Technical Consulting Services,2116666664.11,Alaska
+,336419,Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing,2105983236.55,Alaska
+,423450,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",2086038611.36,Alaska
+,561990,All Other Support Services,2054956920.98,Alaska
+,541711,Research and Development in Biotechnology,1995101008.7,Alaska
+,237310,"Highway, Street, and Bridge Construction",1928505335.22,Alaska
+,339113,Surgical Appliance and Supplies Manufacturing,1770318607.1,Alaska
+,332410,Power Boiler and Heat Exchanger Manufacturing,1672567300.01,Alaska
+,424210,Drugs and Druggists' Sundries Merchant Wholesalers,1597270086.42,Alaska
+,562211,Hazardous Waste Treatment and Disposal,1589826370.46,Alaska
+,332994,"Small Arms, Ordnance, and Ordnance Accessories Manufacturing",1583796078.11,Alaska
+,561720,Janitorial Services,1510050036.96,Alaska
+,334210,Telephone Apparatus Manufacturing,1402981173.93,Alaska
+,339112,Surgical and Medical Instrument Manufacturing,1356608844.0,Alaska
+,811219,Other Electronic and Precision Equipment Repair and Maintenance,1298143940.04,Alaska
+,334419,Other Electronic Component Manufacturing,1279923684.09,Alaska
+,611519,Other Technical and Trade Schools,1243746031.56,Alaska
+,424410,General Line Grocery Merchant Wholesalers,1210012266.93,Alaska
+,541614,"Process, Physical Distribution, and Logistics Consulting Services",1203256929.07,Alaska
+,622110,General Medical and Surgical Hospitals,1195342487.85,Alaska
+,541720,Research and Development in the Social Sciences and Humanities,1140996023.52,Alaska
+,336111,Automobile Manufacturing,1134460344.99,Alaska
+,722310,Food Service Contractors,1112642147.62,Alaska
+,522390,Other Activities Related to Credit Intermediation,1054988072.25,Alaska
+,325414,Biological Product (except Diagnostic) Manufacturing,1032051576.17,Alaska
+,541620,Environmental Consulting Services,1019127410.32,Alaska
+,541310,Architectural Services,1004228022.57,Alaska
+,561110,Office Administrative Services,966386406.47,Alaska
+,331491,"Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",948052470.73,Alaska
+,336212,Truck Trailer Manufacturing,941178599.87,Alaska
+,236210,Industrial Building Construction,937466773.07,Alaska
+,238210,Electrical Contractors and Other Wiring Installation Contractors,893208510.02,Alaska
+,423610,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",886415408.27,Alaska
+,541810,Advertising Agencies,856630369.84,Alaska
+,561320,Temporary Help Services,855026449.24,Alaska
+,334516,Analytical Laboratory Instrument Manufacturing,841296649.46,Alaska
+,611430,Professional and Management Development Training,837082930.94,Alaska
+,237130,Power and Communication Line and Related Structures Construction,835021557.02,Alaska
+,333314,Optical Instrument and Lens Manufacturing,828176794.69,Alaska
+,311812,Commercial Bakeries,821799982.7,Alaska
+,221122,Electric Power Distribution,799010110.44,Alaska
+,541211,Offices of Certified Public Accountants,789146100.57,Alaska
+,562119,Other Waste Collection,781095758.82,Alaska
+,517919,All Other Telecommunications,764524918.48,Alaska
+,517410,Satellite Telecommunications,764196970.76,Alaska
+,238990,All Other Specialty Trade Contractors,757959009.76,Alaska
+,334517,Irradiation Apparatus Manufacturing,753497456.12,Alaska
+,311421,Fruit and Vegetable Canning,750001593.61,Alaska
+,519190,All Other Information Services,732099328.67,Alaska
+,311999,All Other Miscellaneous Food Manufacturing,730964623.75,Alaska
+,238220,"Plumbing, Heating, and Air-Conditioning Contractors",730301273.61,Alaska
+,443120,Computer and Software Stores,716854255.15,Alaska
+,334519,Other Measuring and Controlling Device Manufacturing,702665277.49,Alaska
+,333318,Other Commercial and Service Industry Machinery Manufacturing,686888310.97,Alaska
+,561422,Telemarketing Bureaus and Other Contact Centers,684473027.55,Alaska
+,561611,Investigation Services,678477180.58,Alaska
+,541219,Other Accounting Services,664479727.22,Alaska
+,561621,Security Systems Services (except Locksmiths),664379257.4,Alaska
+,611512,Flight Training,663215361.4,Alaska
+,335999,All Other Miscellaneous Electrical Equipment and Component Manufacturing,651804370.65,Alaska
+,541930,Translation and Interpretation Services,651431438.87,Alaska
+,541350,Building Inspection Services,650441750.38,Alaska
+,332992,Small Arms Ammunition Manufacturing,650360428.71,Alaska
+,611310,"Colleges, Universities, and Professional Schools",650022465.61,Alaska
+,115310,Support Activities for Forestry,640019892.89,Alaska
+,311615,Poultry Processing,630336917.92,Alaska
+,336211,Motor Vehicle Body Manufacturing,624255082.79,Alaska
+,541618,Other Management Consulting Services,614695361.17,Alaska
+,541612,Human Resources Consulting Services,605838226.29,Alaska
+,334510,Electromedical and Electrotherapeutic Apparatus Manufacturing,571226641.75,Alaska
+,621492,Kidney Dialysis Centers,560820302.03,Alaska
+,315210,Cut and Sew Apparel Contractors,559606979.75,Alaska
+,315990,Apparel Accessories and Other Apparel Manufacturing,556447173.36,Alaska
+,623990,Other Residential Care Facilities,538845353.2,Alaska
+,237120,Oil and Gas Pipeline and Related Structures Construction,520248456.47,Alaska
+,,,493676307.46,Alaska
+,811213,Communication Equipment Repair and Maintenance,488655705.39,Alaska
+,623110,Nursing Care Facilities (Skilled Nursing Facilities),487448826.57,Alaska
+,333120,Construction Machinery Manufacturing,487365246.42,Alaska
+,237110,Water and Sewer Line and Related Structures Construction,485984315.29,Alaska
+,238160,Roofing Contractors,478499027.55,Alaska
+,332510,Hardware Manufacturing,466729257.27,Alaska
+,333999,All Other Miscellaneous General Purpose Machinery Manufacturing,460431958.81,Alaska
+,339999,All Other Miscellaneous Manufacturing,459981564.98,Alaska
+,332999,All Other Miscellaneous Fabricated Metal Product Manufacturing,459085325.41,Alaska
+,337214,Office Furniture (except Wood) Manufacturing,450373038.14,Alaska
+,811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,431246173.15,Alaska
+,611710,Educational Support Services,424187945.14,Alaska
+,541199,All Other Legal Services,422008958.7,Alaska
+,561730,Landscaping Services,416176624.01,Alaska
+,493110,General Warehousing and Storage,413452477.93,Alaska
+,423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,411130355.09,Alaska
+,325998,All Other Miscellaneous Chemical Product and Preparation Manufacturing,410626013.47,Alaska
+,221112,Fossil Fuel Electric Power Generation,392589363.77,Alaska
+,333319,Other Commercial and Service Industry Machinery Manufacturing,390432309.17,Alaska
+,311611,Animal (except Poultry) Slaughtering,390380314.83,Alaska
+,325920,Explosives Manufacturing,390111703.07,Alaska
+,541715,"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",385598563.29,Alaska
+,336112,Light Truck and Utility Vehicle Manufacturing,380914342.87,Alaska
+,721110,Hotels (except Casino Hotels) and Motels,377359255.45,Alaska
+,811111,General Automotive Repair,373109907.57,Alaska
+,332722,"Bolt, Nut, Screw, Rivet, and Washer Manufacturing",367975921.33,Alaska
+,621498,All Other Outpatient Care Centers,363161244.42,Alaska
+,541370,Surveying and Mapping (except Geophysical) Services,358990106.55,Alaska
+,531311,Residential Property Managers,358512950.67,Alaska
+,541380,Testing Laboratories,357053552.59,Alaska
+,335312,Motor and Generator Manufacturing,353889902.58,Alaska
+,312112,Bottled Water Manufacturing,352017574.4,Alaska
+,221310,Water Supply and Irrigation Systems,350992165.51,Alaska
+,621910,Ambulance Services,346944938.24,Alaska
+,523110,Investment Banking and Securities Dealing,346129964.58,Alaska
+,311991,Perishable Prepared Food Manufacturing,345637396.14,Alaska
+,311513,Cheese Manufacturing,341323347.0,Alaska
+,561440,Collection Agencies,330318045.83,Alaska
+,334515,Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals,325452929.19,Alaska
+,922190,"Other Justice, Public Order, and Safety Activities",325366873.49,Alaska
+,624190,Other Individual and Family Services,324099233.05,Alaska
+,524292,Third Party Administration of Insurance and Pension Funds,318506896.51,Alaska
+,336415,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing,316433741.75,Alaska
+,511199,All Other Publishers,307548944.93,Alaska
+,331410,Nonferrous Metal (except Aluminum) Smelting and Refining,306339826.8,Alaska
+,517310,Telecommunications Resellers,299750446.1,Alaska
+,611699,All Other Miscellaneous Schools and Instruction,296269271.01,Alaska
+,492110,Couriers and Express Delivery Services,295484351.58,Alaska
+,336120,Heavy Duty Truck Manufacturing,293110429.04,Alaska
+,517210,Wireless Telecommunications Carriers (except Satellite),292758437.24,Alaska
+,321991,Manufactured Home (Mobile Home) Manufacturing,284950589.42,Alaska
+,621511,Medical Laboratories,282015113.15,Alaska
+,333618,Other Engine Equipment Manufacturing,274085347.9,Alaska
+,493120,Refrigerated Warehousing and Storage,266878167.79,Alaska
+,493190,Other Warehousing and Storage,264518944.69,Alaska
+,336612,Boat Building,262734052.72,Alaska
+,488330,Navigational Services to Shipping,253857796.45,Alaska
+,315220,Men’s and Boys’ Cut and Sew Apparel Manufacturing,253500321.23,Alaska
+,334513,"Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",251043257.0,Alaska
+,326211,Tire Manufacturing (except Retreading),246350459.79,Alaska
+,488999,All Other Support Activities for Transportation,241683855.65,Alaska
+,334412,Bare Printed Circuit Board Manufacturing,236185547.75,Alaska
+,532420,Office Machinery and Equipment Rental and Leasing,229777992.07,Alaska
+,325413,In-Vitro Diagnostic Substance Manufacturing,222764513.55,Alaska
+,332311,Prefabricated Metal Building and Component Manufacturing,221370844.39,Alaska
+,621399,Offices of All Other Miscellaneous Health Practitioners,220463391.59,Alaska
+,523999,Miscellaneous Financial Investment Activities,214932906.54,Alaska
+,562111,Solid Waste Collection,213588910.32,Alaska
+,561499,All Other Business Support Services,213112955.7,Alaska
+,519130,Internet Publishing and Broadcasting and Web Search Portals,206262324.4,Alaska
+,927110,Space Research and Technology,205233973.38,Alaska
+,334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,203451100.19,Alaska
+,335911,Storage Battery Manufacturing,200468417.93,Alaska
+,444130,Hardware Stores,199790487.53,Alaska
+,314910,Textile Bag and Canvas Mills,199067816.37,Alaska
+,335311,"Power, Distribution, and Specialty Transformer Manufacturing",198446652.72,Alaska
+,332991,Ball and Roller Bearing Manufacturing,197328402.07,Alaska
+,336390,Other Motor Vehicle Parts Manufacturing,196480767.03,Alaska
+,541910,Marketing Research and Public Opinion Polling,195425022.71,Alaska
+,332911,Industrial Valve Manufacturing,194660143.0,Alaska
+,333924,"Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing",191773203.32,Alaska
+,811212,Computer and Office Machine Repair and Maintenance,191575800.24,Alaska
+,333611,Turbine and Turbine Generator Set Units Manufacturing,191519634.83,Alaska
+,336350,Motor Vehicle Transmission and Power Train Parts Manufacturing,190959712.93,Alaska
+,221210,Natural Gas Distribution,190843799.32,Alaska
+,561450,Credit Bureaus,189532906.18,Alaska
+,624230,Emergency and Other Relief Services,185765824.52,Alaska
+,337122,Nonupholstered Wood Household Furniture Manufacturing,185278344.82,Alaska
+,334413,Semiconductor and Related Device Manufacturing,180163717.62,Alaska
+,333612,"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",179936456.24,Alaska
+,322121,Paper (except Newsprint) Mills,178813382.14,Alaska
+,488510,Freight Transportation Arrangement,175568011.18,Alaska
+,333415,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,174911367.33,Alaska
+,524298,All Other Insurance Related Activities,169128638.64,Alaska
+,541613,Marketing Consulting Services,168319159.13,Alaska
+,333316,Photographic and Photocopying Equipment Manufacturing,165260432.38,Alaska
+,238290,Other Building Equipment Contractors,163458252.93,Alaska
+,541820,Public Relations Agencies,162648209.85,Alaska
+,333911,Pump and Pumping Equipment Manufacturing,160228434.29,Alaska
+,311411,"Frozen Fruit, Juice, and Vegetable Manufacturing",158702507.14,Alaska
+,333613,Mechanical Power Transmission Equipment Manufacturing,156927148.84,Alaska
+,621999,All Other Miscellaneous Ambulatory Health Care Services,154832251.78,Alaska
+,532291,Home Health Equipment Rental,153794567.64,Alaska
+,238910,Site Preparation Contractors,150517716.4,Alaska
+,531120,Lessors of Nonresidential Buildings (except Miniwarehouses),149111799.75,Alaska
+,488310,Port and Harbor Operations,148383945.48,Alaska
+,488111,Air Traffic Control,146295730.64,Alaska
+,337127,Institutional Furniture Manufacturing,145734316.0,Alaska
+,561599,All Other Travel Arrangement and Reservation Services,144342076.18,Alaska
+,315999,Other Apparel Accessories and Other Apparel Manufacturing,142890018.59,Alaska
+,337215,"Showcase, Partition, Shelving, and Locker Manufacturing",142201133.22,Alaska
+,921190,Other General Government Support,140059091.98,Alaska
+,484220,"Specialized Freight (except Used Goods) Trucking, Local",139762069.58,Alaska
+,332439,Other Metal Container Manufacturing,136477533.79,Alaska
+,453210,Office Supplies and Stationery Stores,136241220.76,Alaska
+,325180,Other Basic Inorganic Chemical Manufacturing,136119055.65,Alaska
+,484121,"General Freight Trucking, Long-Distance, Truckload",131734224.19,Alaska
+,334310,Audio and Video Equipment Manufacturing,131476376.41,Alaska
+,488390,Other Support Activities for Water Transportation,128966584.69,Alaska
+,511120,Periodical Publishers,128575707.68,Alaska
+,332312,Fabricated Structural Metal Manufacturing,127792021.69,Alaska
+,561790,Other Services to Buildings and Dwellings,127291005.0,Alaska
+,928110,National Security,126760378.47,Alaska
+,485999,All Other Transit and Ground Passenger Transportation,125365375.56,Alaska
+,325120,Industrial Gas Manufacturing,122611098.71,Alaska
+,611420,Computer Training,122222420.87,Alaska
+,624110,Child and Youth Services,121578811.77,Alaska
+,221320,Sewage Treatment Facilities,121409628.64,Alaska
+,324191,Petroleum Lubricating Oil and Grease Manufacturing,121236753.62,Alaska
+,532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,121216570.0,Alaska
+,333517,Machine Tool Manufacturing,119495240.98,Alaska
+,213112,Support Activities for Oil and Gas Operations,119140026.32,Alaska
+,334112,Computer Storage Device Manufacturing,118669678.17,Alaska
+,522110,Commercial Banking,118637905.15,Alaska
+,333244,Printing Machinery and Equipment Manufacturing,117577432.35,Alaska
+,332919,Other Metal Valve and Pipe Fitting Manufacturing,117223148.24,Alaska
+,236118,Residential Remodelers,116101605.48,Alaska
+,711510,"Independent Artists, Writers, and Performers",114971462.03,Alaska
+,481219,Other Nonscheduled Air Transportation,114816641.04,Alaska
+,335313,Switchgear and Switchboard Apparatus Manufacturing,112260671.21,Alaska
+,314999,All Other Miscellaneous Textile Product Mills,112061887.64,Alaska
+,531210,Offices of Real Estate Agents and Brokers,111496667.95,Alaska
+,523920,Portfolio Management,111450635.81,Alaska
+,923120,Administration of Public Health Programs,111012478.84,Alaska
+,316210,Footwear Manufacturing,107332026.03,Alaska
+,624310,Vocational Rehabilitation Services,105593628.17,Alaska
+,311211,Flour Milling,104844905.82,Alaska
+,332996,Fabricated Pipe and Pipe Fitting Manufacturing,104650058.66,Alaska
+,311225,Fats and Oils Refining and Blending,104467102.92,Alaska
+,335931,Current-Carrying Wiring Device Manufacturing,104090930.11,Alaska
+,561421,Telephone Answering Services,103127479.75,Alaska
+,337211,Wood Office Furniture Manufacturing,103095800.37,Alaska
+,454310,Fuel Dealers,102188364.53,Alaska
+,511130,Book Publishers,101655314.29,Alaska
+,423110,Automobile and Other Motor Vehicle Merchant Wholesalers,101149937.7,Alaska
+,332216,Saw Blade and Handtool Manufacturing,100815558.57,Alaska
+,336320,Motor Vehicle Electrical and Electronic Equipment Manufacturing,99015066.08,Alaska
+,336999,All Other Transportation Equipment Manufacturing,98798770.14,Alaska
+,812990,All Other Personal Services,97168417.5,Alaska
+,484230,"Specialized Freight (except Used Goods) Trucking, Long-Distance",96891921.73,Alaska
+,541890,Other Services Related to Advertising,96181004.09,Alaska
+,424480,Fresh Fruit and Vegetable Merchant Wholesalers,95790760.0,Alaska
+,332710,Machine Shops,94793588.06,Alaska
+,532112,Passenger Car Leasing,94738979.29,Alaska
+,339991,"Gasket, Packing, and Sealing Device Manufacturing",94209337.69,Alaska
+,541360,Geophysical Surveying and Mapping Services,90992539.85,Alaska
+,333413,Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing,90145336.56,Alaska
+,424720,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),90138472.09,Alaska
+,541110,Offices of Lawyers,89902877.08,Alaska
+,315211,Men's and Boys' Cut and Sew Apparel Contractors,89676424.63,Alaska
+,928120,International Affairs,88646806.29,Alaska
+,522320,"Financial Transactions Processing, Reserve, and Clearinghouse Activities",88430260.74,Alaska
+,926130,"Regulation and Administration of Communications, Electric, Gas, and Other Utilities",87230245.9,Alaska
+,561492,Court Reporting and Stenotype Services,87101880.33,Alaska
+,311423,Dried and Dehydrated Food Manufacturing,86428637.91,Alaska
+,532111,Passenger Car Rental,86088707.45,Alaska
+,621991,Blood and Organ Banks,85880714.41,Alaska
+,333996,Fluid Power Pump and Motor Manufacturing,85034862.12,Alaska
+,484210,Used Household and Office Goods Moving,83674125.29,Alaska
+,334417,Electronic Connector Manufacturing,83519966.59,Alaska
+,621340,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",82655734.27,Alaska
+,334512,"Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",82372634.82,Alaska
+,488320,Marine Cargo Handling,79931691.95,Alaska
+,339920,Sporting and Athletic Goods Manufacturing,79725796.9,Alaska
+,238320,Painting and Wall Covering Contractors,79216266.58,Alaska
+,485991,Special Needs Transportation,78205618.8,Alaska
+,334418,Printed Circuit Assembly (Electronic Assembly) Manufacturing,78045033.93,Alaska
+,326199,All Other Plastics Product Manufacturing,77548783.23,Alaska
+,334119,Other Computer Peripheral Equipment Manufacturing,75066565.73,Alaska
+,322299,All Other Converted Paper Product Manufacturing,73984775.71,Alaska
+,621210,Offices of Dentists,73817642.18,Alaska
+,311710,Seafood Product Preparation and Packaging,73548529.57,Alaska
+,486910,Pipeline Transportation of Refined Petroleum Products,72521197.41,Alaska
+,532411,"Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",72085921.18,Alaska
+,611630,Language Schools,71293350.22,Alaska
+,561920,Convention and Trade Show Organizers,68285312.58,Alaska
+,812930,Parking Lots and Garages,67717080.46,Alaska
+,488119,Other Airport Operations,66817095.11,Alaska
+,423310,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",65902152.04,Alaska
+,621420,Outpatient Mental Health and Substance Abuse Centers,65872019.28,Alaska
+,519120,Libraries and Archives,65762601.39,Alaska
+,541940,Veterinary Services,65553626.53,Alaska
+,517911,Telecommunications Resellers,65552502.6,Alaska
+,334614,"Software and Other Prerecorded Compact Disc, Tape, and Record Reproducing",65477663.45,Alaska
+,813920,Professional Organizations,65469233.4,Alaska
+,561910,Packaging and Labeling Services,65418425.44,Alaska
+,238390,Other Building Finishing Contractors,64430856.1,Alaska
+,523930,Investment Advice,63919295.09,Alaska
+,335314,Relay and Industrial Control Manufacturing,63168202.42,Alaska
+,334416,"Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing",63118152.69,Alaska
+,331420,"Copper Rolling, Drawing, Extruding, and Alloying",62922180.77,Alaska
+,483113,Coastal and Great Lakes Freight Transportation,62879964.48,Alaska
+,221111,Hydroelectric Power Generation,62755763.13,Alaska
+,621112,"Offices of Physicians, Mental Health Specialists",62532605.63,Alaska
+,335912,Primary Battery Manufacturing,62474712.86,Alaska
+,481112,Scheduled Freight Air Transportation,60274099.16,Alaska
+,812332,Industrial Launderers,59448895.11,Alaska
+,532412,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",58495508.08,Alaska
+,333315,Photographic and Photocopying Equipment Manufacturing,58382837.05,Alaska
+,238190,"Other Foundation, Structure, and Building Exterior Contractors",58372299.76,Alaska
+,425120,Wholesale Trade Agents and Brokers,57899118.67,Alaska
+,333912,Air and Gas Compressor Manufacturing,57106454.3,Alaska
+,562991,Septic Tank and Related Services,56906224.1,Alaska
+,621610,Home Health Care Services,56701469.47,Alaska
+,488490,Other Support Activities for Road Transportation,56683359.15,Alaska
+,333923,"Overhead Traveling Crane, Hoist, and Monorail System Manufacturing",56428229.85,Alaska
+,325510,Paint and Coating Manufacturing,55713043.84,Alaska
+,485410,School and Employee Bus Transportation,55483802.57,Alaska
+,327991,Cut Stone and Stone Product Manufacturing,55170624.56,Alaska
+,332322,Sheet Metal Work Manufacturing,54489621.06,Alaska
+,517910,Other Telecommunications,54257827.32,Alaska
+,423490,Other Professional Equipment and Supplies Merchant Wholesalers,54256221.07,Alaska
+,221330,Steam and Air-Conditioning Supply,53424042.53,Alaska
+,312111,Soft Drink Manufacturing,52432101.55,Alaska
+,485111,Mixed Mode Transit Systems,52405655.49,Alaska
+,621512,Diagnostic Imaging Centers,52284613.5,Alaska
+,623220,Residential Mental Health and Substance Abuse Facilities,51439210.16,Alaska
+,333298,All Other Industrial Machinery Manufacturing,51191292.44,Alaska
+,611513,Apprenticeship Training,50867498.79,Alaska
+,336310,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,50258488.51,Alaska
+,923110,Administration of Education Programs,49296170.78,Alaska
+,561311,Employment Placement Agencies,49183951.03,Alaska
+,512110,Motion Picture and Video Production,48364694.74,Alaska
+,315280,Other Cut and Sew Apparel Manufacturing,48164077.12,Alaska
+,491110,Postal Service,47723452.86,Alaska
+,812320,Drycleaning and Laundry Services (except Coin-Operated),47383352.68,Alaska
+,311511,Fluid Milk Manufacturing,46994729.2,Alaska
+,238110,Poured Concrete Foundation and Structure Contractors,46935448.39,Alaska
+,211111,Crude Petroleum and Natural Gas Extraction,46929222.8,Alaska
+,624229,Other Community Housing Services,46158046.1,Alaska
+,311212,Rice Milling,46116877.77,Alaska
+,325992,"Photographic Film, Paper, Plate, and Chemical Manufacturing",46066273.84,Alaska
+,333519,Rolling Mill and Other Metalworking Machinery Manufacturing,45901467.67,Alaska
+,332912,Fluid Power Valve and Hose Fitting Manufacturing,44487375.42,Alaska
+,311224,Soybean and Other Oilseed Processing,44240772.87,Alaska
+,339940,Office Supplies (except Paper) Manufacturing,43247891.69,Alaska
+,442110,Furniture Stores,43013459.89,Alaska
+,423990,Other Miscellaneous Durable Goods Merchant Wholesalers,42767536.05,Alaska
+,624221,Temporary Shelters,42549411.5,Alaska
+,339114,Dental Equipment and Supplies Manufacturing,42500449.06,Alaska
+,336330,Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,42251421.37,Alaska
+,313210,Broadwoven Fabric Mills,42201183.74,Alaska
+,339115,Ophthalmic Goods Manufacturing,41949877.32,Alaska
+,531110,Lessors of Residential Buildings and Dwellings,41824965.37,Alaska
+,423860,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers,41541775.33,Alaska
+,332995,Other Ordnance and Accessories Manufacturing,41437988.19,Alaska
+,238330,Flooring Contractors,40953690.26,Alaska
+,561710,Exterminating and Pest Control Services,40950876.38,Alaska
+,484110,"General Freight Trucking, Local",40352791.56,Alaska
+,485113,Bus and Other Motor Vehicle Transit Systems,39353266.06,Alaska
+,313310,Textile and Fabric Finishing Mills,39291430.15,Alaska
+,325910,Printing Ink Manufacturing,39188986.77,Alaska
+,336214,Travel Trailer and Camper Manufacturing,39121104.77,Alaska
+,321920,Wood Container and Pallet Manufacturing,38936463.45,Alaska
+,333997,Scale and Balance Manufacturing,38602503.22,Alaska
+,333922,Conveyor and Conveying Equipment Manufacturing,37872487.03,Alaska
+,311911,Roasted Nuts and Peanut Butter Manufacturing,37716216.06,Alaska
+,561410,Document Preparation Services,37311616.16,Alaska
+,333249,Other Industrial Machinery Manufacturing,37160606.85,Alaska
+,331110,Iron and Steel Mills and Ferroalloy Manufacturing,37120363.68,Alaska
+,334113,Computer Terminal Manufacturing,37078869.43,Alaska
+,238120,Structural Steel and Precast Concrete Contractors,37068961.68,Alaska
+,326299,All Other Rubber Product Manufacturing,36951322.45,Alaska
+,332618,Other Fabricated Wire Product Manufacturing,36903365.89,Alaska
+,611110,Elementary and Secondary Schools,36727302.29,Alaska
+,562112,Hazardous Waste Collection,36540490.94,Alaska
+,335129,Other Lighting Equipment Manufacturing,35719439.05,Alaska
+,325520,Adhesive Manufacturing,35653471.36,Alaska
+,332420,Metal Tank (Heavy Gauge) Manufacturing,34864162.71,Alaska
+,561510,Travel Agencies,34709890.18,Alaska
+,311230,Breakfast Cereal Manufacturing,34115143.77,Alaska
+,315240,"Women’s, Girls’, and Infants’ Cut and Sew Apparel Manufacturing",34009771.49,Alaska
+,336360,Motor Vehicle Seating and Interior Trim Manufacturing,33890796.48,Alaska
+,326220,Rubber and Plastics Hoses and Belting Manufacturing,33792092.77,Alaska
+,423330,"Roofing, Siding, and Insulation Material Merchant Wholesalers",33367358.03,Alaska
+,444190,Other Building Material Dealers,33120684.93,Alaska
+,541430,Graphic Design Services,32832462.51,Alaska
+,311422,Specialty Canning,32751746.43,Alaska
+,624120,Services for the Elderly and Persons with Disabilities,32674125.2,Alaska
+,334514,Totalizing Fluid Meter and Counting Device Manufacturing,32250156.41,Alaska
+,561330,Professional Employer Organizations,31644095.1,Alaska
+,811121,"Automotive Body, Paint, and Interior Repair and Maintenance",31602828.27,Alaska
+,922160,Fire Protection,31474967.67,Alaska
+,531390,Other Activities Related to Real Estate,30956480.74,Alaska
+,524210,Insurance Agencies and Brokerages,30884960.98,Alaska
+,327390,Other Concrete Product Manufacturing,30838337.37,Alaska
+,333293,Printing Machinery and Equipment Manufacturing,30809576.51,Alaska
+,311824,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",30732665.33,Alaska
+,333414,Heating Equipment (except Warm Air Furnaces) Manufacturing,30696987.51,Alaska
+,561431,Private Mail Centers,30576266.17,Alaska
+,517311,Wired Telecommunications Carriers,30558965.67,Alaska
+,712110,Museums,30180600.43,Alaska
+,238140,Masonry Contractors,30101411.32,Alaska
+,483211,Inland Water Freight Transportation,29847602.83,Alaska
+,531190,Lessors of Other Real Estate Property,29736324.7,Alaska
+,448210,Shoe Stores,29680838.24,Alaska
+,611210,Junior Colleges,29644493.07,Alaska
+,311340,Nonchocolate Confectionery Manufacturing,28936117.2,Alaska
+,333992,Welding and Soldering Equipment Manufacturing,28803986.72,Alaska
+,339950,Sign Manufacturing,28782759.29,Alaska
+,541922,Commercial Photography,27972905.95,Alaska
+,423710,Hardware Merchant Wholesalers,27702942.38,Alaska
+,531320,Offices of Real Estate Appraisers,26923550.96,Alaska
+,322211,Corrugated and Solid Fiber Box Manufacturing,26849988.99,Alaska
+,339116,Dental Laboratories,26652659.4,Alaska
+,115112,"Soil Preparation, Planting, and Cultivating",26464329.37,Alaska
+,423690,Other Electronic Parts and Equipment Merchant Wholesalers,26330969.48,Alaska
+,333913,Measuring and Dispensing Pump Manufacturing,26300616.08,Alaska
+,335921,Fiber Optic Cable Manufacturing,26106182.47,Alaska
+,335932,Noncurrent-Carrying Wiring Device Manufacturing,26083381.37,Alaska
+,523991,"Trust, Fiduciary, and Custody Activities",25627435.18,Alaska
+,112990,All Other Animal Production,25620781.0,Alaska
+,562219,Other Nonhazardous Waste Treatment and Disposal,25589186.59,Alaska
+,111998,All Other Miscellaneous Crop Farming,25488921.71,Alaska
+,115210,Support Activities for Animal Production,25154521.78,Alaska
+,611692,Automobile Driving Schools,25042959.73,Alaska
+,236116,New Multifamily Housing Construction (except For-Sale Builders),24730141.57,Alaska
+,221119,Other Electric Power Generation,24691274.9,Alaska
+,311514,"Dry, Condensed, and Evaporated Dairy Product Manufacturing",24489626.79,Alaska
+,212321,Construction Sand and Gravel Mining,24257906.65,Alaska
+,331222,Steel Wire Drawing,23714629.88,Alaska
+,423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,23714240.25,Alaska
+,481111,Scheduled Passenger Air Transportation,23583496.21,Alaska
+,326122,Plastics Pipe and Pipe Fitting Manufacturing,23374346.88,Alaska
+,621330,Offices of Mental Health Practitioners (except Physicians),23224088.1,Alaska
+,332721,Precision Turned Product Manufacturing,22953062.77,Alaska
+,423520,Coal and Other Mineral and Ore Merchant Wholesalers,22789306.56,Alaska
+,333111,Farm Machinery and Equipment Manufacturing,22673977.46,Alaska
+,331315,"Aluminum Sheet, Plate, and Foil Manufacturing",22316302.58,Alaska
+,424120,Stationery and Office Supplies Merchant Wholesalers,22127648.13,Alaska
+,532210,Consumer Electronics and Appliances Rental,21939486.59,Alaska
+,423830,Industrial Machinery and Equipment Merchant Wholesalers,21908908.81,Alaska
+,316213,Men's Footwear (except Athletic) Manufacturing,21784688.95,Alaska
+,333241,Food Product Machinery Manufacturing,21754694.95,Alaska
+,337910,Mattress Manufacturing,21587242.43,Alaska
+,812331,Linen Supply,21572694.23,Alaska
+,722320,Caterers,21316335.62,Alaska
+,515120,Television Broadcasting,21028929.43,Alaska
+,313320,Fabric Coating Mills,20684990.83,Alaska
+,326111,Plastics Bag and Pouch Manufacturing,20679997.23,Alaska
+,313311,Broadwoven Fabric Finishing Mills,20592258.1,Alaska
+,335122,"Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing",20422239.09,Alaska
+,423210,Furniture Merchant Wholesalers,20185754.2,Alaska
+,339944,Carbon Paper and Inked Ribbon Manufacturing,20101629.8,Alaska
+,336340,Motor Vehicle Brake System Manufacturing,20052293.77,Alaska
+,323111,Commercial Printing (except Screen and Books),20033925.29,Alaska
+,532120,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",20024840.02,Alaska
+,488991,Packing and Crating,19907418.67,Alaska
+,323120,Support Activities for Printing,19811303.45,Alaska
+,562212,Solid Waste Landfill,19295021.06,Alaska
+,922140,Correctional Institutions,19137543.93,Alaska
+,314994,"Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills",19020785.66,Alaska
+,333991,Power-Driven Handtool Manufacturing,18717537.46,Alaska
+,332111,Iron and Steel Forging,18344015.96,Alaska
+,524291,Claims Adjusting,18294874.33,Alaska
+,518111,Internet Service Providers,17902943.82,Alaska
+,221121,Electric Bulk Power Transmission and Control,17772419.36,Alaska
+,333515,Cutting Tool and Machine Tool Accessory Manufacturing,17621514.14,Alaska
+,452990,All Other General Merchandise Stores,17512177.73,Alaska
+,423420,Office Equipment Merchant Wholesalers,17490862.38,Alaska
+,323117,Books Printing,17433005.74,Alaska
+,562998,All Other Miscellaneous Waste Management Services,17214754.09,Alaska
+,813110,Religious Organizations,16927718.82,Alaska
+,424920,"Book, Periodical, and Newspaper Merchant Wholesalers",16848767.9,Alaska
+,811412,Appliance Repair and Maintenance,16847747.26,Alaska
+,541713,Research and Development in Nanotechnology,16808639.18,Alaska
+,331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,16720832.55,Alaska
+,332813,"Electroplating, Plating, Polishing, Anodizing, and Coloring",16606616.14,Alaska
+,333921,Elevator and Moving Stairway Manufacturing,16337135.48,Alaska
+,325612,Polish and Other Sanitation Good Manufacturing,16077913.5,Alaska
+,337125,Household Furniture (except Wood and Metal) Manufacturing,16055151.99,Alaska
+,333112,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,16030770.12,Alaska
+,325199,All Other Basic Organic Chemical Manufacturing,15911877.41,Alaska
+,541410,Interior Design Services,15838617.78,Alaska
+,339111,Laboratory Apparatus and Furniture Manufacturing,15657541.72,Alaska
+,314110,Carpet and Rug Mills,15611713.95,Alaska
+,325211,Plastics Material and Resin Manufacturing,15533062.13,Alaska
+,515210,Cable and Other Subscription Programming,15341519.79,Alaska
+,483112,Deep Sea Passenger Transportation,15273988.77,Alaska
+,483114,Coastal and Great Lakes Passenger Transportation,15007039.72,Alaska
+,811490,Other Personal and Household Goods Repair and Maintenance,14926840.95,Alaska
+,331221,Rolled Steel Shape Manufacturing,14853560.57,Alaska
+,562920,Materials Recovery Facilities,14691397.38,Alaska
+,541320,Landscape Architectural Services,14615708.23,Alaska
+,313230,Nonwoven Fabric Mills,14609423.29,Alaska
+,333994,Industrial Process Furnace and Oven Manufacturing,14601245.52,Alaska
+,332112,Nonferrous Forging,14599075.85,Alaska
+,424950,"Paint, Varnish, and Supplies Merchant Wholesalers",14344109.4,Alaska
+,331318,"Other Aluminum Rolling, Drawing, and Extruding",14311559.38,Alaska
+,515111,Radio Networks,14116264.65,Alaska
+,325314,Fertilizer (Mixing Only) Manufacturing,14098141.61,Alaska
+,314912,Canvas and Related Product Mills,14047139.42,Alaska
+,332321,Metal Window and Door Manufacturing,13953581.51,Alaska
+,335929,Other Communication and Energy Wire Manufacturing,13720395.19,Alaska
+,424690,Other Chemical and Allied Products Merchant Wholesalers,13484606.05,Alaska
+,332313,Plate Work Manufacturing,13352847.69,Alaska
+,925120,Administration of Urban Planning and Community and Rural Development,12972840.92,Alaska
+,441110,New Car Dealers,12924252.13,Alaska
+,316998,All Other Leather Good and Allied Product Manufacturing,12779529.28,Alaska
+,212319,Other Crushed and Broken Stone Mining and Quarrying,12733518.52,Alaska
+,332215,"Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",12498852.92,Alaska
+,485320,Limousine Service,12496025.56,Alaska
+,713940,Fitness and Recreational Sports Centers,12475722.9,Alaska
+,333514,"Special Die and Tool, Die Set, Jig, and Fixture Manufacturing",12397461.3,Alaska
+,423810,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,12247462.43,Alaska
+,327211,Flat Glass Manufacturing,12090014.51,Alaska
+,335110,Electric Lamp Bulb and Part Manufacturing,12081231.2,Alaska
+,423840,Industrial Supplies Merchant Wholesalers,11847515.82,Alaska
+,332913,Plumbing Fixture Fitting and Trim Manufacturing,11787586.58,Alaska
+,446110,Pharmacies and Drug Stores,11748675.13,Alaska
+,315110,Hosiery and Sock Mills,11711850.09,Alaska
+,611691,Exam Preparation and Tutoring,11686241.29,Alaska
+,327910,Abrasive Product Manufacturing,11632791.1,Alaska
+,922130,Legal Counsel and Prosecution,11619412.03,Alaska
+,324121,Asphalt Paving Mixture and Block Manufacturing,11530117.39,Alaska
+,221114,Solar Electric Power Generation,11525715.73,Alaska
+,315221,Men's and Boys' Cut and Sew Underwear and Nightwear Manufacturing,11399967.1,Alaska
+,484122,"General Freight Trucking, Long-Distance, Less Than Truckload",11389348.65,Alaska
+,424130,Industrial and Personal Service Paper Merchant Wholesalers,11340027.67,Alaska
+,212312,Crushed and Broken Limestone Mining and Quarrying,11296936.62,Alaska
+,541490,Other Specialized Design Services,11213499.93,Alaska
+,522310,Mortgage and Nonmortgage Loan Brokers,11179813.86,Alaska
+,238350,Finish Carpentry Contractors,11090741.54,Alaska
+,332613,Spring Manufacturing,11070678.28,Alaska
+,311119,Other Animal Food Manufacturing,11053118.49,Alaska
+,332323,Ornamental and Architectural Metal Work Manufacturing,10967993.25,Alaska
+,313240,Knit Fabric Mills,10537132.25,Alaska
+,922120,Police Protection,10408468.6,Alaska
+,333995,Fluid Power Cylinder and Actuator Manufacturing,10243392.07,Alaska
+,541714,Research and Development in Biotechnology (except Nanobiotechnology),10061115.9,Alaska
+,492210,Local Messengers and Local Delivery,10056801.12,Alaska
+,322223,Coated Paper Bag and Pouch Manufacturing,9963849.54,Alaska
+,325320,Pesticide and Other Agricultural Chemical Manufacturing,9768670.03,Alaska
+,532310,General Rental Centers,9752433.72,Alaska
+,326112,Plastics Packaging Film and Sheet (including Laminated) Manufacturing,9687539.38,Alaska
+,238150,Glass and Glazing Contractors,9671044.75,Alaska
+,332812,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",9406077.94,Alaska
+,541850,Outdoor Advertising,9402679.29,Alaska
+,325611,Soap and Other Detergent Manufacturing,9365419.02,Alaska
+,212299,All Other Metal Ore Mining,9185372.47,Alaska
+,321992,Prefabricated Wood Building Manufacturing,9146211.5,Alaska
+,334613,Blank Magnetic and Optical Recording Media Manufacturing,9137488.5,Alaska
+,333914,"Measuring, Dispensing, and Other Pumping Equipment Manufacturing",9108916.18,Alaska
+,532299,All Other Consumer Goods Rental,9097384.67,Alaska
+,485510,Charter Bus Industry,9055790.89,Alaska
+,339994,"Broom, Brush, and Mop Manufacturing",9024349.65,Alaska
+,337124,Metal Household Furniture Manufacturing,8979002.33,Alaska
+,441210,Recreational Vehicle Dealers,8959144.45,Alaska
+,454112,Electronic Auctions,8940523.88,Alaska
+,322220,Paper Bag and Coated and Treated Paper Manufacturing,8902184.46,Alaska
+,238310,Drywall and Insulation Contractors,8900256.62,Alaska
+,813311,Human Rights Organizations,8690093.47,Alaska
+,424490,Other Grocery and Related Products Merchant Wholesalers,8606994.59,Alaska
+,621320,Offices of Optometrists,8600555.43,Alaska
+,512120,Motion Picture and Video Distribution,8599280.54,Alaska
+,326150,Urethane and Other Foam Product (except Polystyrene) Manufacturing,8575357.64,Alaska
+,722212,"Cafeterias, Grill Buffets, and Buffets",8484745.08,Alaska
+,512191,Teleproduction and Other Postproduction Services,8479985.3,Alaska
+,333993,Packaging Machinery Manufacturing,8456569.97,Alaska
+,721211,RV (Recreational Vehicle) Parks and Campgrounds,8444105.47,Alaska
+,524130,Reinsurance Carriers,8192500.0,Alaska
+,335991,Carbon and Graphite Product Manufacturing,8136960.72,Alaska
+,332212,Hand and Edge Tool Manufacturing,8014082.33,Alaska
+,322230,Stationery Product Manufacturing,7882758.91,Alaska
+,561439,Other Business Service Centers (including Copy Shops),7882261.34,Alaska
+,453998,All Other Miscellaneous Store Retailers (except Tobacco Stores),7805454.94,Alaska
+,423620,"Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers",7702205.53,Alaska
+,812220,Cemeteries and Crematories,7691340.04,Alaska
+,511140,Directory and Mailing List Publishers,7637702.51,Alaska
+,424510,Grain and Field Bean Merchant Wholesalers,7621084.05,Alaska
+,812910,Pet Care (except Veterinary) Services,7462750.15,Alaska
+,444110,Home Centers,7386007.66,Alaska
+,336370,Motor Vehicle Metal Stamping,7359696.61,Alaska
+,313312,Textile and Fabric Finishing (except Broadwoven Fabric) Mills,7293144.0,Alaska
+,333242,Semiconductor Machinery Manufacturing,7275450.55,Alaska
+,811211,Consumer Electronics Repair and Maintenance,7236307.03,Alaska
+,926140,Regulation of Agricultural Marketing and Commodities,7218935.28,Alaska
+,236115,New Single-Family Housing Construction (except For-Sale Builders),7183354.05,Alaska
+,314120,Curtain and Linen Mills,7170817.42,Alaska
+,523910,Miscellaneous Intermediation,7108047.94,Alaska
+,113310,Logging,7070065.76,Alaska
+,611620,Sports and Recreation Instruction,7031755.23,Alaska
+,335222,Household Refrigerator and Home Freezer Manufacturing,7007898.83,Alaska
+,335221,Household Cooking Appliance Manufacturing,7002321.69,Alaska
+,541214,Payroll Services,6996419.91,Alaska
+,311612,Meat Processed from Carcasses,6914419.14,Alaska
+,441228,"Motorcycle, ATV, and All Other Motor Vehicle Dealers",6857940.64,Alaska
+,712120,Historical Sites,6772048.13,Alaska
+,327999,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing,6707070.73,Alaska
+,721310,"Rooming and Boarding Houses, Dormitories, and Workers' Camps",6658402.26,Alaska
+,323113,Commercial Screen Printing,6624076.46,Alaska
+,326291,Rubber Product Manufacturing for Mechanical Use,6429739.86,Alaska
+,336510,Railroad Rolling Stock Manufacturing,6413166.3,Alaska
+,561622,Locksmiths,6342844.66,Alaska
+,325188,All Other Basic Inorganic Chemical Manufacturing,6290360.99,Alaska
+,332119,"Metal Crown, Closure, and Other Metal Stamping (except Automotive)",6216445.4,Alaska
+,622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,6206164.52,Alaska
+,321113,Sawmills,6199970.03,Alaska
+,327215,Glass Product Manufacturing Made of Purchased Glass,6153774.06,Alaska
+,326113,Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing,6137608.01,Alaska
+,488410,Motor Vehicle Towing,6033852.64,Alaska
+,423410,Photographic Equipment and Supplies Merchant Wholesalers,5983573.84,Alaska
+,562213,Solid Waste Combustors and Incinerators,5975288.77,Alaska
+,337121,Upholstered Household Furniture Manufacturing,5970552.18,Alaska
+,335210,Small Electrical Appliance Manufacturing,5961823.07,Alaska
+,327992,Ground or Treated Mineral and Earth Manufacturing,5931944.35,Alaska
+,488210,Support Activities for Rail Transportation,5889380.28,Alaska
+,812210,Funeral Homes and Funeral Services,5879643.85,Alaska
+,332116,Metal Stamping,5839286.68,Alaska
+,524113,Direct Life Insurance Carriers,5650516.91,Alaska
+,325620,Toilet Preparation Manufacturing,5637743.97,Alaska
+,445110,Supermarkets and Other Grocery (except Convenience) Stores,5636675.11,Alaska
+,511110,Newspaper Publishers,5625232.32,Alaska
+,337212,Custom Architectural Woodwork and Millwork Manufacturing,5602405.75,Alaska
+,321999,All Other Miscellaneous Wood Product Manufacturing,5600239.85,Alaska
+,335228,Other Major Household Appliance Manufacturing,5563465.59,Alaska
+,333313,Office Machinery Manufacturing,5530901.42,Alaska
+,522220,Sales Financing,5529495.04,Alaska
+,111110,Soybean Farming,5510557.43,Alaska
+,713990,All Other Amusement and Recreation Industries,5496959.53,Alaska
+,424710,Petroleum Bulk Stations and Terminals,5465793.06,Alaska
+,335224,Household Laundry Equipment Manufacturing,5412858.06,Alaska
+,711320,"Promoters of Performing Arts, Sports, and Similar Events without Facilities",5395642.53,Alaska
+,323114,Quick Printing,5382473.04,Alaska
+,221118,Other Electric Power Generation,5378492.86,Alaska
+,423320,"Brick, Stone, and Related Construction Material Merchant Wholesalers",5372704.67,Alaska
+,316999,All Other Leather Good and Allied Product Manufacturing,5334899.77,Alaska
+,924110,Administration of Air and Water Resource and Solid Waste Management Programs,5294105.97,Alaska
+,332117,Powder Metallurgy Part Manufacturing,5235801.22,Alaska
+,315225,Men's and Boys' Cut and Sew Work Clothing Manufacturing,5211641.81,Alaska
+,517312,Wireless Telecommunications Carriers (except Satellite),5210070.88,Alaska
+,339910,Jewelry and Silverware Manufacturing,5205998.35,Alaska
+,811198,All Other Automotive Repair and Maintenance,5175801.27,Alaska
+,322291,Sanitary Paper Product Manufacturing,5170834.27,Alaska
+,339992,Musical Instrument Manufacturing,4997825.45,Alaska
+,326130,"Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",4975222.96,Alaska
+,813319,Other Social Advocacy Organizations,4951034.24,Alaska
+,711130,Musical Groups and Artists,4940878.82,Alaska
+,325220,Artificial and Synthetic Fibers and Filaments Manufacturing,4912669.3,Alaska
+,926150,"Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",4891363.34,Alaska
+,321211,Hardwood Veneer and Plywood Manufacturing,4803557.62,Alaska
+,531312,Nonresidential Property Managers,4768248.51,Alaska
+,813990,"Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",4739982.97,Alaska
+,331529,Other Nonferrous Metal Foundries (except Die-Casting),4711688.96,Alaska
+,561613,Armored Car Services,4682328.29,Alaska
+,423940,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",4665932.65,Alaska
+,333294,Food Product Machinery Manufacturing,4660986.07,Alaska
+,448150,Clothing Accessories Stores,4643254.89,Alaska
+,423440,Other Commercial Equipment Merchant Wholesalers,4562656.71,Alaska
+,441222,Boat Dealers,4537200.74,Alaska
+,423390,Other Construction Material Merchant Wholesalers,4521473.48,Alaska
+,333220,Plastics and Rubber Industry Machinery Manufacturing,4520837.53,Alaska
+,813910,Business Associations,4489630.16,Alaska
+,924120,Administration of Conservation Programs,4464473.77,Alaska
+,339993,"Fastener, Button, Needle, and Pin Manufacturing",4434788.62,Alaska
+,312113,Ice Manufacturing,4423638.95,Alaska
+,443142,Electronics Stores,4364515.83,Alaska
+,423910,Sporting and Recreational Goods and Supplies Merchant Wholesalers,4246855.2,Alaska
+,335121,Residential Electric Lighting Fixture Manufacturing,4220135.12,Alaska
+,333243,"Sawmill, Woodworking, and Paper Machinery Manufacturing",4199823.47,Alaska
+,336991,"Motorcycle, Bicycle, and Parts Manufacturing",4028588.61,Alaska
+,333132,Oil and Gas Field Machinery and Equipment Manufacturing,4011192.79,Alaska
+,485112,Commuter Rail Systems,4003015.91,Alaska
+,519110,News Syndicates,3997245.61,Alaska
+,453920,Art Dealers,3995901.58,Alaska
+,112511,Finfish Farming and Fish Hatcheries,3962253.4,Alaska
+,238340,Tile and Terrazzo Contractors,3906252.73,Alaska
+,334411,Electron Tube Manufacturing,3875714.08,Alaska
+,561312,Executive Search Services,3826199.87,Alaska
+,326191,Plastics Plumbing Fixture Manufacturing,3824399.31,Alaska
+,337920,Blind and Shade Manufacturing,3752571.21,Alaska
+,327320,Ready-Mix Concrete Manufacturing,3732100.12,Alaska
+,485310,Taxi Service,3675553.9,Alaska
+,321912,"Cut Stock, Resawing Lumber, and Planing",3592167.52,Alaska
+,311412,Frozen Specialty Food Manufacturing,3524924.47,Alaska
+,315299,All Other Cut and Sew Apparel Manufacturing,3371534.72,Alaska
+,331314,Secondary Smelting and Alloying of Aluminum,3370865.36,Alaska
+,721214,Recreational and Vacation Camps (except Campgrounds),3346225.46,Alaska
+,331513,Steel Foundries (except Investment),3307740.47,Alaska
+,925110,Administration of Housing Programs,3273822.66,Alaska
+,424590,Other Farm Product Raw Material Merchant Wholesalers,3269599.14,Alaska
+,113210,Forest Nurseries and Gathering of Forest Products,3254264.22,Alaska
+,333411,Air Purification Equipment Manufacturing,3239079.03,Alaska
+,525120,Health and Welfare Funds,3199919.93,Alaska
+,624410,Child Day Care Services,3198764.24,Alaska
+,441310,Automotive Parts and Accessories Stores,3185909.23,Alaska
+,921120,Legislative Bodies,3185062.89,Alaska
+,,,3182378.39,Alaska
+,,,3129782.37,Alaska
+,541921,"Photography Studios, Portrait",3070865.37,Alaska
+,722511,Full-Service Restaurants,3067015.39,Alaska
+,315190,Other Apparel Knitting Mills,3061782.09,Alaska
+,313110,"Fiber, Yarn, and Thread Mills",3036889.89,Alaska
+,524126,Direct Property and Casualty Insurance Carriers,3035613.9,Alaska
+,423220,Home Furnishing Merchant Wholesalers,3003027.56,Alaska
+,331492,"Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",2999138.76,Alaska
+,111940,Hay Farming,2995180.37,Alaska
+,423730,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,2984179.6,Alaska
+,115116,Farm Management Services,2966759.87,Alaska
+,336321,Vehicular Lighting Equipment Manufacturing,2926555.26,Alaska
+,331512,Steel Investment Foundries,2916322.22,Alaska
+,221117,Biomass Electric Power Generation,2856523.45,Alaska
+,327331,Concrete Block and Brick Manufacturing,2853637.88,Alaska
+,321918,Other Millwork (including Flooring),2853000.01,Alaska
+,321114,Wood Preservation,2848731.63,Alaska
+,238130,Framing Contractors,2837866.31,Alaska
+,333511,Industrial Mold Manufacturing,2829880.9,Alaska
+,325311,Nitrogenous Fertilizer Manufacturing,2759159.99,Alaska
+,322219,Other Paperboard Container Manufacturing,2691615.95,Alaska
+,326140,Polystyrene Foam Product Manufacturing,2687144.22,Alaska
+,423510,Metal Service Centers and Other Metal Merchant Wholesalers,2678953.73,Alaska
+,561740,Carpet and Upholstery Cleaning Services,2651177.33,Alaska
+,811420,Reupholstery and Furniture Repair,2647389.78,Alaska
+,315228,Men's and Boys' Cut and Sew Other Outerwear Manufacturing,2619325.05,Alaska
+,541840,Media Representatives,2603769.09,Alaska
+,238170,Siding Contractors,2602405.76,Alaska
+,334611,Software Reproducing,2590497.33,Alaska
+,813219,Other Grantmaking and Giving Services,2586244.01,Alaska
+,112920,Horses and Other Equine Production,2571175.29,Alaska
+,443141,Household Appliance Stores,2564988.63,Alaska
+,313220,Narrow Fabric Mills and Schiffli Machine Embroidery,2556408.35,Alaska
+,448190,Other Clothing Stores,2536721.18,Alaska
+,541830,Media Buying Agencies,2479407.58,Alaska
+,811192,Car Washes,2452852.11,Alaska
+,327110,"Pottery, Ceramics, and Plumbing Fixture Manufacturing",2422551.2,Alaska
+,813312,"Environment, Conservation and Wildlife Organizations",2418078.08,Alaska
+,213115,Support Activities for Nonmetallic Minerals (except Fuels) Mining,2379055.06,Alaska
+,,,2373743.81,Alaska
+,212311,Dimension Stone Mining and Quarrying,2352636.81,Alaska
+,921110,Executive Offices,2343139.66,Alaska
+,326121,Unlaminated Plastics Profile Shape Manufacturing,2337590.92,Alaska
+,532292,Recreational Goods Rental,2325188.16,Alaska
+,325991,Custom Compounding of Purchased Resins,2287971.92,Alaska
+,311821,Cookie and Cracker Manufacturing,2280900.31,Alaska
+,926110,Administration of General Economic Programs,2277539.46,Alaska
+,623210,Residential Intellectual and Developmental Disability Facilities,2244486.1,Alaska
+,447110,Gasoline Stations with Convenience Stores,2231607.53,Alaska
+,525990,Other Financial Vehicles,2229804.85,Alaska
+,423930,Recyclable Material Merchant Wholesalers,2223608.81,Alaska
+,712190,Nature Parks and Other Similar Institutions,2206189.91,Alaska
+,512290,Other Sound Recording Industries,2160037.37,Alaska
+,711310,"Promoters of Performing Arts, Sports, and Similar Events with Facilities",2149305.24,Alaska
+,423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,2117656.09,Alaska
+,561520,Tour Operators,2095247.15,Alaska
+,321212,Softwood Veneer and Plywood Manufacturing,2030440.59,Alaska
+,213113,Support Activities for Coal Mining,2022295.05,Alaska
+,,,1924324.67,Alaska
+,326160,Plastics Bottle Manufacturing,1884514.89,Alaska
+,325130,Synthetic Dye and Pigment Manufacturing,1857767.09,Alaska
+,483212,Inland Water Passenger Transportation,1851106.14,Alaska
+,325212,Synthetic Rubber Manufacturing,1838651.78,Alaska
+,331111,Iron and Steel Mills,1816527.55,Alaska
+,622210,Psychiatric and Substance Abuse Hospitals,1814197.13,Alaska
+,423740,Refrigeration Equipment and Supplies Merchant Wholesalers,1796347.22,Alaska
+,311613,Rendering and Meat Byproduct Processing,1774470.07,Alaska
+,324199,All Other Petroleum and Coal Products Manufacturing,1764365.13,Alaska
+,721120,Casino Hotels,1744257.89,Alaska
+,333131,Mining Machinery and Equipment Manufacturing,1737447.64,Alaska
+,446199,All Other Health and Personal Care Stores,1703221.21,Alaska
+,486210,Pipeline Transportation of Natural Gas,1700857.59,Alaska
+,711219,Other Spectator Sports,1699326.53,Alaska
+,711190,Other Performing Arts Companies,1698320.14,Alaska
+,,,1695715.33,Alaska
+,336399,All Other Motor Vehicle Parts Manufacturing,1692426.33,Alaska
+,212112,Bituminous Coal Underground Mining,1690491.68,Alaska
+,324122,Asphalt Shingle and Coating Materials Manufacturing,1689946.41,Alaska
+,316211,Rubber and Plastics Footwear Manufacturing,1688333.16,Alaska
+,541870,Advertising Material Distribution Services,1667667.12,Alaska
+,531130,Lessors of Miniwarehouses and Self-Storage Units,1662234.32,Alaska
+,114111,Finfish Fishing,1661181.77,Alaska
+,515112,Radio Stations,1658565.45,Alaska
+,485210,Interurban and Rural Bus Transportation,1609574.84,Alaska
+,711211,Sports Teams and Clubs,1591373.37,Alaska
+,451110,Sporting Goods Stores,1587600.31,Alaska
+,541340,Drafting Services,1577095.37,Alaska
+,311830,Tortilla Manufacturing,1572456.86,Alaska
+,111421,Nursery and Tree Production,1546547.71,Alaska
+,621310,Offices of Chiropractors,1530615.55,Alaska
+,,,1523253.89,Alaska
+,237210,Land Subdivision,1523226.74,Alaska
+,321911,Wood Window and Door Manufacturing,1495013.97,Alaska
+,336213,Motor Home Manufacturing,1483829.07,Alaska
+,331523,Nonferrous Metal Die-Casting Foundries,1468575.1,Alaska
+,112120,Dairy Cattle and Milk Production,1451889.45,Alaska
+,541120,Offices of Notaries,1437726.47,Alaska
+,424110,Printing and Writing Paper Merchant Wholesalers,1425321.03,Alaska
+,315992,Glove and Mitten Manufacturing,1425073.14,Alaska
+,321213,Engineered Wood Member (except Truss) Manufacturing,1393682.82,Alaska
+,327993,Mineral Wool Manufacturing,1357546.6,Alaska
+,423820,Farm and Garden Machinery and Equipment Merchant Wholesalers,1354798.64,Alaska
+,713930,Marinas,1321662.82,Alaska
+,813410,Civic and Social Organizations,1321119.46,Alaska
+,926120,Regulation and Administration of Transportation Programs,1277766.64,Alaska
+,333518,Other Metalworking Machinery Manufacturing,1277046.98,Alaska
+,327410,Lime Manufacturing,1247421.87,Alaska
+,311111,Dog and Cat Food Manufacturing,1247048.7,Alaska
+,424320,Men's and Boys' Clothing and Furnishings Merchant Wholesalers,1245296.04,Alaska
+,424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,1228838.82,Alaska
+,451140,Musical Instrument and Supplies Stores,1227861.26,Alaska
+,512230,Music Publishers,1216778.28,Alaska
+,112310,Chicken Egg Production,1215615.53,Alaska
+,112420,Goat Farming,1179534.24,Alaska
+,327212,Other Pressed and Blown Glass and Glassware Manufacturing,1153822.88,Alaska
+,424340,Footwear Merchant Wholesalers,1143273.45,Alaska
+,212393,Other Chemical and Fertilizer Mineral Mining,1141677.75,Alaska
+,331313,Alumina Refining and Primary Aluminum Production,1101053.65,Alaska
+,921150,American Indian and Alaska Native Tribal Governments,1095886.42,Alaska
+,111150,Corn Farming,1093054.16,Alaska
+,337110,Wood Kitchen Cabinet and Countertop Manufacturing,1070914.71,Alaska
+,448110,Men's Clothing Stores,1021435.82,Alaska
+,454312,Liquefied Petroleum Gas (Bottled Gas) Dealers,999472.38,Alaska
+,512199,Other Motion Picture and Video Industries,990200.03,Alaska
+,923130,"Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)",979233.69,Alaska
+,444210,Outdoor Power Equipment Stores,970845.65,Alaska
+,316110,Leather and Hide Tanning and Finishing,956178.54,Alaska
+,441320,Tire Dealers,927096.45,Alaska
+,454113,Mail-Order Houses,914574.95,Alaska
+,454111,Electronic Shopping,898122.34,Alaska
+,621410,Family Planning Centers,895511.87,Alaska
+,452910,Warehouse Clubs and Supercenters,893670.1,Alaska
+,211112,Natural Gas Liquid Extraction,888625.49,Alaska
+,442299,All Other Home Furnishings Stores,886861.53,Alaska
+,442210,Floor Covering Stores,867832.54,Alaska
+,311352,Confectionery Manufacturing from Purchased Chocolate,865429.18,Alaska
+,322231,Die-Cut Paper and Paperboard Office Supplies Manufacturing,862471.59,Alaska
+,624210,Community Food Services,843108.54,Alaska
+,453220,"Gift, Novelty, and Souvenir Stores",840385.71,Alaska
+,322212,Folding Paperboard Box Manufacturing,836772.64,Alaska
+,332811,Metal Heat Treating,828326.28,Alaska
+,327310,Cement Manufacturing,820107.84,Alaska
+,453310,Used Merchandise Stores,818113.64,Alaska
+,711110,Theater Companies and Dinner Theaters,816219.22,Alaska
+,212399,All Other Nonmetallic Mineral Mining,794106.79,Alaska
+,811411,Home and Garden Equipment Repair and Maintenance,786300.22,Alaska
+,311512,Creamery Butter Manufacturing,773225.47,Alaska
+,212313,Crushed and Broken Granite Mining and Quarrying,768820.49,Alaska
+,512210,Record Production,765697.98,Alaska
+,333412,Industrial and Commercial Fan and Blower Manufacturing,763830.34,Alaska
+,331511,Iron Foundries,763629.9,Alaska
+,322221,Coated and Laminated Packaging Paper Manufacturing,751551.61,Alaska
+,332431,Metal Can Manufacturing,729790.38,Alaska
+,336322,Other Motor Vehicle Electrical and Electronic Equipment Manufacturing,729308.0,Alaska
+,112930,Fur-Bearing Animal and Rabbit Production,728915.95,Alaska
+,532289,All Other Consumer Goods Rental,726397.9,Alaska
+,454390,Other Direct Selling Establishments,720921.1,Alaska
+,333512,Machine Tool (Metal Cutting Types) Manufacturing,716696.27,Alaska
+,722330,Mobile Food Services,710364.98,Alaska
+,424910,Farm Supplies Merchant Wholesalers,709552.67,Alaska
+,339941,Pen and Mechanical Pencil Manufacturing,705366.85,Alaska
+,443112,"Radio, Television, and Other Electronics Stores",694862.65,Alaska
+,323119,Other Commercial Printing,668775.49,Alaska
+,332213,Saw Blade and Handsaw Manufacturing,660697.98,Alaska
+,921130,Public Finance Activities,656731.88,Alaska
+,311813,"Frozen Cakes, Pies, and Other Pastries Manufacturing",654321.15,Alaska
+,339930,"Doll, Toy, and Game Manufacturing",651031.71,Alaska
+,541420,Industrial Design Services,647311.25,Alaska
+,315991,"Hat, Cap, and Millinery Manufacturing",623499.54,Alaska
+,327122,Ceramic Wall and Floor Tile Manufacturing,611984.78,Alaska
+,327332,Concrete Pipe Manufacturing,604911.89,Alaska
+,333513,Machine Tool (Metal Forming Types) Manufacturing,594606.71,Alaska
+,423460,Ophthalmic Goods Merchant Wholesalers,582550.64,Alaska
+,441120,Used Car Dealers,575777.33,Alaska
+,327120,Clay Building Material and Refractories Manufacturing,569028.27,Alaska
+,451120,"Hobby, Toy, and Game Stores",560237.11,Alaska
+,425110,Business to Business Electronic Markets,557506.25,Alaska
+,722514,"Cafeterias, Grill Buffets, and Buffets",551693.19,Alaska
+,311919,Other Snack Food Manufacturing,551062.27,Alaska
+,114119,Other Marine Fishing,546084.7,Alaska
+,721199,All Other Traveler Accommodation,528190.45,Alaska
+,322130,Paperboard Mills,526107.78,Alaska
+,541213,Tax Preparation Services,524838.59,Alaska
+,327111,Vitreous China Plumbing Fixture and China and Earthenware Bathroom Accessories Manufacturing,505986.37,Alaska
+,512240,Sound Recording Studios,500482.28,Alaska
+,444220,"Nursery, Garden Center, and Farm Supply Stores",497939.03,Alaska
+,424610,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,496364.78,Alaska
+,621391,Offices of Podiatrists,492426.19,Alaska
+,327213,Glass Container Manufacturing,490496.58,Alaska
+,524128,"Other Direct Insurance (except Life, Health, and Medical) Carriers",489003.42,Alaska
+,423140,Motor Vehicle Parts (Used) Merchant Wholesalers,483487.49,Alaska
+,453910,Pet and Pet Supplies Stores,475800.87,Alaska
+,423130,Tire and Tube Merchant Wholesalers,475050.0,Alaska
+,443130,Camera and Photographic Supplies Stores,471591.38,Alaska
+,339995,Burial Casket Manufacturing,469898.98,Alaska
+,316214,Women's Footwear (except Athletic) Manufacturing,464030.87,Alaska
+,311930,Flavoring Syrup and Concentrate Manufacturing,462798.76,Alaska
+,311941,"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",446418.72,Alaska
+,322232,Envelope Manufacturing,440649.07,Alaska
+,451211,Book Stores,435186.99,Alaska
+,326192,Resilient Floor Covering Manufacturing,420391.87,Alaska
+,115115,Farm Labor Contractors and Crew Leaders,413218.6,Alaska
+,325110,Petrochemical Manufacturing,412850.32,Alaska
+,311221,Wet Corn Milling,411970.25,Alaska
+,112210,Hog and Pig Farming,411510.93,Alaska
+,424430,Dairy Product (except Dried or Canned) Merchant Wholesalers,411231.52,Alaska
+,321219,Reconstituted Wood Product Manufacturing,403904.06,Alaska
+,441221,"Motorcycle, ATV, and Personal Watercraft Dealers",403420.58,Alaska
+,923140,Administration of Veterans' Affairs,397468.48,Alaska
+,314121,Curtain and Drapery Mills,394643.35,Alaska
+,446191,Food (Health) Supplement Stores,392789.92,Alaska
+,813212,Voluntary Health Organizations,389076.0,Alaska
+,322122,Newsprint Mills,383752.43,Alaska
+,447190,Other Gasoline Stations,377790.65,Alaska
+,486990,All Other Pipeline Transportation,371375.94,Alaska
+,482111,Line-Haul Railroads,368201.15,Alaska
+,115113,"Crop Harvesting, Primarily by Machine",358070.78,Alaska
+,713950,Bowling Centers,348730.0,Alaska
+,311920,Coffee and Tea Manufacturing,347626.71,Alaska
+,331524,Aluminum Foundries (except Die-Casting),347422.78,Alaska
+,611511,Cosmetology and Barber Schools,341704.11,Alaska
+,111120,Oilseed (except Soybean) Farming,340451.04,Alaska
+,311942,Spice and Extract Manufacturing,338214.8,Alaska
+,212111,Bituminous Coal and Lignite Surface Mining,336286.34,Alaska
+,335220,Major Household Appliance Manufacturing,333129.88,Alaska
+,811113,Automotive Transmission Repair,330149.07,Alaska
+,493130,Farm Product Warehousing and Storage,326518.28,Alaska
+,533110,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),325830.88,Alaska
+,812921,Photofinishing Laboratories (except One-Hour),318897.01,Alaska
+,442291,Window Treatment Stores,316312.2,Alaska
+,,,312639.79,Alaska
+,213111,Drilling Oil and Gas Wells,311756.51,Alaska
+,313221,Narrow Fabric Mills,299970.65,Alaska
+,813211,Grantmaking Foundations,286398.13,Alaska
+,115111,Cotton Ginning,285340.02,Alaska
+,522190,Other Depository Credit Intermediation,284332.5,Alaska
+,621491,HMO Medical Centers,279967.39,Alaska
+,114210,Hunting and Trapping,277772.81,Alaska
+,424820,Wine and Distilled Alcoholic Beverage Merchant Wholesalers,270054.3,Alaska
+,486110,Pipeline Transportation of Crude Oil,269913.35,Alaska
+,623311,Continuing Care Retirement Communities,261700.51,Alaska
+,335212,Household Vacuum Cleaner Manufacturing,256312.46,Alaska
+,814110,Private Households,251718.44,Alaska
+,112519,Other Aquaculture,249702.99,Alaska
+,812310,Coin-Operated Laundries and Drycleaners,248134.95,Alaska
+,424930,"Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers",234432.69,Alaska
+,454210,Vending Machine Operators,232250.84,Alaska
+,487210,"Scenic and Sightseeing Transportation, Water",230824.37,Alaska
+,332114,Custom Roll Forming,227334.48,Alaska
+,522293,International Trade Financing,224845.89,Alaska
+,522292,Real Estate Credit,217880.21,Alaska
+,482112,Short Line Railroads,212917.78,Alaska
+,611410,Business and Secretarial Schools,204656.05,Alaska
+,451212,News Dealers and Newsstands,203262.73,Alaska
+,221115,Wind Electric Power Generation,202765.58,Alaska
+,621493,Freestanding Ambulatory Surgical and Emergency Centers,198546.24,Alaska
+,532284,Recreational Goods Rental,196786.1,Alaska
+,452311,Warehouse Clubs and Supercenters,196201.52,Alaska
+,532230,Video Tape and Disc Rental,194236.73,Alaska
+,444120,Paint and Wallpaper Stores,193374.73,Alaska
+,722513,Limited-Service Restaurants,191838.55,Alaska
+,339911,Jewelry (except Costume) Manufacturing,188884.75,Alaska
+,311811,Retail Bakeries,187120.22,Alaska
+,812199,Other Personal Care Services,186066.56,Alaska
+,316219,Other Footwear Manufacturing,182819.83,Alaska
+,111219,Other Vegetable (except Potato) and Melon Farming,178391.58,Alaska
+,111199,All Other Grain Farming,173385.23,Alaska
+,485119,Other Urban Transit Systems,172198.21,Alaska
+,212392,Phosphate Rock Mining,171990.08,Alaska
+,922110,Courts,169426.04,Alaska
+,713910,Golf Courses and Country Clubs,167616.67,Alaska
+,441229,All Other Motor Vehicle Dealers,167558.69,Alaska
+,424310,"Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers",167504.96,Alaska
+,721191,Bed-and-Breakfast Inns,164186.85,Alaska
+,112111,Beef Cattle Ranching and Farming,162622.88,Alaska
+,812111,Barber Shops,162292.91,Alaska
+,323116,Manifold Business Forms Printing,161719.05,Alaska
+,321214,Truss Manufacturing,158377.54,Alaska
+,312140,Distilleries,151328.73,Alaska
+,314129,Other Household Textile Product Mills,147868.69,Alaska
+,312120,Breweries,143752.44,Alaska
+,113110,Timber Tract Operations,141475.29,Alaska
+,713110,Amusement and Theme Parks,141388.32,Alaska
+,551112,Offices of Other Holding Companies,139223.78,Alaska
+,712130,Zoos and Botanical Gardens,139061.93,Alaska
+,446130,Optical Goods Stores,137535.0,Alaska
+,111140,Wheat Farming,136619.82,Alaska
+,315234,"Women's and Girls' Cut and Sew Suit, Coat, Tailored Jacket, and Skirt Manufacturing",136571.56,Alaska
+,423920,Toy and Hobby Goods and Supplies Merchant Wholesalers,134669.37,Alaska
+,211130,Natural Gas Extraction,128400.0,Alaska
+,811191,Automotive Oil Change and Lubrication Shops,127884.55,Alaska
+,811112,Automotive Exhaust System Repair,123369.9,Alaska
+,523210,Securities and Commodity Exchanges,119427.23,Alaska
+,811430,Footwear and Leather Goods Repair,117115.58,Alaska
+,487110,"Scenic and Sightseeing Transportation, Land",115725.1,Alaska
+,334518,"Watch, Clock, and Part Manufacturing",115357.38,Alaska
+,339932,"Game, Toy, and Children's Vehicle Manufacturing",115211.55,Alaska
+,212391,"Potash, Soda, and Borate Mineral Mining",110855.54,Alaska
+,551114,"Corporate, Subsidiary, and Regional Managing Offices",109170.63,Alaska
+,811122,Automotive Glass Replacement Shops,106112.2,Alaska
+,112410,Sheep Farming,97301.0,Alaska
+,532283,Home Health Equipment Rental,96573.39,Alaska
+,711410,"Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",96530.28,Alaska
+,212325,Clay and Ceramic and Refractory Minerals Mining,96506.0,Alaska
+,111335,Tree Nut Farming,95879.39,Alaska
+,325613,Surface Active Agent Manufacturing,90100.32,Alaska
+,522298,All Other Nondepository Credit Intermediation,88562.7,Alaska
+,312130,Wineries,88052.93,Alaska
+,424520,Livestock Merchant Wholesalers,86326.54,Alaska
+,448320,Luggage and Leather Goods Stores,85129.74,Alaska
+,315239,Women's and Girls' Cut and Sew Other Outerwear Manufacturing,84128.24,Alaska
+,453930,Manufactured (Mobile) Home Dealers,83757.76,Alaska
+,311314,Cane Sugar Manufacturing,82011.92,Alaska
+,525190,Other Insurance Funds,81645.0,Alaska
+,212322,Industrial Sand Mining,81474.26,Alaska
+,713920,Skiing Facilities,81229.1,Alaska
+,722410,Drinking Places (Alcoholic Beverages),80848.41,Alaska
+,311351,Chocolate and Confectionery Manufacturing from Cacao Beans,79253.08,Alaska
+,111422,Floriculture Production,77904.7,Alaska
+,325312,Phosphatic Fertilizer Manufacturing,76641.59,Alaska
+,112910,Apiculture,75200.0,Alaska
+,315119,Other Hosiery and Sock Mills,75159.25,Alaska
+,111920,Cotton Farming,74756.0,Alaska
+,424420,Packaged Frozen Food Merchant Wholesalers,72896.63,Alaska
+,424440,Poultry and Poultry Product Merchant Wholesalers,66536.3,Alaska
+,813930,Labor Unions and Similar Labor Organizations,64648.54,Alaska
+,115114,Postharvest Crop Activities (except Cotton Ginning),59518.24,Alaska
+,453110,Florists,58292.3,Alaska
+,325193,Ethyl Alcohol Manufacturing,57656.1,Alaska
+,112130,Dual-Purpose Cattle Ranching and Farming,57320.28,Alaska
+,332997,Industrial Pattern Manufacturing,57192.88,Alaska
+,424460,Fish and Seafood Merchant Wholesalers,56086.9,Alaska
+,327420,Gypsum Product Manufacturing,55894.55,Alaska
+,812112,Beauty Salons,55629.0,Alaska
+,713120,Amusement Arcades,54425.0,Alaska
+,,,53716.38,Alaska
+,452111,Department Stores (except Discount Department Stores),51565.54,Alaska
+,111130,Dry Pea and Bean Farming,51254.45,Alaska
+,112330,Turkey Production,50640.0,Alaska
+,445310,"Beer, Wine, and Liquor Stores",50335.24,Alaska
+,454110,Electronic Shopping and Mail-Order Houses,47810.15,Alaska
+,921140,"Executive and Legislative Offices, Combined",47654.6,Alaska
+,711120,Dance Companies,45840.0,Alaska
+,314991,"Rope, Cordage, and Twine Mills",44186.07,Alaska
+,451130,"Sewing, Needlework, and Piece Goods Stores",43058.72,Alaska
+,522130,Credit Unions,42546.9,Alaska
+,523120,Securities Brokerage,42486.53,Alaska
+,336312,Gasoline Engine and Engine Parts Manufacturing,42271.86,Alaska
+,445299,All Other Specialty Food Stores,40191.23,Alaska
+,424470,Meat and Meat Product Merchant Wholesalers,37350.0,Alaska
+,522294,Secondary Market Financing,35590.0,Alaska
+,322233,"Stationery, Tablet, and Related Product Manufacturing",35564.76,Alaska
+,445291,Baked Goods Stores,34653.44,Alaska
+,561591,Convention and Visitors Bureaus,33756.12,Alaska
+,452210,Department Stores,32148.0,Alaska
+,111339,Other Noncitrus Fruit Farming,31526.67,Alaska
+,512131,Motion Picture Theaters (except Drive-Ins),31000.0,Alaska
+,112390,Other Poultry Production,30990.15,Alaska
+,525910,Open-End Investment Funds,30000.0,Alaska
+,812191,Diet and Weight Reducing Centers,29826.88,Alaska
+,111160,Rice Farming,27188.27,Alaska
+,452319,All Other General Merchandise Stores,25928.8,Alaska
+,424330,"Women's, Children's, and Infants' Clothing and Accessories Merchant Wholesalers",25628.0,Alaska
+,312230,Tobacco Manufacturing,25245.8,Alaska
+,212210,Iron Ore Mining,24569.92,Alaska
+,211120,Crude Petroleum Extraction,24022.19,Alaska
+,111191,Oilseed and Grain Combination Farming,20290.88,Alaska
+,523130,Commodity Contracts Dealing,19791.77,Alaska
+,445120,Convenience Stores,18781.0,Alaska
+,313249,Other Knit Fabric and Lace Mills,17450.0,Alaska
+,111320,Citrus (except Orange) Groves,16788.0,Alaska
+,487990,"Scenic and Sightseeing Transportation, Other",16497.52,Alaska
+,323110,Commercial Lithographic Printing,16386.0,Alaska
+,521110,Monetary Authorities-Central Bank,16073.08,Alaska
+,522210,Credit Card Issuing,15980.43,Alaska
+,524127,Direct Title Insurance Carriers,15355.63,Alaska
+,448140,Family Clothing Stores,15268.08,Alaska
+,813940,Political Organizations,14962.07,Alaska
+,322110,Pulp Mills,14656.34,Alaska
+,445210,Meat Markets,13840.0,Alaska
+,424810,Beer and Ale Merchant Wholesalers,13615.16,Alaska
+,323121,Tradebinding and Related Work,13600.0,Alaska
+,339943,Marking Device Manufacturing,12673.59,Alaska
+,445230,Fruit and Vegetable Markets,12500.25,Alaska
+,532220,Formal Wear and Costume Rental,12149.05,Alaska
+,221116,Geothermal Electric Power Generation,11414.0,Alaska
+,711212,Racetracks,11131.46,Alaska
+,611610,Fine Arts Schools,10395.0,Alaska
+,551111,Offices of Bank Holding Companies,10313.36,Alaska
+,722515,Snack and Nonalcoholic Beverage Bars,10000.0,Alaska
+,311520,Ice Cream and Frozen Dessert Manufacturing,9425.25,Alaska
+,713290,Other Gambling Industries,8985.2,Alaska
+,332214,"Kitchen Utensil, Pot, and Pan Manufacturing",8712.0,Alaska
+,112112,Cattle Feedlots,8420.01,Alaska
+,111419,Other Food Crops Grown Under Cover,8040.31,Alaska
+,315222,"Men's and Boys' Cut and Sew Suit, Coat, and Overcoat Manufacturing",7087.7,Alaska
+,532282,Video Tape and Disc Rental,5613.75,Alaska
+,561491,Repossession Services,5587.2,Alaska
+,212234,Copper Ore and Nickel Ore Mining,4968.0,Alaska
+,525920,"Trusts, Estates, and Agency Accounts",4834.5,Alaska
+,112340,Poultry Hatcheries,4409.01,Alaska
+,445292,Confectionery and Nut Stores,4408.72,Alaska
+,448130,Children's and Infants' Clothing Stores,4405.98,Alaska
+,111336,Fruit and Tree Nut Combination Farming,4283.62,Alaska
+,315232,Women's and Girls' Cut and Sew Blouse and Shirt Manufacturing,4173.12,Alaska
+,812113,Nail Salons,4052.84,Alaska
+,326212,Tire Retreading,3813.77,Alaska
+,334414,Electronic Capacitor Manufacturing,1838.0,Alaska
+,713210,Casinos (except Casino Hotels),1705.39,Alaska
+,623312,Assisted Living Facilities for the Elderly,1517.76,Alaska
+,325194,"Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing",1380.0,Alaska
+,331422,Copper Wire (except Mechanical) Drawing,1180.0,Alaska
+,114112,Shellfish Fishing,300.03,Alaska
+,,,0.0,Alaska
+,316991,Luggage Manufacturing,0.0,Alaska
+,,,0.0,Alaska
+,722110,Full-Service Restaurants,0.0,Alaska
+,517510,Cable and Other Program Distribution,0.0,Alaska
+,,,0.0,Alaska
+,722211,Limited-Service Restaurants,0.0,Alaska
+,333210,Sawmill and Woodworking Machinery Manufacturing,0.0,Alaska
+,561310,Employment Placement Agencies,0.0,Alaska
+,315191,Outerwear Knitting Mills,0.0,Alaska
+,333292,Textile Machinery Manufacturing,0.0,Alaska
+,334612,"Prerecorded Compact Disc (except Software), Tape, and Record Reproducing",0.0,Alaska
+,339914,Costume Jewelry and Novelty Manufacturing,0.0,Alaska
+,,,0.0,Alaska
+,313222,Schiffli Machine Embroidery,0.0,Alaska
+,315192,Underwear and Nightwear Knitting Mills,0.0,Alaska
+,315224,"Men's and Boys' Cut and Sew Trouser, Slack, and Jean Manufacturing",0.0,Alaska
+,323112,Commercial Flexographic Printing,0.0,Alaska
+,323118,"Blankbook, Looseleaf Binders, and Devices Manufacturing",0.0,Alaska
+,323122,Prepress Services,0.0,Alaska
+,,,0.0,Alaska
+,111211,Potato Farming,0.0,Alaska
+,111411,Mushroom Production,0.0,Alaska
+,112320,Broilers and Other Meat Type Chicken Production,0.0,Alaska
+,,,0.0,Alaska
+,,,0.0,Alaska
+,311222,Soybean Processing,0.0,Alaska
+,311712,Fresh and Frozen Seafood Processing,0.0,Alaska
+,313111,Yarn Spinning Mills,0.0,Alaska
+,314992,Tire Cord and Tire Fabric Mills,0.0,Alaska
+,315292,Fur and Leather Apparel Manufacturing,0.0,Alaska
+,316212,House Slipper Manufacturing,0.0,Alaska
+,322224,Uncoated Paper and Multiwall Bag Manufacturing,0.0,Alaska
+,322226,Surface-Coated Paperboard Manufacturing,0.0,Alaska
+,327113,Porcelain Electrical Supply Manufacturing,0.0,Alaska
+,331319,Other Aluminum Rolling and Drawing,0.0,Alaska
+,333291,Paper Industry Machinery Manufacturing,0.0,Alaska
+,333516,Rolling Mill Machinery and Equipment Manufacturing,0.0,Alaska
+,335211,Electric Housewares and Household Fan Manufacturing,0.0,Alaska
+,337129,"Wood Television, Radio, and Sewing Machine Cabinet Manufacturing",0.0,Alaska
+,339912,Silverware and Hollowware Manufacturing,0.0,Alaska
+,,,0.0,Alaska
+,,,0.0,Alaska
+,,,0.0,Alaska
+,424940,Tobacco and Tobacco Product Merchant Wholesalers,0.0,Alaska
+,446120,"Cosmetics, Beauty Supplies, and Perfume Stores",0.0,Alaska
+,448310,Jewelry Stores,0.0,Alaska
+,511191,Greeting Card Publishers,0.0,Alaska
+,,,0.0,Alaska
+,,,0.0,Alaska
+,,,0.0,Alaska
+,522291,Consumer Lending,0.0,Alaska
+,722213,Snack and Nonalcoholic Beverage Bars,0.0,Alaska
+,454311,Heating Oil Dealers,-0.01,Alaska
+,315231,"Women's and Girls' Cut and Sew Lingerie, Loungewear, and Nightwear Manufacturing",-1.17,Alaska
+,315223,Men's and Boys' Cut and Sew Shirt (except Work Shirt) Manufacturing,-16.74,Alaska
+,516110,Internet Publishing and Broadcasting,-53.33,Alaska
+,322215,Nonfolding Sanitary Food Container Manufacturing,-74.09,Alaska
+,314911,Textile Bag Mills,-150.19,Alaska
+,,,-162.08,Alaska
+,,,-195.0,Alaska
+,322213,Setup Paperboard Box Manufacturing,-299.88,Alaska
+,325181,Alkalies and Chlorine Manufacturing,-304.24,Alaska
+,5417,Scientific Research and Development Services,-445.0,Alaska
+,,,-628.9,Alaska
+,336311,"Carburetor, Piston, Piston Ring, and Valve Manufacturing",-1007.68,Alaska
+,,,-1010.2,Alaska
+,311313,Beet Sugar Manufacturing,-2172.1,Alaska
+,424450,Confectionery Merchant Wholesalers,-3708.95,Alaska
+,332611,Spring (Heavy Gauge) Manufacturing,-5544.69,Alaska
+,443111,Household Appliance Stores,-5803.29,Alaska
+,512220,Integrated Record Production/Distribution,-6925.98,Alaska
+,213114,Support Activities for Metal Mining,-7100.0,Alaska
+,331421,"Copper Rolling, Drawing, and Extruding",-8263.86,Alaska
+,221113,Nuclear Electric Power Generation,-10218.59,Alaska
+,,,-11457.04,Alaska
+,922150,Parole Offices and Probation Offices,-13833.6,Alaska
+,316993,Personal Leather Good (except Women's Handbag and Purse) Manufacturing,-15080.0,Alaska
+,333312,"Commercial Laundry, Drycleaning, and Pressing Machine Manufacturing",-15456.02,Alaska
+,331312,Primary Aluminum Production,-18617.0,Alaska
+,,,-20416.66,Alaska
+,212221,Gold Ore Mining,-25250.0,Alaska
+,322222,Coated and Laminated Paper Manufacturing,-33326.72,Alaska
+,454319,Other Fuel Dealers,-43486.18,Alaska
+,332211,Cutlery and Flatware (except Precious) Manufacturing,-59599.18,Alaska
+,525110,Pension Funds,-68694.09,Alaska
+,331419,Primary Smelting and Refining of Nonferrous Metal (except Copper and Aluminum),-71472.25,Alaska
+,,,-93700.0,Alaska
+,323115,Digital Printing,-100074.98,Alaska
+,517211,Paging,-102683.0,Alaska
+,236117,New Housing For-Sale Builders,-358968.57,Alaska
+,541860,Direct Mail Advertising,-517445.6,Alaska
+,517212,Cellular and Other Wireless Telecommunications,-1991201.06,Alaska
+,811118,Other Automotive Mechanical and Electrical Repair and Maintenance,-5951824.69,Alaska
+,541191,Title Abstract and Settlement Offices,-5960285.54,Alaska

@@ -1,0 +1,1440 @@
+code,name,amount
+336411.0,Aircraft Manufacturing,655355154255.78
+541330.0,Engineering Services,539960874879.98
+561210.0,Facilities Support Services,436690311364.73
+236220.0,Commercial and Institutional Building Construction,337879098797.05
+541712.0,"Research and Development in the Physical, Engineering, and Life Sciences (except Biotechnology)",300085950867.47
+336611.0,Ship Building and Repairing,282461831782.01
+541512.0,Computer Systems Design Services,264447152801.76
+336414.0,Guided Missile and Space Vehicle Manufacturing,229713821657.18
+541519.0,Other Computer Related Services,224662724497.92
+541710.0,"Research and Development in the Physical, Engineering, and Life Sciences",223343563741.34
+524114.0,Direct Health and Medical Insurance Carriers,221775217368.45
+336413.0,Other Aircraft Parts and Auxiliary Equipment Manufacturing,199075482653.84
+541611.0,Administrative Management and General Management Consulting Services,181675151331.51
+334511.0,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",178012663406.93
+325412.0,Pharmaceutical Preparation Manufacturing,151726972706.97
+541990.0,"All Other Professional, Scientific, and Technical Services",150909631123.59
+324110.0,Petroleum Refineries,149184095772.79
+541715.0,"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",124442133227.73
+336992.0,"Military Armored Vehicle, Tank, and Tank Component Manufacturing",106475455098.84
+336412.0,Aircraft Engine and Engine Parts Manufacturing,105694177665.32
+541511.0,Custom Computer Programming Services,94849645863.92
+237990.0,Other Heavy and Civil Engineering Construction,89996159890.72
+488190.0,Other Support Activities for Air Transportation,84653635847.71
+562910.0,Remediation Services,72270461459.49
+561612.0,Security Guards and Patrol Services,67604804659.97
+334220.0,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,66447664825.37
+517110.0,Wired Telecommunications Carriers,61958769972.44
+424210.0,Drugs and Druggists' Sundries Merchant Wholesalers,50766442346.74
+334111.0,Electronic Computer Manufacturing,50673028941.3
+621111.0,Offices of Physicians (except Mental Health Specialists),49980495052.07
+481212.0,Nonscheduled Chartered Freight Air Transportation,48068499725.27
+332993.0,Ammunition (except Small Arms) Manufacturing,47937294287.52
+541513.0,Computer Facilities Management Services,47071449251.71
+325414.0,Biological Product (except Diagnostic) Manufacturing,45311985864.88
+237310.0,"Highway, Street, and Bridge Construction",41786898211.2
+331491.0,"Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",41266934672.74
+325411.0,Medicinal and Botanical Manufacturing,38883831701.21
+511210.0,Software Publishers,38116415307.29
+334290.0,Other Communications Equipment Manufacturing,35905775284.53
+483111.0,Deep Sea Freight Transportation,34239204971.11
+481211.0,Nonscheduled Chartered Passenger Air Transportation,33034286590.08
+336419.0,Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing,32602668481.73
+541690.0,Other Scientific and Technical Consulting Services,30975761504.77
+562211.0,Hazardous Waste Treatment and Disposal,30083398667.31
+423450.0,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",29104158767.34
+518210.0,"Data Processing, Hosting, and Related Services",28268552135.15
+561990.0,All Other Support Services,26390297235.08
+336212.0,Truck Trailer Manufacturing,26098639857.02
+541711.0,Research and Development in Biotechnology,25813484343.24
+423850.0,Service Establishment Equipment and Supplies Merchant Wholesalers,24573968025.04
+332410.0,Power Boiler and Heat Exchanger Manufacturing,24148384620.04
+541614.0,"Process, Physical Distribution, and Logistics Consulting Services",23933820418.02
+561720.0,Janitorial Services,23131553983.1
+424720.0,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),22377229988.98
+339112.0,Surgical and Medical Instrument Manufacturing,22155096212.31
+236210.0,Industrial Building Construction,22091340789.8
+541618.0,Other Management Consulting Services,20957912684.31
+541720.0,Research and Development in the Social Sciences and Humanities,20755135671.93
+424410.0,General Line Grocery Merchant Wholesalers,20569077448.34
+443120.0,Computer and Software Stores,20499204654.03
+334419.0,Other Electronic Component Manufacturing,19838375240.7
+611519.0,Other Technical and Trade Schools,19209247082.76
+339113.0,Surgical Appliance and Supplies Manufacturing,18898655025.1
+811219.0,Other Electronic and Precision Equipment Repair and Maintenance,18605567461.0
+622110.0,General Medical and Surgical Hospitals,18248908011.39
+611430.0,Professional and Management Development Training,17636098090.9
+541310.0,Architectural Services,17575670596.28
+339999.0,All Other Miscellaneous Manufacturing,17569092775.66
+561110.0,Office Administrative Services,17367830922.38
+424490.0,Other Grocery and Related Products Merchant Wholesalers,17169613294.26
+541620.0,Environmental Consulting Services,16878072643.5
+336111.0,Automobile Manufacturing,16257191042.78
+336112.0,Light Truck and Utility Vehicle Manufacturing,16005292453.92
+541810.0,Advertising Agencies,15886620916.31
+722310.0,Food Service Contractors,15823209285.98
+221122.0,Electric Power Distribution,15169320786.15
+531120.0,Lessors of Nonresidential Buildings (except Miniwarehouses),15059508601.29
+238990.0,All Other Specialty Trade Contractors,14568111216.27
+332994.0,"Small Arms, Ordnance, and Ordnance Accessories Manufacturing",14448892418.77
+311999.0,All Other Miscellaneous Food Manufacturing,14196577216.56
+334516.0,Analytical Laboratory Instrument Manufacturing,13821248398.36
+517410.0,Satellite Telecommunications,13777114154.32
+333314.0,Optical Instrument and Lens Manufacturing,13540668639.39
+517919.0,All Other Telecommunications,13143981508.67
+522390.0,Other Activities Related to Credit Intermediation,13026723350.72
+238220.0,"Plumbing, Heating, and Air-Conditioning Contractors",12861694610.38
+541930.0,Translation and Interpretation Services,12842942328.65
+334210.0,Telephone Apparatus Manufacturing,12812382679.36
+561320.0,Temporary Help Services,12444688350.26
+238210.0,Electrical Contractors and Other Wiring Installation Contractors,11776253971.77
+336415.0,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing,11687206305.04
+332992.0,Small Arms Ammunition Manufacturing,10844644662.18
+325413.0,In-Vitro Diagnostic Substance Manufacturing,10828579802.74
+561611.0,Investigation Services,10634441994.14
+,,10453762474.06
+541211.0,Offices of Certified Public Accountants,10375053457.03
+561621.0,Security Systems Services (except Locksmiths),10327101017.79
+311611.0,Animal (except Poultry) Slaughtering,10199097912.36
+311421.0,Fruit and Vegetable Canning,10160594846.31
+333319.0,Other Commercial and Service Industry Machinery Manufacturing,10084527518.12
+332999.0,All Other Miscellaneous Fabricated Metal Product Manufacturing,10044998531.77
+611512.0,Flight Training,10012664315.09
+237110.0,Water and Sewer Line and Related Structures Construction,10011105833.11
+334519.0,Other Measuring and Controlling Device Manufacturing,10003036710.87
+337214.0,Office Furniture (except Wood) Manufacturing,9800927280.04
+541714.0,Research and Development in Biotechnology (except Nanobiotechnology),9763130433.71
+541612.0,Human Resources Consulting Services,9684016832.9
+334517.0,Irradiation Apparatus Manufacturing,9640903944.87
+611310.0,"Colleges, Universities, and Professional Schools",9595227599.43
+311812.0,Commercial Bakeries,9350510957.54
+334510.0,Electromedical and Electrotherapeutic Apparatus Manufacturing,9231267328.58
+335999.0,All Other Miscellaneous Electrical Equipment and Component Manufacturing,9226674634.97
+624230.0,Emergency and Other Relief Services,9110078734.61
+811310.0,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,9078757620.01
+811213.0,Communication Equipment Repair and Maintenance,8972919172.53
+336211.0,Motor Vehicle Body Manufacturing,8885069075.95
+315999.0,Other Apparel Accessories and Other Apparel Manufacturing,8824482672.29
+423430.0,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,8622382077.0
+621511.0,Medical Laboratories,8502416698.28
+541219.0,Other Accounting Services,8495250959.47
+927110.0,Space Research and Technology,8454232634.63
+611710.0,Educational Support Services,8184004956.95
+561499.0,All Other Business Support Services,8080259954.91
+237130.0,Power and Communication Line and Related Structures Construction,7982788860.53
+333120.0,Construction Machinery Manufacturing,7927934366.62
+561422.0,Telemarketing Bureaus and Other Contact Centers,7637934930.17
+623110.0,Nursing Care Facilities (Skilled Nursing Facilities),7393135174.92
+541199.0,All Other Legal Services,7252349788.47
+333999.0,All Other Miscellaneous General Purpose Machinery Manufacturing,7142242117.91
+331410.0,Nonferrous Metal (except Aluminum) Smelting and Refining,6936643177.73
+519190.0,All Other Information Services,6871368105.02
+493110.0,General Warehousing and Storage,6820816920.75
+115310.0,Support Activities for Forestry,6712587300.24
+333318.0,Other Commercial and Service Industry Machinery Manufacturing,6703612307.73
+423940.0,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",6683268557.22
+561730.0,Landscaping Services,6660473250.89
+311615.0,Poultry Processing,6659853579.06
+325920.0,Explosives Manufacturing,6442545988.76
+221310.0,Water Supply and Irrigation Systems,6406262406.18
+541380.0,Testing Laboratories,6401681438.6
+332510.0,Hardware Manufacturing,6369748511.09
+335312.0,Motor and Generator Manufacturing,6262637640.75
+621491.0,HMO Medical Centers,6146374269.09
+493190.0,Other Warehousing and Storage,6121629226.23
+238160.0,Roofing Contractors,6115379680.93
+423610.0,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",5764805383.65
+492110.0,Couriers and Express Delivery Services,5755517330.98
+623990.0,Other Residential Care Facilities,5607067247.19
+523999.0,Miscellaneous Financial Investment Activities,5398505219.26
+511199.0,All Other Publishers,5255564904.89
+311991.0,Perishable Prepared Food Manufacturing,5214061146.46
+237120.0,Oil and Gas Pipeline and Related Structures Construction,5196908785.3
+334515.0,Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals,5147022253.27
+721110.0,Hotels (except Casino Hotels) and Motels,5127543872.19
+621492.0,Kidney Dialysis Centers,5126326755.03
+315210.0,Cut and Sew Apparel Contractors,5086297020.39
+624190.0,Other Individual and Family Services,5018466553.69
+311513.0,Cheese Manufacturing,4962438688.83
+423990.0,Other Miscellaneous Durable Goods Merchant Wholesalers,4863156711.42
+541370.0,Surveying and Mapping (except Geophysical) Services,4844995776.61
+336612.0,Boat Building,4826613349.0
+621498.0,All Other Outpatient Care Centers,4807063066.16
+315990.0,Apparel Accessories and Other Apparel Manufacturing,4793635711.14
+336120.0,Heavy Duty Truck Manufacturing,4757136224.32
+621999.0,All Other Miscellaneous Ambulatory Health Care Services,4708621949.07
+332722.0,"Bolt, Nut, Screw, Rivet, and Washer Manufacturing",4672699601.54
+561440.0,Collection Agencies,4630603794.98
+221112.0,Fossil Fuel Electric Power Generation,4621362086.51
+921190.0,Other General Government Support,4596067373.52
+332995.0,Other Ordnance and Accessories Manufacturing,4588662124.19
+481112.0,Scheduled Freight Air Transportation,4587307014.09
+517310.0,Telecommunications Resellers,4524725482.8
+611699.0,All Other Miscellaneous Schools and Instruction,4486334813.15
+922190.0,"Other Justice, Public Order, and Safety Activities",4431010432.16
+334119.0,Other Computer Peripheral Equipment Manufacturing,4422447657.97
+238910.0,Site Preparation Contractors,4313886165.64
+524292.0,Third Party Administration of Insurance and Pension Funds,4292631681.16
+493120.0,Refrigerated Warehousing and Storage,4287248261.21
+523110.0,Investment Banking and Securities Dealing,4269118154.88
+333618.0,Other Engine Equipment Manufacturing,4265847340.74
+325998.0,All Other Miscellaneous Chemical Product and Preparation Manufacturing,4241805318.63
+221210.0,Natural Gas Distribution,4235335349.2
+488510.0,Freight Transportation Arrangement,4207466758.46
+315211.0,Men's and Boys' Cut and Sew Apparel Contractors,4177369915.42
+523910.0,Miscellaneous Intermediation,4023883880.63
+811111.0,General Automotive Repair,3964319468.75
+621910.0,Ambulance Services,3793353378.51
+332313.0,Plate Work Manufacturing,3768546623.92
+334513.0,"Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",3681835084.15
+333924.0,"Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing",3522785866.22
+322121.0,Paper (except Newsprint) Mills,3501135597.18
+333611.0,Turbine and Turbine Generator Set Units Manufacturing,3480897681.45
+541613.0,Marketing Consulting Services,3449061330.05
+446110.0,Pharmacies and Drug Stores,3391961642.78
+334412.0,Bare Printed Circuit Board Manufacturing,3385120039.25
+621399.0,Offices of All Other Miscellaneous Health Practitioners,3341909195.36
+562111.0,Solid Waste Collection,3321895738.57
+517210.0,Wireless Telecommunications Carriers (except Satellite),3281623708.05
+928110.0,National Security,3255532256.63
+314999.0,All Other Miscellaneous Textile Product Mills,3211901762.71
+532420.0,Office Machinery and Equipment Rental and Leasing,3211544412.49
+541820.0,Public Relations Agencies,3174452727.9
+811212.0,Computer and Office Machine Repair and Maintenance,3117339172.41
+332311.0,Prefabricated Metal Building and Component Manufacturing,3028352469.11
+337122.0,Nonupholstered Wood Household Furniture Manufacturing,2987131203.63
+531311.0,Residential Property Managers,2910314142.75
+334413.0,Semiconductor and Related Device Manufacturing,2881475322.72
+332312.0,Fabricated Structural Metal Manufacturing,2866093048.1
+332991.0,Ball and Roller Bearing Manufacturing,2858934246.87
+333415.0,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,2814880987.74
+333612.0,"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",2813815643.28
+624110.0,Child and Youth Services,2799929238.36
+238290.0,Other Building Equipment Contractors,2742992926.61
+334417.0,Electronic Connector Manufacturing,2738462543.99
+311211.0,Flour Milling,2653736676.66
+332439.0,Other Metal Container Manufacturing,2633607123.38
+335311.0,"Power, Distribution, and Specialty Transformer Manufacturing",2617524366.22
+561421.0,Telephone Answering Services,2607355960.05
+236118.0,Residential Remodelers,2590617791.73
+332911.0,Industrial Valve Manufacturing,2570087522.44
+923120.0,Administration of Public Health Programs,2529489035.86
+444130.0,Hardware Stores,2527048568.11
+326211.0,Tire Manufacturing (except Retreading),2512393007.0
+236116.0,New Multifamily Housing Construction (except For-Sale Builders),2474643680.32
+311411.0,"Frozen Fruit, Juice, and Vegetable Manufacturing",2470640636.08
+336999.0,All Other Transportation Equipment Manufacturing,2464105836.37
+541910.0,Marketing Research and Public Opinion Polling,2409779105.68
+519130.0,Internet Publishing and Broadcasting and Web Search Portals,2373991080.48
+335911.0,Storage Battery Manufacturing,2362551924.46
+336399.0,All Other Motor Vehicle Parts Manufacturing,2358538041.62
+488999.0,All Other Support Activities for Transportation,2354345285.27
+424510.0,Grain and Field Bean Merchant Wholesalers,2352803807.0
+611420.0,Computer Training,2275314861.18
+333911.0,Pump and Pumping Equipment Manufacturing,2230296249.64
+332420.0,Metal Tank (Heavy Gauge) Manufacturing,2229402522.42
+331420.0,"Copper Rolling, Drawing, Extruding, and Alloying",2228902120.42
+337215.0,"Showcase, Partition, Shelving, and Locker Manufacturing",2214716405.36
+333613.0,Mechanical Power Transmission Equipment Manufacturing,2183278993.24
+311225.0,Fats and Oils Refining and Blending,2165097757.1
+334310.0,Audio and Video Equipment Manufacturing,2158091320.09
+524298.0,All Other Insurance Related Activities,2122334794.84
+481219.0,Other Nonscheduled Air Transportation,2120102403.7
+336390.0,Other Motor Vehicle Parts Manufacturing,2117944606.49
+315220.0,Men’s and Boys’ Cut and Sew Apparel Manufacturing,2105536169.34
+926130.0,"Regulation and Administration of Communications, Electric, Gas, and Other Utilities",2077669577.09
+488111.0,Air Traffic Control,2072117765.39
+334418.0,Printed Circuit Assembly (Electronic Assembly) Manufacturing,2057314788.37
+221320.0,Sewage Treatment Facilities,2034519747.85
+531210.0,Offices of Real Estate Agents and Brokers,2032653567.17
+325120.0,Industrial Gas Manufacturing,2020624739.26
+423110.0,Automobile and Other Motor Vehicle Merchant Wholesalers,1969143946.06
+445230.0,Fruit and Vegetable Markets,1960763012.07
+333923.0,"Overhead Traveling Crane, Hoist, and Monorail System Manufacturing",1944671084.38
+453210.0,Office Supplies and Stationery Stores,1941449654.4
+624310.0,Vocational Rehabilitation Services,1932756475.6
+334118.0,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,1927607374.46
+485999.0,All Other Transit and Ground Passenger Transportation,1921354958.73
+336350.0,Motor Vehicle Transmission and Power Train Parts Manufacturing,1889398251.26
+541350.0,Building Inspection Services,1868268547.37
+424480.0,Fresh Fruit and Vegetable Merchant Wholesalers,1867500032.15
+561450.0,Credit Bureaus,1842731768.56
+314910.0,Textile Bag and Canvas Mills,1840015065.76
+928120.0,International Affairs,1828716277.21
+334112.0,Computer Storage Device Manufacturing,1826349049.06
+315299.0,All Other Cut and Sew Apparel Manufacturing,1794926822.84
+621420.0,Outpatient Mental Health and Substance Abuse Centers,1788252192.41
+532490.0,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,1770879984.49
+562119.0,Other Waste Collection,1766929422.28
+484230.0,"Specialized Freight (except Used Goods) Trucking, Long-Distance",1745688176.61
+335313.0,Switchgear and Switchboard Apparatus Manufacturing,1742511658.84
+332212.0,Hand and Edge Tool Manufacturing,1730573949.17
+335931.0,Current-Carrying Wiring Device Manufacturing,1712123561.64
+517910.0,Other Telecommunications,1684700254.26
+488310.0,Port and Harbor Operations,1681566073.38
+238320.0,Painting and Wall Covering Contractors,1662326014.66
+,,1652218541.37
+488320.0,Marine Cargo Handling,1642972064.12
+517911.0,Telecommunications Resellers,1641017809.73
+517311.0,Wired Telecommunications Carriers,1632629186.8
+211111.0,Crude Petroleum and Natural Gas Extraction,1629993994.22
+621210.0,Offices of Dentists,1624534548.51
+561790.0,Other Services to Buildings and Dwellings,1602830282.75
+221119.0,Other Electric Power Generation,1583537712.84
+488390.0,Other Support Activities for Water Transportation,1577454676.29
+812990.0,All Other Personal Services,1555841020.14
+511120.0,Periodical Publishers,1549811831.76
+238190.0,"Other Foundation, Structure, and Building Exterior Contractors",1537914145.9
+339991.0,"Gasket, Packing, and Sealing Device Manufacturing",1534041348.28
+337127.0,Institutional Furniture Manufacturing,1526977746.89
+423690.0,Other Electronic Parts and Equipment Merchant Wholesalers,1501733439.37
+321991.0,Manufactured Home (Mobile Home) Manufacturing,1497794382.39
+445110.0,Supermarkets and Other Grocery (except Convenience) Stores,1473733300.27
+325611.0,Soap and Other Detergent Manufacturing,1472745648.07
+,,1462455736.38
+333298.0,All Other Industrial Machinery Manufacturing,1462340222.24
+621112.0,"Offices of Physicians, Mental Health Specialists",1459896376.86
+522310.0,Mortgage and Nonmortgage Loan Brokers,1450646114.12
+339920.0,Sporting and Athletic Goods Manufacturing,1442888954.06
+541110.0,Offices of Lawyers,1437468547.47
+337211.0,Wood Office Furniture Manufacturing,1433517884.53
+238110.0,Poured Concrete Foundation and Structure Contractors,1428219137.32
+333316.0,Photographic and Photocopying Equipment Manufacturing,1415110980.95
+333315.0,Photographic and Photocopying Equipment Manufacturing,1412800339.93
+336214.0,Travel Trailer and Camper Manufacturing,1393595027.67
+621991.0,Blood and Organ Banks,1390898937.7
+511130.0,Book Publishers,1386846294.72
+485991.0,Special Needs Transportation,1378606497.34
+484121.0,"General Freight Trucking, Long-Distance, Truckload",1367488976.72
+423390.0,Other Construction Material Merchant Wholesalers,1360710331.21
+314912.0,Canvas and Related Product Mills,1341125351.07
+532291.0,Home Health Equipment Rental,1323568508.22
+311911.0,Roasted Nuts and Peanut Butter Manufacturing,1322653334.51
+311423.0,Dried and Dehydrated Food Manufacturing,1317795125.25
+311511.0,Fluid Milk Manufacturing,1301301295.88
+532411.0,"Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",1296050667.79
+332919.0,Other Metal Valve and Pipe Fitting Manufacturing,1289780011.13
+315228.0,Men's and Boys' Cut and Sew Other Outerwear Manufacturing,1280523923.2
+332996.0,Fabricated Pipe and Pipe Fitting Manufacturing,1279893912.43
+541713.0,Research and Development in Nanotechnology,1278615207.13
+561599.0,All Other Travel Arrangement and Reservation Services,1270194600.29
+324191.0,Petroleum Lubricating Oil and Grease Manufacturing,1255050260.47
+522320.0,"Financial Transactions Processing, Reserve, and Clearinghouse Activities",1239670146.54
+522110.0,Commercial Banking,1239356650.23
+484210.0,Used Household and Office Goods Moving,1226954023.05
+811118.0,Other Automotive Mechanical and Electrical Repair and Maintenance,1226369867.74
+517312.0,Wireless Telecommunications Carriers (except Satellite),1221621798.67
+532112.0,Passenger Car Leasing,1218701284.74
+486910.0,Pipeline Transportation of Refined Petroleum Products,1206062071.99
+488119.0,Other Airport Operations,1205217195.79
+332710.0,Machine Shops,1198960780.8
+488330.0,Navigational Services to Shipping,1198541429.09
+333293.0,Printing Machinery and Equipment Manufacturing,1194294937.42
+541360.0,Geophysical Surveying and Mapping Services,1191705515.28
+333517.0,Machine Tool Manufacturing,1178428011.89
+325180.0,Other Basic Inorganic Chemical Manufacturing,1173626047.81
+334512.0,"Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",1168494894.61
+611630.0,Language Schools,1161200289.69
+621340.0,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",1160051376.18
+813920.0,Professional Organizations,1155600723.52
+326199.0,All Other Plastics Product Manufacturing,1152920289.99
+423860.0,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers,1148637587.35
+311212.0,Rice Milling,1141140342.6
+236115.0,New Single-Family Housing Construction (except For-Sale Builders),1129848476.67
+711510.0,"Independent Artists, Writers, and Performers",1127891596.98
+561920.0,Convention and Trade Show Organizers,1124346028.88
+311710.0,Seafood Product Preparation and Packaging,1111846043.29
+316210.0,Footwear Manufacturing,1101701666.36
+315280.0,Other Cut and Sew Apparel Manufacturing,1093071382.62
+339115.0,Ophthalmic Goods Manufacturing,1073563686.27
+531110.0,Lessors of Residential Buildings and Dwellings,1067599440.27
+238390.0,Other Building Finishing Contractors,1063051163.19
+485410.0,School and Employee Bus Transportation,1061668306.9
+519120.0,Libraries and Archives,1041081273.51
+484220.0,"Specialized Freight (except Used Goods) Trucking, Local",1038358682.17
+331315.0,"Aluminum Sheet, Plate, and Foil Manufacturing",1032039385.8
+221330.0,Steam and Air-Conditioning Supply,1030042084.2
+312111.0,Soft Drink Manufacturing,1025240670.87
+621610.0,Home Health Care Services,1016028186.72
+325188.0,All Other Basic Inorganic Chemical Manufacturing,1012034457.81
+518111.0,Internet Service Providers,994324345.78
+332216.0,Saw Blade and Handtool Manufacturing,992366467.09
+523920.0,Portfolio Management,991918736.17
+491110.0,Postal Service,991523941.16
+423490.0,Other Professional Equipment and Supplies Merchant Wholesalers,990472582.0
+316213.0,Men's Footwear (except Athletic) Manufacturing,986582212.89
+,,973736491.24
+213112.0,Support Activities for Oil and Gas Operations,971690367.26
+922140.0,Correctional Institutions,957636675.78
+924110.0,Administration of Air and Water Resource and Solid Waste Management Programs,956962246.41
+311612.0,Meat Processed from Carcasses,950011427.65
+621512.0,Diagnostic Imaging Centers,935000751.45
+531390.0,Other Activities Related to Real Estate,930348186.45
+541940.0,Veterinary Services,926338844.21
+812332.0,Industrial Launderers,925565148.33
+336320.0,Motor Vehicle Electrical and Electronic Equipment Manufacturing,917024200.98
+335314.0,Relay and Industrial Control Manufacturing,913203282.23
+325510.0,Paint and Coating Manufacturing,906897203.47
+532412.0,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",898869374.03
+532111.0,Passenger Car Rental,895097331.8
+444110.0,Home Centers,889903410.29
+238120.0,Structural Steel and Precast Concrete Contractors,876486828.95
+485111.0,Mixed Mode Transit Systems,872314166.58
+812930.0,Parking Lots and Garages,866128412.75
+335929.0,Other Communication and Energy Wire Manufacturing,859241956.74
+221121.0,Electric Bulk Power Transmission and Control,854540354.11
+562991.0,Septic Tank and Related Services,848955877.45
+335912.0,Primary Battery Manufacturing,846108603.99
+312112.0,Bottled Water Manufacturing,845814269.01
+332912.0,Fluid Power Valve and Hose Fitting Manufacturing,845029668.67
+334416.0,"Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing",844747691.41
+561410.0,Document Preparation Services,835839764.98
+517212.0,Cellular and Other Wireless Telecommunications,828028589.16
+423830.0,Industrial Machinery and Equipment Merchant Wholesalers,827336724.72
+311422.0,Specialty Canning,827035125.46
+333912.0,Air and Gas Compressor Manufacturing,812607730.83
+327991.0,Cut Stone and Stone Product Manufacturing,811127393.36
+339111.0,Laboratory Apparatus and Furniture Manufacturing,810777562.19
+512110.0,Motion Picture and Video Production,797488081.47
+339944.0,Carbon Paper and Inked Ribbon Manufacturing,784115729.55
+624221.0,Temporary Shelters,775945937.55
+326299.0,All Other Rubber Product Manufacturing,763493695.55
+423310.0,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",762636721.51
+339114.0,Dental Equipment and Supplies Manufacturing,759741933.29
+333313.0,Office Machinery Manufacturing,754341928.62
+812320.0,Drycleaning and Laundry Services (except Coin-Operated),735671927.28
+333244.0,Printing Machinery and Equipment Manufacturing,729689167.71
+322299.0,All Other Converted Paper Product Manufacturing,710771015.69
+333413.0,Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing,709621176.44
+333996.0,Fluid Power Pump and Motor Manufacturing,709390013.17
+321920.0,Wood Container and Pallet Manufacturing,705618237.46
+313210.0,Broadwoven Fabric Mills,704534312.05
+423210.0,Furniture Merchant Wholesalers,700500660.58
+561492.0,Court Reporting and Stenotype Services,695332702.45
+311514.0,"Dry, Condensed, and Evaporated Dairy Product Manufacturing",686595203.57
+333922.0,Conveyor and Conveying Equipment Manufacturing,684755136.93
+335129.0,Other Lighting Equipment Manufacturing,674622850.95
+326122.0,Plastics Pipe and Pipe Fitting Manufacturing,670316533.56
+327390.0,Other Concrete Product Manufacturing,660808421.64
+325910.0,Printing Ink Manufacturing,660642784.36
+541890.0,Other Services Related to Advertising,659579896.91
+562112.0,Hazardous Waste Collection,657923504.37
+311230.0,Breakfast Cereal Manufacturing,655655877.47
+541430.0,Graphic Design Services,652176038.93
+531190.0,Lessors of Other Real Estate Property,642922099.56
+561910.0,Packaging and Labeling Services,638280270.68
+623220.0,Residential Mental Health and Substance Abuse Facilities,631655328.67
+441229.0,All Other Motor Vehicle Dealers,628838305.66
+334614.0,"Software and Other Prerecorded Compact Disc, Tape, and Record Reproducing",628698847.89
+115210.0,Support Activities for Animal Production,626357797.65
+453998.0,All Other Miscellaneous Store Retailers (except Tobacco Stores),624868490.17
+238330.0,Flooring Contractors,614087781.66
+424590.0,Other Farm Product Raw Material Merchant Wholesalers,608655943.5
+339940.0,Office Supplies (except Paper) Manufacturing,607662688.87
+336330.0,Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,606864685.75
+611110.0,Elementary and Secondary Schools,599691777.19
+524210.0,Insurance Agencies and Brokerages,599225005.89
+221118.0,Other Electric Power Generation,590220622.65
+332618.0,Other Fabricated Wire Product Manufacturing,587239612.62
+334411.0,Electron Tube Manufacturing,583299005.91
+423120.0,Motor Vehicle Supplies and New Parts Merchant Wholesalers,573303840.78
+336322.0,Other Motor Vehicle Electrical and Electronic Equipment Manufacturing,567743932.46
+326220.0,Rubber and Plastics Hoses and Belting Manufacturing,563090674.61
+561510.0,Travel Agencies,560379372.88
+561710.0,Exterminating and Pest Control Services,560100509.29
+212234.0,Copper Ore and Nickel Ore Mining,558952937.06
+331421.0,"Copper Rolling, Drawing, and Extruding",558192871.86
+221111.0,Hydroelectric Power Generation,557589532.56
+333512.0,Machine Tool (Metal Cutting Types) Manufacturing,557441284.84
+485113.0,Bus and Other Motor Vehicle Transit Systems,556696384.39
+483113.0,Coastal and Great Lakes Freight Transportation,552189347.03
+238140.0,Masonry Contractors,538282329.13
+562219.0,Other Nonhazardous Waste Treatment and Disposal,534009655.36
+561330.0,Professional Employer Organizations,534008044.14
+483112.0,Deep Sea Passenger Transportation,531944899.52
+334514.0,Totalizing Fluid Meter and Counting Device Manufacturing,524888134.18
+621330.0,Offices of Mental Health Practitioners (except Physicians),524161381.24
+325211.0,Plastics Material and Resin Manufacturing,516292567.35
+423710.0,Hardware Merchant Wholesalers,516252605.87
+624229.0,Other Community Housing Services,513450074.39
+333913.0,Measuring and Dispensing Pump Manufacturing,509758676.62
+423420.0,Office Equipment Merchant Wholesalers,508877148.64
+481111.0,Scheduled Passenger Air Transportation,506547950.69
+,,502814625.13
+311222.0,Soybean Processing,502121956.85
+923110.0,Administration of Education Programs,500318778.92
+811198.0,All Other Automotive Repair and Maintenance,498841206.82
+442110.0,Furniture Stores,498129170.78
+336310.0,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,495700333.45
+112990.0,All Other Animal Production,494855486.47
+483211.0,Inland Water Freight Transportation,493184987.04
+333914.0,"Measuring, Dispensing, and Other Pumping Equipment Manufacturing",491568425.28
+313310.0,Textile and Fabric Finishing Mills,487327874.81
+811412.0,Appliance Repair and Maintenance,484760676.85
+532120.0,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",479302495.4
+333111.0,Farm Machinery and Equipment Manufacturing,475962841.76
+334611.0,Software Reproducing,474608787.34
+454310.0,Fuel Dealers,471464536.5
+322211.0,Corrugated and Solid Fiber Box Manufacturing,470773452.16
+325520.0,Adhesive Manufacturing,467231753.3
+451110.0,Sporting Goods Stores,464962976.46
+611513.0,Apprenticeship Training,464789290.38
+488490.0,Other Support Activities for Road Transportation,464602390.12
+311340.0,Nonchocolate Confectionery Manufacturing,464101364.01
+813311.0,Human Rights Organizations,455276708.4
+339950.0,Sign Manufacturing,452833067.04
+541860.0,Direct Mail Advertising,451823453.69
+922160.0,Fire Protection,449922225.25
+424120.0,Stationery and Office Supplies Merchant Wholesalers,448921401.03
+488991.0,Packing and Crating,448669150.15
+311224.0,Soybean and Other Oilseed Processing,447334208.74
+311919.0,Other Snack Food Manufacturing,438697158.78
+333249.0,Other Industrial Machinery Manufacturing,433952927.64
+524291.0,Claims Adjusting,429916714.17
+311412.0,Frozen Specialty Food Manufacturing,429235796.49
+484110.0,"General Freight Trucking, Local",427990843.42
+336360.0,Motor Vehicle Seating and Interior Trim Manufacturing,424609822.51
+333414.0,Heating Equipment (except Warm Air Furnaces) Manufacturing,423933281.33
+423840.0,Industrial Supplies Merchant Wholesalers,423458903.52
+333992.0,Welding and Soldering Equipment Manufacturing,423031547.35
+335921.0,Fiber Optic Cable Manufacturing,422647978.64
+325612.0,Polish and Other Sanitation Good Manufacturing,421343126.13
+424320.0,Men's and Boys' Clothing and Furnishings Merchant Wholesalers,419393292.9
+312221.0,Cigarette Manufacturing,408291700.67
+561431.0,Private Mail Centers,408054675.86
+332111.0,Iron and Steel Forging,407797144.84
+423320.0,"Brick, Stone, and Related Construction Material Merchant Wholesalers",404268244.66
+325992.0,"Photographic Film, Paper, Plate, and Chemical Manufacturing",404047535.03
+424710.0,Petroleum Bulk Stations and Terminals,401878911.72
+313320.0,Fabric Coating Mills,400960025.03
+722320.0,Caterers,399206801.22
+212321.0,Construction Sand and Gravel Mining,397712543.05
+425120.0,Wholesale Trade Agents and Brokers,395278130.44
+323117.0,Books Printing,391699755.99
+541922.0,Commercial Photography,386609315.92
+444190.0,Other Building Material Dealers,383922786.12
+811121.0,"Automotive Body, Paint, and Interior Repair and Maintenance",382936448.87
+611691.0,Exam Preparation and Tutoring,377479481.2
+326111.0,Plastics Bag and Pouch Manufacturing,375644289.1
+532283.0,Home Health Equipment Rental,372893017.89
+332721.0,Precision Turned Product Manufacturing,370511118.43
+541214.0,Payroll Services,370286557.82
+523930.0,Investment Advice,368690423.81
+332322.0,Sheet Metal Work Manufacturing,361590542.71
+331111.0,Iron and Steel Mills,360943518.71
+925120.0,Administration of Urban Planning and Community and Rural Development,353315400.91
+541320.0,Landscape Architectural Services,351767187.68
+334113.0,Computer Terminal Manufacturing,343290796.03
+624120.0,Services for the Elderly and Persons with Disabilities,342936915.08
+311824.0,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",336017429.85
+611692.0,Automobile Driving Schools,334876984.9
+311941.0,"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",333746331.73
+423520.0,Coal and Other Mineral and Ore Merchant Wholesalers,332700808.27
+424430.0,Dairy Product (except Dried or Canned) Merchant Wholesalers,332537895.86
+337124.0,Metal Household Furniture Manufacturing,332089254.95
+115112.0,"Soil Preparation, Planting, and Cultivating",329492010.28
+423910.0,Sporting and Recreational Goods and Supplies Merchant Wholesalers,329442405.0
+313311.0,Broadwoven Fabric Finishing Mills,324301134.55
+424920.0,"Book, Periodical, and Newspaper Merchant Wholesalers",321786995.75
+562998.0,All Other Miscellaneous Waste Management Services,320575876.74
+441310.0,Automotive Parts and Accessories Stores,318162807.01
+441110.0,New Car Dealers,318105963.41
+315240.0,"Women’s, Girls’, and Infants’ Cut and Sew Apparel Manufacturing",315093933.63
+321992.0,Prefabricated Wood Building Manufacturing,314472810.28
+333515.0,Cutting Tool and Machine Tool Accessory Manufacturing,313940708.15
+424690.0,Other Chemical and Allied Products Merchant Wholesalers,313568999.88
+333241.0,Food Product Machinery Manufacturing,312276776.35
+712110.0,Museums,312055047.52
+337910.0,Mattress Manufacturing,310459524.69
+333411.0,Air Purification Equipment Manufacturing,308679358.29
+322221.0,Coated and Laminated Packaging Paper Manufacturing,307123457.78
+335122.0,"Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing",305806782.7
+423410.0,Photographic Equipment and Supplies Merchant Wholesalers,300950185.68
+515120.0,Television Broadcasting,294056786.28
+,,293760380.84
+336321.0,Vehicular Lighting Equipment Manufacturing,293556646.39
+523140.0,Commodity Contracts Brokerage,292156808.31
+111998.0,All Other Miscellaneous Crop Farming,290738016.18
+336311.0,"Carburetor, Piston, Piston Ring, and Valve Manufacturing",288813586.81
+314110.0,Carpet and Rug Mills,282618577.23
+311111.0,Dog and Cat Food Manufacturing,281493573.49
+541490.0,Other Specialized Design Services,281337028.01
+332321.0,Metal Window and Door Manufacturing,280718470.03
+331210.0,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,280149961.38
+339116.0,Dental Laboratories,280117847.65
+311821.0,Cookie and Cracker Manufacturing,277938115.47
+333997.0,Scale and Balance Manufacturing,276272869.6
+315222.0,"Men's and Boys' Cut and Sew Suit, Coat, and Overcoat Manufacturing",274847088.39
+321212.0,Softwood Veneer and Plywood Manufacturing,272767270.51
+336312.0,Gasoline Engine and Engine Parts Manufacturing,269481686.31
+423620.0,"Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers",267646065.15
+813110.0,Religious Organizations,266878636.41
+512191.0,Teleproduction and Other Postproduction Services,266463192.91
+523991.0,"Trust, Fiduciary, and Custody Activities",263869904.37
+611210.0,Junior Colleges,262202232.4
+,,261677862.44
+335932.0,Noncurrent-Carrying Wiring Device Manufacturing,259614643.0
+327910.0,Abrasive Product Manufacturing,255119697.57
+314911.0,Textile Bag Mills,253572842.7
+333994.0,Industrial Process Furnace and Oven Manufacturing,252761280.51
+212319.0,Other Crushed and Broken Stone Mining and Quarrying,251394992.01
+332112.0,Nonferrous Forging,250923334.0
+541410.0,Interior Design Services,250290820.62
+424420.0,Packaged Frozen Food Merchant Wholesalers,247887070.2
+337125.0,Household Furniture (except Wood and Metal) Manufacturing,247714109.17
+238350.0,Finish Carpentry Contractors,245202276.98
+423440.0,Other Commercial Equipment Merchant Wholesalers,244049094.01
+112310.0,Chicken Egg Production,242720521.01
+336340.0,Motor Vehicle Brake System Manufacturing,242397082.82
+323111.0,Commercial Printing (except Screen and Books),241937565.8
+311520.0,Ice Cream and Frozen Dessert Manufacturing,240605448.07
+812331.0,Linen Supply,240230985.97
+322223.0,Coated Paper Bag and Pouch Manufacturing,237310679.38
+316999.0,All Other Leather Good and Allied Product Manufacturing,236823278.43
+423810.0,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,233989647.6
+531320.0,Offices of Real Estate Appraisers,231302119.31
+311119.0,Other Animal Food Manufacturing,230937382.17
+331110.0,Iron and Steel Mills and Ferroalloy Manufacturing,229319845.63
+335110.0,Electric Lamp Bulb and Part Manufacturing,229153627.57
+541191.0,Title Abstract and Settlement Offices,226063670.27
+515210.0,Cable and Other Subscription Programming,223877582.31
+333921.0,Elevator and Moving Stairway Manufacturing,223867079.62
+331221.0,Rolled Steel Shape Manufacturing,223572895.46
+333513.0,Machine Tool (Metal Forming Types) Manufacturing,222012101.53
+325199.0,All Other Basic Organic Chemical Manufacturing,220719054.24
+313312.0,Textile and Fabric Finishing (except Broadwoven Fabric) Mills,220557259.24
+333995.0,Fluid Power Cylinder and Actuator Manufacturing,220086970.03
+811490.0,Other Personal and Household Goods Repair and Maintenance,219462186.81
+311711.0,Seafood Canning,219447106.53
+,,216807854.31
+333112.0,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,215646713.19
+561311.0,Employment Placement Agencies,210987192.11
+492210.0,Local Messengers and Local Delivery,210610768.75
+813312.0,"Environment, Conservation and Wildlife Organizations",210579882.11
+327211.0,Flat Glass Manufacturing,203018152.74
+333519.0,Rolling Mill and Other Metalworking Machinery Manufacturing,201403205.84
+313230.0,Nonwoven Fabric Mills,200895799.83
+311823.0,Dry Pasta Manufacturing,200729007.47
+483114.0,Coastal and Great Lakes Passenger Transportation,198427076.87
+811211.0,Consumer Electronics Repair and Maintenance,197460422.48
+332116.0,Metal Stamping,197450831.19
+322230.0,Stationery Product Manufacturing,196141123.84
+515111.0,Radio Networks,195052125.2
+562212.0,Solid Waste Landfill,192757520.95
+424990.0,Other Miscellaneous Nondurable Goods Merchant Wholesalers,191061960.74
+713940.0,Fitness and Recreational Sports Centers,190320802.75
+812220.0,Cemeteries and Crematories,189260795.19
+339994.0,"Broom, Brush, and Mop Manufacturing",188794757.04
+324121.0,Asphalt Paving Mixture and Block Manufacturing,183955324.77
+327999.0,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing,183090307.97
+541830.0,Media Buying Agencies,181619484.34
+454319.0,Other Fuel Dealers,180970091.46
+333991.0,Power-Driven Handtool Manufacturing,180456156.27
+922120.0,Police Protection,177714964.97
+323119.0,Other Commercial Printing,175087156.54
+485320.0,Limousine Service,174182811.35
+212312.0,Crushed and Broken Limestone Mining and Quarrying,172467893.96
+813910.0,Business Associations,172381105.36
+238310.0,Drywall and Insulation Contractors,171018015.37
+314991.0,"Rope, Cordage, and Twine Mills",170667572.83
+322220.0,Paper Bag and Coated and Treated Paper Manufacturing,170335713.24
+113310.0,Logging,170327668.95
+925110.0,Administration of Housing Programs,170071672.16
+424450.0,Confectionery Merchant Wholesalers,167229904.97
+315225.0,Men's and Boys' Cut and Sew Work Clothing Manufacturing,166697015.87
+812910.0,Pet Care (except Veterinary) Services,166368511.08
+336510.0,Railroad Rolling Stock Manufacturing,164586988.38
+311330.0,Confectionery Manufacturing from Purchased Chocolate,163613953.4
+311512.0,Creamery Butter Manufacturing,163108883.08
+325320.0,Pesticide and Other Agricultural Chemical Manufacturing,162612979.3
+325212.0,Synthetic Rubber Manufacturing,161835642.84
+452990.0,All Other General Merchandise Stores,161815482.51
+531312.0,Nonresidential Property Managers,160818368.61
+562920.0,Materials Recovery Facilities,160663703.12
+424950.0,"Paint, Varnish, and Supplies Merchant Wholesalers",160456004.23
+532210.0,Consumer Electronics and Appliances Rental,158709175.25
+332812.0,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",158589475.5
+511110.0,Newspaper Publishers,157041222.33
+448210.0,Shoe Stores,156723448.38
+924120.0,Administration of Conservation Programs,155774658.64
+326291.0,Rubber Product Manufacturing for Mechanical Use,155773300.89
+321999.0,All Other Miscellaneous Wood Product Manufacturing,155321411.56
+332813.0,"Electroplating, Plating, Polishing, Anodizing, and Coloring",154769092.85
+315212.0,"Women's, Girls', and Infants' Cut and Sew Apparel Contractors",153420702.72
+311942.0,Spice and Extract Manufacturing,153411808.23
+334613.0,Blank Magnetic and Optical Recording Media Manufacturing,151204711.12
+512120.0,Motion Picture and Video Distribution,148754638.07
+441228.0,"Motorcycle, ATV, and All Other Motor Vehicle Dealers",148203327.48
+713990.0,All Other Amusement and Recreation Industries,146483470.28
+311712.0,Fresh and Frozen Seafood Processing,145808029.22
+326130.0,"Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",145801957.2
+332913.0,Plumbing Fixture Fitting and Trim Manufacturing,142465296.94
+314994.0,"Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills",142170127.87
+561613.0,Armored Car Services,142106906.44
+,,141961221.62
+322222.0,Coated and Laminated Paper Manufacturing,141870898.45
+621320.0,Offices of Optometrists,141463427.6
+322212.0,Folding Paperboard Box Manufacturing,141122342.37
+561439.0,Other Business Service Centers (including Copy Shops),140711747.16
+315221.0,Men's and Boys' Cut and Sew Underwear and Nightwear Manufacturing,139932001.2
+332323.0,Ornamental and Architectural Metal Work Manufacturing,139880326.86
+511140.0,Directory and Mailing List Publishers,139838549.55
+485510.0,Charter Bus Industry,138327390.33
+441222.0,Boat Dealers,138219599.6
+721211.0,RV (Recreational Vehicle) Parks and Campgrounds,137850046.39
+212112.0,Bituminous Coal Underground Mining,137145924.68
+337121.0,Upholstered Household Furniture Manufacturing,131406786.0
+541420.0,Industrial Design Services,131405061.44
+488410.0,Motor Vehicle Towing,130956065.54
+454312.0,Liquefied Petroleum Gas (Bottled Gas) Dealers,130684071.32
+541850.0,Outdoor Advertising,130605423.97
+327215.0,Glass Product Manufacturing Made of Purchased Glass,129102818.59
+333993.0,Packaging Machinery Manufacturing,127519362.48
+441210.0,Recreational Vehicle Dealers,127504901.49
+316998.0,All Other Leather Good and Allied Product Manufacturing,127466604.14
+926150.0,"Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors",125218667.08
+332431.0,Metal Can Manufacturing,125179245.56
+333514.0,"Special Die and Tool, Die Set, Jig, and Fixture Manufacturing",123965829.27
+238150.0,Glass and Glazing Contractors,123897243.85
+512199.0,Other Motion Picture and Video Industries,122927978.45
+211130.0,Natural Gas Extraction,122062704.88
+525120.0,Health and Welfare Funds,121425498.02
+622310.0,Specialty (except Psychiatric and Substance Abuse) Hospitals,121304043.81
+331318.0,"Other Aluminum Rolling, Drawing, and Extruding",120954609.38
+424130.0,Industrial and Personal Service Paper Merchant Wholesalers,120413341.25
+112330.0,Turkey Production,119740269.21
+331222.0,Steel Wire Drawing,119450603.7
+,,118056552.55
+621493.0,Freestanding Ambulatory Surgical and Emergency Centers,117796423.6
+423740.0,Refrigeration Equipment and Supplies Merchant Wholesalers,117366137.85
+488210.0,Support Activities for Rail Transportation,117350955.65
+327111.0,Vitreous China Plumbing Fixture and China and Earthenware Bathroom Accessories Manufacturing,116624505.55
+484122.0,"General Freight Trucking, Long-Distance, Less Than Truckload",116570214.63
+333518.0,Other Metalworking Machinery Manufacturing,114046883.64
+443142.0,Electronics Stores,113917588.69
+443112.0,"Radio, Television, and Other Electronics Stores",113485745.37
+336991.0,"Motorcycle, Bicycle, and Parts Manufacturing",112585088.64
+335991.0,Carbon and Graphite Product Manufacturing,111756787.29
+326150.0,Urethane and Other Foam Product (except Polystyrene) Manufacturing,111632104.23
+323114.0,Quick Printing,111377679.68
+,,110837483.91
+519110.0,News Syndicates,110498037.08
+315991.0,"Hat, Cap, and Millinery Manufacturing",110262053.08
+315992.0,Glove and Mitten Manufacturing,109846458.46
+335224.0,Household Laundry Equipment Manufacturing,107448530.57
+236117.0,New Housing For-Sale Builders,106579876.71
+325314.0,Fertilizer (Mixing Only) Manufacturing,105882101.82
+423510.0,Metal Service Centers and Other Metal Merchant Wholesalers,105683978.3
+532310.0,General Rental Centers,104992819.83
+322291.0,Sanitary Paper Product Manufacturing,104581531.4
+332613.0,Spring Manufacturing,101411061.61
+722212.0,"Cafeterias, Grill Buffets, and Buffets",99978454.45
+423720.0,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,99974202.66
+334415.0,Electronic Resistor Manufacturing,99182135.96
+921110.0,Executive Offices,98562419.34
+113210.0,Forest Nurseries and Gathering of Forest Products,98312442.01
+221113.0,Nuclear Electric Power Generation,97908146.27
+238170.0,Siding Contractors,97906222.4
+221114.0,Solar Electric Power Generation,97717523.83
+922130.0,Legal Counsel and Prosecution,97587461.66
+516110.0,Internet Publishing and Broadcasting,96379312.2
+311920.0,Coffee and Tea Manufacturing,96319877.82
+423330.0,"Roofing, Siding, and Insulation Material Merchant Wholesalers",95761346.03
+611620.0,Sports and Recreation Instruction,95535196.92
+424470.0,Meat and Meat Product Merchant Wholesalers,95245983.8
+335121.0,Residential Electric Lighting Fixture Manufacturing,94789942.7
+336370.0,Motor Vehicle Metal Stamping,94422343.62
+711310.0,"Promoters of Performing Arts, Sports, and Similar Events with Facilities",93723861.41
+485112.0,Commuter Rail Systems,93703237.17
+316211.0,Rubber and Plastics Footwear Manufacturing,93563804.38
+326112.0,Plastics Packaging Film and Sheet (including Laminated) Manufacturing,93382068.53
+331529.0,Other Nonferrous Metal Foundries (except Die-Casting),92197593.95
+562213.0,Solid Waste Combustors and Incinerators,92149129.68
+722211.0,Limited-Service Restaurants,91610841.48
+221117.0,Biomass Electric Power Generation,91506911.46
+312113.0,Ice Manufacturing,91331064.12
+561622.0,Locksmiths,91098378.96
+327320.0,Ready-Mix Concrete Manufacturing,90315274.76
+333412.0,Industrial and Commercial Fan and Blower Manufacturing,89350746.48
+624410.0,Child Day Care Services,88790587.13
+321211.0,Hardwood Veneer and Plywood Manufacturing,88322361.26
+337212.0,Custom Architectural Woodwork and Millwork Manufacturing,88175124.4
+532299.0,All Other Consumer Goods Rental,87984884.77
+321113.0,Sawmills,87208942.1
+311811.0,Retail Bakeries,86433874.17
+721310.0,"Rooming and Boarding Houses, Dormitories, and Workers' Camps",86339385.76
+446199.0,All Other Health and Personal Care Stores,85784265.86
+524113.0,Direct Life Insurance Carriers,85153194.56
+443111.0,Household Appliance Stores,84881377.07
+622210.0,Psychiatric and Substance Abuse Hospitals,84391156.7
+532292.0,Recreational Goods Rental,84034010.86
+712120.0,Historical Sites,83682166.76
+334414.0,Electronic Capacitor Manufacturing,82981807.65
+454311.0,Heating Oil Dealers,82511912.64
+448110.0,Men's Clothing Stores,82404499.67
+333132.0,Oil and Gas Field Machinery and Equipment Manufacturing,82367850.61
+325620.0,Toilet Preparation Manufacturing,82367440.12
+,,82321452.0
+926110.0,Administration of General Economic Programs,81723839.29
+315224.0,"Men's and Boys' Cut and Sew Trouser, Slack, and Jean Manufacturing",81351394.08
+485310.0,Taxi Service,80569621.08
+423730.0,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,80321573.64
+326113.0,Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing,80247057.13
+332215.0,"Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",79621175.97
+524130.0,Reinsurance Carriers,79164822.99
+335222.0,Household Refrigerator and Home Freezer Manufacturing,79073285.23
+512290.0,Other Sound Recording Industries,78912877.58
+111940.0,Hay Farming,78423602.88
+447110.0,Gasoline Stations with Convenience Stores,78235548.79
+813990.0,"Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",77500828.19
+315239.0,Women's and Girls' Cut and Sew Other Outerwear Manufacturing,77460139.63
+315110.0,Hosiery and Sock Mills,77081399.1
+323113.0,Commercial Screen Printing,76609180.83
+333294.0,Food Product Machinery Manufacturing,76360846.69
+314121.0,Curtain and Drapery Mills,75831709.42
+313221.0,Narrow Fabric Mills,75282543.93
+812210.0,Funeral Homes and Funeral Services,72841140.57
+339993.0,"Fastener, Button, Needle, and Pin Manufacturing",72742937.87
+339992.0,Musical Instrument Manufacturing,72066121.33
+424610.0,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,71964014.05
+813319.0,Other Social Advocacy Organizations,71578042.62
+926140.0,Regulation of Agricultural Marketing and Commodities,71437148.15
+331422.0,Copper Wire (except Mechanical) Drawing,70653309.21
+445299.0,All Other Specialty Food Stores,69890965.22
+339910.0,Jewelry and Silverware Manufacturing,66856077.08
+322224.0,Uncoated Paper and Multiwall Bag Manufacturing,66453894.86
+327331.0,Concrete Block and Brick Manufacturing,65887182.62
+926120.0,Regulation and Administration of Transportation Programs,65296993.93
+316991.0,Luggage Manufacturing,64848057.37
+448190.0,Other Clothing Stores,64723257.36
+711130.0,Musical Groups and Artists,64526506.36
+311312.0,Cane Sugar Refining,63854489.77
+448150.0,Clothing Accessories Stores,62951881.04
+335220.0,Major Household Appliance Manufacturing,62433000.16
+493130.0,Farm Product Warehousing and Storage,62257737.15
+,,62023854.76
+335228.0,Other Major Household Appliance Manufacturing,61877392.51
+332211.0,Cutlery and Flatware (except Precious) Manufacturing,61041174.88
+326140.0,Polystyrene Foam Product Manufacturing,60995480.93
+524126.0,Direct Property and Casualty Insurance Carriers,60990749.66
+331513.0,Steel Foundries (except Investment),60376801.87
+323110.0,Commercial Lithographic Printing,60120281.22
+332117.0,Powder Metallurgy Part Manufacturing,59306202.22
+333131.0,Mining Machinery and Equipment Manufacturing,58885391.81
+313240.0,Knit Fabric Mills,58321374.85
+442299.0,All Other Home Furnishings Stores,57746188.43
+711320.0,"Promoters of Performing Arts, Sports, and Similar Events without Facilities",57743940.13
+486210.0,Pipeline Transportation of Natural Gas,57647815.82
+332119.0,"Metal Crown, Closure, and Other Metal Stamping (except Automotive)",57102219.92
+333242.0,Semiconductor Machinery Manufacturing,56411047.53
+238130.0,Framing Contractors,56124727.33
+811411.0,Home and Garden Equipment Repair and Maintenance,55934367.84
+443130.0,Camera and Photographic Supplies Stores,55770137.92
+445220.0,Fish and Seafood Markets,55456758.64
+238340.0,Tile and Terrazzo Contractors,55451148.41
+327992.0,Ground or Treated Mineral and Earth Manufacturing,55143848.91
+333312.0,"Commercial Laundry, Drycleaning, and Pressing Machine Manufacturing",55005969.9
+314129.0,Other Household Textile Product Mills,54969072.73
+512230.0,Music Publishers,54708631.02
+321912.0,"Cut Stock, Resawing Lumber, and Planing",54619114.1
+327112.0,"Vitreous China, Fine Earthenware, and Other Pottery Product Manufacturing",54148773.05
+314120.0,Curtain and Linen Mills,53898358.95
+326191.0,Plastics Plumbing Fixture Manufacturing,53613160.27
+424110.0,Printing and Writing Paper Merchant Wholesalers,51663843.9
+711219.0,Other Spectator Sports,51465710.62
+311813.0,"Frozen Cakes, Pies, and Other Pastries Manufacturing",51117173.99
+561310.0,Employment Placement Agencies,51105664.32
+112511.0,Finfish Farming and Fish Hatcheries,50755042.35
+335210.0,Small Electrical Appliance Manufacturing,49221909.57
+454390.0,Other Direct Selling Establishments,48939237.8
+423930.0,Recyclable Material Merchant Wholesalers,48414036.95
+315223.0,Men's and Boys' Cut and Sew Shirt (except Work Shirt) Manufacturing,48410006.28
+541340.0,Drafting Services,48196933.41
+541840.0,Media Representatives,48166676.22
+336213.0,Motor Home Manufacturing,47765411.24
+,,47599994.46
+441221.0,"Motorcycle, ATV, and Personal Watercraft Dealers",47570735.4
+316214.0,Women's Footwear (except Athletic) Manufacturing,47355405.45
+923140.0,Administration of Veterans' Affairs,47248068.17
+424910.0,Farm Supplies Merchant Wholesalers,47095358.88
+515112.0,Radio Stations,46738810.56
+311223.0,Other Oilseed Processing,46595201.42
+425110.0,Business to Business Electronic Markets,46220552.22
+325220.0,Artificial and Synthetic Fibers and Filaments Manufacturing,46112709.6
+423460.0,Ophthalmic Goods Merchant Wholesalers,45925011.43
+333220.0,Plastics and Rubber Industry Machinery Manufacturing,45718475.54
+442210.0,Floor Covering Stores,45648056.84
+322219.0,Other Paperboard Container Manufacturing,45073785.74
+721214.0,Recreational and Vacation Camps (except Campgrounds),45007439.92
+446130.0,Optical Goods Stores,44927010.32
+332611.0,Spring (Heavy Gauge) Manufacturing,44890016.66
+,,44716827.67
+561740.0,Carpet and Upholstery Cleaning Services,44548767.51
+333511.0,Industrial Mold Manufacturing,44427717.3
+423220.0,Home Furnishing Merchant Wholesalers,44418412.41
+311930.0,Flavoring Syrup and Concentrate Manufacturing,44250660.88
+322213.0,Setup Paperboard Box Manufacturing,43685534.33
+453920.0,Art Dealers,43670165.21
+483212.0,Inland Water Passenger Transportation,43471475.65
+212325.0,Clay and Ceramic and Refractory Minerals Mining,43466919.77
+337920.0,Blind and Shade Manufacturing,43313108.79
+323115.0,Digital Printing,42626592.68
+423820.0,Farm and Garden Machinery and Equipment Merchant Wholesalers,42275291.36
+331319.0,Other Aluminum Rolling and Drawing,42260524.51
+326121.0,Unlaminated Plastics Profile Shape Manufacturing,42169483.31
+333295.0,Semiconductor Machinery Manufacturing,41559031.87
+323120.0,Support Activities for Printing,41549052.71
+325311.0,Nitrogenous Fertilizer Manufacturing,41540457.68
+713930.0,Marinas,41491156.63
+325991.0,Custom Compounding of Purchased Resins,41149363.7
+315119.0,Other Hosiery and Sock Mills,40891132.11
+327993.0,Mineral Wool Manufacturing,40775251.36
+112120.0,Dairy Cattle and Milk Production,40697520.23
+327212.0,Other Pressed and Blown Glass and Glassware Manufacturing,40627873.63
+541921.0,"Photography Studios, Portrait",40594804.81
+315190.0,Other Apparel Knitting Mills,39844881.44
+212311.0,Dimension Stone Mining and Quarrying,39428443.24
+532289.0,All Other Consumer Goods Rental,39413692.19
+335221.0,Household Cooking Appliance Manufacturing,39328877.2
+713110.0,Amusement and Theme Parks,38873887.85
+322233.0,"Stationery, Tablet, and Related Product Manufacturing",38358758.53
+454112.0,Electronic Auctions,38079045.45
+444120.0,Paint and Wallpaper Stores,37955633.46
+,,37885157.19
+813410.0,Civic and Social Organizations,37768350.02
+213113.0,Support Activities for Coal Mining,37474200.48
+721199.0,All Other Traveler Accommodation,36944252.18
+213115.0,Support Activities for Nonmetallic Minerals (except Fuels) Mining,36457099.46
+336391.0,Motor Vehicle Air-Conditioning Manufacturing,36178817.17
+339941.0,Pen and Mechanical Pencil Manufacturing,35835867.91
+211112.0,Natural Gas Liquid Extraction,35502420.23
+523130.0,Commodity Contracts Dealing,35457038.99
+322232.0,Envelope Manufacturing,35118246.65
+311830.0,Tortilla Manufacturing,35075122.72
+522220.0,Sales Financing,35005994.18
+331314.0,Secondary Smelting and Alloying of Aluminum,34871777.2
+453110.0,Florists,34806206.43
+722110.0,Full-Service Restaurants,34648424.77
+424460.0,Fish and Seafood Merchant Wholesalers,34440959.47
+447190.0,Other Gasoline Stations,34060440.47
+212299.0,All Other Metal Ore Mining,33614323.26
+451140.0,Musical Instrument and Supplies Stores,33278912.01
+611410.0,Business and Secretarial Schools,32747128.17
+561491.0,Repossession Services,32697010.32
+313110.0,"Fiber, Yarn, and Thread Mills",32620847.63
+722330.0,Mobile Food Services,32062803.85
+444210.0,Outdoor Power Equipment Stores,31718312.5
+313220.0,Narrow Fabric Mills and Schiffli Machine Embroidery,31427900.51
+339930.0,"Doll, Toy, and Game Manufacturing",31143265.11
+811420.0,Reupholstery and Furniture Repair,31042744.16
+237210.0,Land Subdivision,30743341.29
+321114.0,Wood Preservation,30638954.12
+811191.0,Automotive Oil Change and Lubrication Shops,30626391.27
+311320.0,Chocolate and Confectionery Manufacturing from Cacao Beans,30439752.05
+111421.0,Nursery and Tree Production,30175841.95
+923130.0,"Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)",29886947.72
+813219.0,Other Grantmaking and Giving Services,29573427.71
+324199.0,All Other Petroleum and Coal Products Manufacturing,29537566.82
+721120.0,Casino Hotels,29402689.45
+424340.0,Footwear Merchant Wholesalers,29245135.83
+331492.0,"Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",29094065.42
+339943.0,Marking Device Manufacturing,28671488.9
+453220.0,"Gift, Novelty, and Souvenir Stores",28623590.72
+114111.0,Finfish Fishing,28594323.1
+921130.0,Public Finance Activities,28560107.65
+712190.0,Nature Parks and Other Similar Institutions,28227675.29
+112920.0,Horses and Other Equine Production,27698487.12
+324122.0,Asphalt Shingle and Coating Materials Manufacturing,27455358.23
+321213.0,Engineered Wood Member (except Truss) Manufacturing,27211904.88
+,,27101733.6
+524128.0,"Other Direct Insurance (except Life, Health, and Medical) Carriers",27036936.14
+485210.0,Interurban and Rural Bus Transportation,26909632.03
+,,26454062.05
+333243.0,"Sawmill, Woodworking, and Paper Machinery Manufacturing",26331808.26
+331316.0,Aluminum Extruded Product Manufacturing,26289225.49
+322214.0,"Fiber Can, Tube, Drum, and Similar Products Manufacturing",26103337.12
+525990.0,Other Financial Vehicles,25748120.55
+811192.0,Car Washes,25391128.51
+321911.0,Wood Window and Door Manufacturing,25382887.79
+326160.0,Plastics Bottle Manufacturing,25033657.48
+111331.0,Apple Orchards,24915304.77
+531130.0,Lessors of Miniwarehouses and Self-Storage Units,24890905.9
+813212.0,Voluntary Health Organizations,24626682.36
+,,24492857.98
+111110.0,Soybean Farming,24257984.07
+316110.0,Leather and Hide Tanning and Finishing,23879282.94
+315191.0,Outerwear Knitting Mills,23740994.67
+332213.0,Saw Blade and Handsaw Manufacturing,23699853.05
+561520.0,Tour Operators,23424283.42
+332214.0,"Kitchen Utensil, Pot, and Pan Manufacturing",23276597.22
+423130.0,Tire and Tube Merchant Wholesalers,23089854.03
+561312.0,Executive Search Services,23077030.66
+212393.0,Other Chemical and Fertilizer Mineral Mining,23073541.59
+454111.0,Electronic Shopping,23008274.69
+621310.0,Offices of Chiropractors,22364020.68
+331512.0,Steel Investment Foundries,21611211.79
+111335.0,Tree Nut Farming,21431936.06
+711211.0,Sports Teams and Clubs,21377677.71
+339942.0,Lead Pencil and Art Good Manufacturing,21088195.07
+,,21000686.15
+921150.0,American Indian and Alaska Native Tribal Governments,20325768.17
+113110.0,Timber Tract Operations,19870016.33
+339932.0,"Game, Toy, and Children's Vehicle Manufacturing",19852548.54
+313113.0,Thread Mills,19741718.26
+444220.0,"Nursery, Garden Center, and Farm Supply Stores",19599153.14
+334518.0,"Watch, Clock, and Part Manufacturing",19290476.69
+541120.0,Offices of Notaries,19244024.86
+325130.0,Synthetic Dye and Pigment Manufacturing,19189370.44
+485119.0,Other Urban Transit Systems,19185531.51
+322130.0,Paperboard Mills,19164103.37
+541870.0,Advertising Material Distribution Services,18907531.24
+111120.0,Oilseed (except Soybean) Farming,18755865.51
+454113.0,Mail-Order Houses,18685908.52
+525110.0,Pension Funds,18257484.55
+441320.0,Tire Dealers,18169327.79
+311613.0,Rendering and Meat Byproduct Processing,18104827.83
+333210.0,Sawmill and Woodworking Machinery Manufacturing,18036206.43
+325132.0,Synthetic Organic Dye and Pigment Manufacturing,17968414.11
+443141.0,Household Appliance Stores,17960002.52
+326192.0,Resilient Floor Covering Manufacturing,17758429.49
+212313.0,Crushed and Broken Granite Mining and Quarrying,17710860.21
+321918.0,Other Millwork (including Flooring),17708826.65
+112420.0,Goat Farming,17687536.83
+,,17664820.06
+452910.0,Warehouse Clubs and Supercenters,17654514.04
+812199.0,Other Personal Care Services,17514430.21
+624210.0,Community Food Services,17378558.22
+424440.0,Poultry and Poultry Product Merchant Wholesalers,17274007.33
+331523.0,Nonferrous Metal Die-Casting Foundries,17153983.68
+812921.0,Photofinishing Laboratories (except One-Hour),16945115.65
+114119.0,Other Marine Fishing,16864881.14
+311822.0,Flour Mixes and Dough Manufacturing from Purchased Flour,16840092.15
+325110.0,Petrochemical Manufacturing,16786821.42
+327110.0,"Pottery, Ceramics, and Plumbing Fixture Manufacturing",16387094.43
+316219.0,Other Footwear Manufacturing,16243419.58
+334612.0,"Prerecorded Compact Disc (except Software), Tape, and Record Reproducing",16214236.54
+325222.0,Noncellulosic Organic Fiber Manufacturing,16205983.39
+921120.0,Legislative Bodies,16047332.48
+322231.0,Die-Cut Paper and Paperboard Office Supplies Manufacturing,16020603.43
+,,15920101.74
+454110.0,Electronic Shopping and Mail-Order Houses,15801071.79
+327310.0,Cement Manufacturing,15650042.62
+,,15582412.32
+323116.0,Manifold Business Forms Printing,15574393.34
+,,15564180.15
+332811.0,Metal Heat Treating,15551084.91
+486110.0,Pipeline Transportation of Crude Oil,15453452.89
+525190.0,Other Insurance Funds,15369311.85
+331419.0,Primary Smelting and Refining of Nonferrous Metal (except Copper and Aluminum),15306969.17
+115116.0,Farm Management Services,15224776.57
+213111.0,Drilling Oil and Gas Wells,15093135.06
+221115.0,Wind Electric Power Generation,15015125.9
+522210.0,Credit Card Issuing,14895615.37
+212399.0,All Other Nonmetallic Mineral Mining,14893228.73
+441120.0,Used Car Dealers,14569369.27
+332998.0,Enameled Iron and Metal Sanitary Ware Manufacturing,14538906.7
+482111.0,Line-Haul Railroads,14446605.77
+331313.0,Alumina Refining and Primary Aluminum Production,14333572.1
+,,14272788.25
+522190.0,Other Depository Credit Intermediation,14200071.48
+,,14197914.77
+114210.0,Hunting and Trapping,14138384.77
+623311.0,Continuing Care Retirement Communities,14071645.8
+517510.0,Cable and Other Program Distribution,14064656.01
+335211.0,Electric Housewares and Household Fan Manufacturing,14022257.63
+335212.0,Household Vacuum Cleaner Manufacturing,14018116.97
+111339.0,Other Noncitrus Fruit Farming,13893401.01
+333292.0,Textile Machinery Manufacturing,13778842.92
+448320.0,Luggage and Leather Goods Stores,13729804.79
+532284.0,Recreational Goods Rental,13721405.77
+451211.0,Book Stores,13624882.97
+325181.0,Alkalies and Chlorine Manufacturing,13572334.59
+315232.0,Women's and Girls' Cut and Sew Blouse and Shirt Manufacturing,13536122.79
+423140.0,Motor Vehicle Parts (Used) Merchant Wholesalers,13400672.41
+337110.0,Wood Kitchen Cabinet and Countertop Manufacturing,13224815.87
+512240.0,Sound Recording Studios,13171593.02
+621391.0,Offices of Podiatrists,12572560.96
+327122.0,Ceramic Wall and Floor Tile Manufacturing,12380069.22
+323118.0,"Blankbook, Looseleaf Binders, and Devices Manufacturing",12075517.4
+533110.0,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),11920263.1
+327332.0,Concrete Pipe Manufacturing,11691825.37
+442291.0,Window Treatment Stores,11547830.94
+525920.0,"Trusts, Estates, and Agency Accounts",11388565.53
+115111.0,Cotton Ginning,11241159.6
+327124.0,Clay Refractory Manufacturing,10970896.5
+623210.0,Residential Intellectual and Developmental Disability Facilities,10858237.6
+453310.0,Used Merchandise Stores,10844130.27
+315234.0,"Women's and Girls' Cut and Sew Suit, Coat, Tailored Jacket, and Skirt Manufacturing",10773355.31
+487210.0,"Scenic and Sightseeing Transportation, Water",10653572.91
+722511.0,Full-Service Restaurants,10305551.95
+487110.0,"Scenic and Sightseeing Transportation, Land",10286842.71
+,,10230829.11
+5417.0,Scientific Research and Development Services,10147255.79
+332114.0,Custom Roll Forming,10116152.28
+212111.0,Bituminous Coal and Lignite Surface Mining,9918595.82
+331522.0,Nonferrous (except Aluminum) Die-Casting Foundries,9878738.66
+331525.0,Copper Foundries (except Die-Casting),9839540.83
+112930.0,Fur-Bearing Animal and Rabbit Production,9797094.53
+313249.0,Other Knit Fabric and Lace Mills,9782081.01
+561591.0,Convention and Visitors Bureaus,9768915.63
+711190.0,Other Performing Arts Companies,9768379.66
+327213.0,Glass Container Manufacturing,9364992.32
+813930.0,Labor Unions and Similar Labor Organizations,9216946.11
+331312.0,Primary Aluminum Production,9094008.4
+313111.0,Yarn Spinning Mills,9016661.59
+522292.0,Real Estate Credit,8867784.46
+323112.0,Commercial Flexographic Printing,8806979.28
+621410.0,Family Planning Centers,8731222.69
+453930.0,Manufactured (Mobile) Home Dealers,8628788.25
+711410.0,"Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",8613994.55
+332612.0,Spring (Light Gauge) Manufacturing,8589665.11
+112320.0,Broilers and Other Meat Type Chicken Production,8568679.64
+333291.0,Paper Industry Machinery Manufacturing,8547668.38
+331511.0,Iron Foundries,8526569.4
+623312.0,Assisted Living Facilities for the Elderly,8448901.86
+327410.0,Lime Manufacturing,8428770.42
+722514.0,"Cafeterias, Grill Buffets, and Buffets",8329452.08
+111422.0,Floriculture Production,8290316.44
+517211.0,Paging,8268605.67
+712130.0,Zoos and Botanical Gardens,8236903.72
+453910.0,Pet and Pet Supplies Stores,8200184.44
+,,8128542.48
+339914.0,Costume Jewelry and Novelty Manufacturing,8104026.51
+,,7985714.69
+323122.0,Prepress Services,7969563.18
+112111.0,Beef Cattle Ranching and Farming,7934633.34
+525910.0,Open-End Investment Funds,7933538.98
+424310.0,"Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers",7835730.77
+711110.0,Theater Companies and Dinner Theaters,7783659.53
+424520.0,Livestock Merchant Wholesalers,7684127.8
+541213.0,Tax Preparation Services,7666199.94
+115115.0,Farm Labor Contractors and Crew Leaders,7618870.48
+811113.0,Automotive Transmission Repair,7598731.86
+111150.0,Corn Farming,7446806.11
+722213.0,Snack and Nonalcoholic Beverage Bars,7441905.12
+339911.0,Jewelry (except Costume) Manufacturing,7425412.76
+311221.0,Wet Corn Milling,7383047.88
+812111.0,Barber Shops,7344582.43
+446191.0,Food (Health) Supplement Stores,7191479.17
+524127.0,Direct Title Insurance Carriers,7158279.75
+,,7059635.56
+331528.0,Other Nonferrous Foundries (except Die-Casting),7045538.09
+551112.0,Offices of Other Holding Companies,6915933.75
+486990.0,All Other Pipeline Transportation,6907681.97
+111211.0,Potato Farming,6730601.82
+213114.0,Support Activities for Metal Mining,6643867.93
+812310.0,Coin-Operated Laundries and Drycleaners,6560525.27
+,,6551621.0
+311352.0,Confectionery Manufacturing from Purchased Chocolate,6491372.75
+,,6423133.82
+522120.0,Savings Institutions,6257397.27
+111140.0,Wheat Farming,6242484.58
+322122.0,Newsprint Mills,6190365.79
+327125.0,Nonclay Refractory Manufacturing,6080305.78
+325191.0,Gum and Wood Chemical Manufacturing,6054922.14
+327120.0,Clay Building Material and Refractories Manufacturing,6050409.85
+,,6014846.75
+424930.0,"Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers",5976500.15
+,,5900082.86
+339995.0,Burial Casket Manufacturing,5568633.56
+322215.0,Nonfolding Sanitary Food Container Manufacturing,5500194.06
+333311.0,Automatic Vending Machine Manufacturing,5464422.54
+512210.0,Record Production,5448198.55
+,,5414410.96
+112519.0,Other Aquaculture,5068274.44
+115113.0,"Crop Harvesting, Primarily by Machine",5045215.19
+112390.0,Other Poultry Production,4905795.75
+212322.0,Industrial Sand Mining,4838892.38
+321219.0,Reconstituted Wood Product Manufacturing,4797129.89
+452319.0,All Other General Merchandise Stores,4742159.45
+112210.0,Hog and Pig Farming,4693335.44
+331423.0,"Secondary Smelting, Refining, and Alloying of Copper",4646873.05
+327113.0,Porcelain Electrical Supply Manufacturing,4566312.43
+332997.0,Industrial Pattern Manufacturing,4515824.24
+323121.0,Tradebinding and Related Work,4470706.74
+,,4468071.48
+813211.0,Grantmaking Foundations,4440753.01
+331524.0,Aluminum Foundries (except Die-Casting),4394277.92
+112112.0,Cattle Feedlots,4340352.47
+312120.0,Breweries,4325816.8
+551114.0,"Corporate, Subsidiary, and Regional Managing Offices",4207095.55
+,,4178332.65
+424940.0,Tobacco and Tobacco Product Merchant Wholesalers,4080313.33
+315192.0,Underwear and Nightwear Knitting Mills,4074151.98
+523120.0,Securities Brokerage,4009796.97
+451212.0,News Dealers and Newsstands,4002681.36
+,,3960340.31
+532230.0,Video Tape and Disc Rental,3927604.99
+326212.0,Tire Retreading,3888188.21
+312140.0,Distilleries,3811378.11
+115114.0,Postharvest Crop Activities (except Cotton Ginning),3809944.59
+611511.0,Cosmetology and Barber Schools,3749034.39
+111199.0,All Other Grain Farming,3724669.44
+814110.0,Private Households,3669110.73
+922110.0,Courts,3617580.28
+211120.0,Crude Petroleum Extraction,3555947.97
+424810.0,Beer and Ale Merchant Wholesalers,3555226.81
+333516.0,Rolling Mill Machinery and Equipment Manufacturing,3540852.54
+523210.0,Securities and Commodity Exchanges,3514684.26
+713910.0,Golf Courses and Country Clubs,3463511.06
+312130.0,Wineries,3453089.32
+,,3449274.97
+811112.0,Automotive Exhaust System Repair,3436356.33
+221116.0,Geothermal Electric Power Generation,3371827.78
+,,3336225.54
+316993.0,Personal Leather Good (except Women's Handbag and Purse) Manufacturing,3289827.93
+518112.0,Web Search Portals,3283426.04
+451130.0,"Sewing, Needlework, and Piece Goods Stores",3262845.18
+423920.0,Toy and Hobby Goods and Supplies Merchant Wholesalers,3253634.41
+,,3182096.22
+525930.0,Real Estate Investment Trusts,3170042.57
+424820.0,Wine and Distilled Alcoholic Beverage Merchant Wholesalers,3167158.41
+921140.0,"Executive and Legislative Offices, Combined",3057503.93
+532282.0,Video Tape and Disc Rental,3054293.76
+448140.0,Family Clothing Stores,3043588.52
+111310.0,Orange Groves,3034450.78
+325613.0,Surface Active Agent Manufacturing,2971630.21
+451120.0,"Hobby, Toy, and Game Stores",2890462.62
+482112.0,Short Line Railroads,2869408.97
+522298.0,All Other Nondepository Credit Intermediation,2768735.7
+721191.0,Bed-and-Breakfast Inns,2762193.5
+,,2716653.22
+337129.0,"Wood Television, Radio, and Sewing Machine Cabinet Manufacturing",2604068.27
+521110.0,Monetary Authorities-Central Bank,2451325.95
+,,2356508.95
+,,2349620.79
+327420.0,Gypsum Product Manufacturing,2298166.24
+713950.0,Bowling Centers,2274204.21
+452311.0,Warehouse Clubs and Supercenters,2269696.7
+512220.0,Integrated Record Production/Distribution,2258202.41
+111219.0,Other Vegetable (except Potato) and Melon Farming,2205487.13
+114112.0,Shellfish Fishing,2063553.77
+,,2012823.23
+111191.0,Oilseed and Grain Combination Farming,1986103.85
+445291.0,Baked Goods Stores,1974985.62
+325193.0,Ethyl Alcohol Manufacturing,1926214.31
+311311.0,Sugarcane Mills,1872102.54
+331411.0,Primary Smelting and Refining of Copper,1871241.54
+212392.0,Phosphate Rock Mining,1871209.12
+452111.0,Department Stores (except Discount Department Stores),1821621.42
+,,1809854.53
+311314.0,Cane Sugar Manufacturing,1797242.42
+722513.0,Limited-Service Restaurants,1778536.3
+339912.0,Silverware and Hollowware Manufacturing,1746005.05
+424330.0,"Women's, Children's, and Infants' Clothing and Accessories Merchant Wholesalers",1733650.5
+,,1720772.64
+,,1708270.53
+325221.0,Cellulosic Organic Fiber Manufacturing,1705869.97
+112910.0,Apiculture,1673189.45
+522293.0,International Trade Financing,1583246.33
+325131.0,Inorganic Dye and Pigment Manufacturing,1582776.76
+321214.0,Truss Manufacturing,1544923.93
+522294.0,Secondary Market Financing,1520660.54
+811122.0,Automotive Glass Replacement Shops,1500686.48
+,,1483885.46
+611610.0,Fine Arts Schools,1445707.86
+313241.0,Weft Knit Fabric Mills,1408673.72
+,,1350195.29
+325312.0,Phosphatic Fertilizer Manufacturing,1344207.39
+,,1335016.25
+,,1328072.54
+331521.0,Aluminum Die-Casting Foundries,1292899.68
+,,1271001.23
+325194.0,"Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing",1261245.0
+512131.0,Motion Picture Theaters (except Drive-Ins),1253817.53
+532220.0,Formal Wear and Costume Rental,1237195.02
+,,1232052.0
+331112.0,Electrometallurgical Ferroalloy Product Manufacturing,1211866.82
+111920.0,Cotton Farming,1208617.96
+322226.0,Surface-Coated Paperboard Manufacturing,1198080.37
+454210.0,Vending Machine Operators,1169801.31
+522130.0,Credit Unions,1159791.83
+722410.0,Drinking Places (Alcoholic Beverages),1123454.7
+,,1025652.96
+112512.0,Shellfish Farming,1012668.62
+713920.0,Skiing Facilities,973620.96
+711120.0,Dance Companies,969735.74
+312230.0,Tobacco Manufacturing,936278.14
+812191.0,Diet and Weight Reducing Centers,933934.39
+212221.0,Gold Ore Mining,905588.83
+445210.0,Meat Markets,902965.38
+811430.0,Footwear and Leather Goods Repair,892724.01
+112340.0,Poultry Hatcheries,864267.46
+313222.0,Schiffli Machine Embroidery,845548.31
+,,829138.56
+,,808276.74
+,,789938.96
+,,786794.73
+311351.0,Chocolate and Confectionery Manufacturing from Cacao Beans,783476.11
+452112.0,Discount Department Stores,776320.81
+212391.0,"Potash, Soda, and Borate Mineral Mining",764257.77
+445120.0,Convenience Stores,743344.32
+111130.0,Dry Pea and Bean Farming,727134.14
+922150.0,Parole Offices and Probation Offices,719772.96
+111160.0,Rice Farming,707416.63
+112410.0,Sheep Farming,706970.02
+314992.0,Tire Cord and Tire Fabric Mills,680987.68
+,,679446.59
+,,679428.86
+322110.0,Pulp Mills,672853.05
+711212.0,Racetracks,667140.19
+722515.0,Snack and Nonalcoholic Beverage Bars,643450.44
+,,642753.14
+,,632755.0
+512250.0,Record Production and Distribution,619761.23
+111930.0,Sugarcane Farming,614014.03
+,,608214.52
+316212.0,House Slipper Manufacturing,574186.8
+451220.0,"Prerecorded Tape, Compact Disc, and Record Stores",564939.51
+,,531577.85
+,,528613.0
+522291.0,Consumer Lending,500702.07
+316992.0,Women's Handbag and Purse Manufacturing,494467.63
+812112.0,Beauty Salons,490916.77
+,,486901.81
+332115.0,Crown and Closure Manufacturing,483534.72
+327123.0,Other Structural Clay Product Manufacturing,481408.04
+111419.0,Other Food Crops Grown Under Cover,461675.79
+,,435400.0
+445310.0,"Beer, Wine, and Liquor Stores",420289.56
+212231.0,Lead Ore and Zinc Ore Mining,419078.65
+339931.0,Doll and Stuffed Toy Manufacturing,401325.1
+327121.0,Brick and Structural Clay Tile Manufacturing,389648.28
+713120.0,Amusement Arcades,388207.06
+448310.0,Jewelry Stores,370631.49
+,,368925.84
+448120.0,Women's Clothing Stores,364390.47
+487990.0,"Scenic and Sightseeing Transportation, Other",358691.86
+,,354865.32
+212324.0,Kaolin and Ball Clay Mining,350946.38
+111336.0,Fruit and Tree Nut Combination Farming,325391.01
+,,315195.22
+,,284024.04
+448130.0,Children's and Infants' Clothing Stores,281719.35
+,,277331.54
+445292.0,Confectionery and Nut Stores,276640.17
+315292.0,Fur and Leather Apparel Manufacturing,269932.71
+331311.0,Alumina Refining,269919.28
+325192.0,Cyclic Crude and Intermediate Manufacturing,263698.39
+,,263078.51
+713210.0,Casinos (except Casino Hotels),255406.54
+,,250964.31
+511191.0,Greeting Card Publishers,249630.56
+551111.0,Offices of Bank Holding Companies,240571.6
+315231.0,"Women's and Girls' Cut and Sew Lingerie, Loungewear, and Nightwear Manufacturing",239001.3
+,,219865.3
+812113.0,Nail Salons,216519.56
+813940.0,Political Organizations,212808.47
+,,210856.69
+322225.0,Laminated Aluminum Foil Manufacturing for Flexible Packaging Uses,192551.27
+212113.0,Anthracite Mining,190929.11
+,,186454.31
+,,185856.2
+,,183659.52
+112130.0,Dual-Purpose Cattle Ranching and Farming,183149.62
+,,179067.43
+,,173314.53
+339913.0,Jewelers' Material and Lapidary Work Manufacturing,165130.29
+,,155481.52
+311213.0,Malt Manufacturing,148784.25
+,,143306.0
+,,141016.49
+,,137177.19
+,,135309.19
+111992.0,Peanut Farming,127247.27
+111320.0,Citrus (except Orange) Groves,125275.95
+212210.0,Iron Ore Mining,121247.73
+,,121000.75
+315291.0,Infants' Cut and Sew Apparel Manufacturing,119819.99
+,,111568.12
+,,108904.0
+452210.0,Department Stores,105827.42
+,,102909.71
+,,102594.7
+,,100999.72
+325182.0,Carbon Black Manufacturing,99839.43
+,,95773.88
+,,93875.91
+,,90538.17
+512132.0,Drive-In Motion Picture Theaters,89979.04
+,,87330.08
+,,86707.46
+,,86531.57
+,,84768.24
+,,83293.6
+,,83072.41
+532281.0,Formal Wear and Costume Rental,82209.72
+,,79451.27
+,,75000.0
+,,74565.4
+311313.0,Beet Sugar Manufacturing,72850.21
+111333.0,Strawberry Farming,66097.64
+312229.0,Other Tobacco Product Manufacturing,65567.0
+315993.0,Men's and Boys' Neckwear Manufacturing,65111.14
+212291.0,Uranium-Radium-Vanadium Ore Mining,59080.0
+,,51690.0
+,,49697.76
+313112.0,"Yarn Texturizing, Throwing, and Twisting Mills",49394.06
+111332.0,Grape Vineyards,43092.02
+812922.0,One-Hour Photofinishing,39955.38
+,,39664.8
+111991.0,Sugar Beet Farming,38989.2
+,,38112.0
+,,37870.46
+315111.0,Sheer Hosiery Mills,37105.5
+713290.0,Other Gambling Industries,33341.04
+,,31230.0
+212230.0,"Copper, Nickel, Lead, and Zinc Mining",29870.0
+,,28814.04
+,,28447.5
+,,27020.0
+453991.0,Tobacco Stores,26397.6
+,,24907.41
+,,23720.0
+,,23674.7
+,,20335.0
+111910.0,Tobacco Farming,18975.67
+,,15470.0
+,,15203.23
+,,15074.84
+,,14652.24
+315233.0,Women's and Girls' Cut and Sew Dress Manufacturing,14631.55
+,,14448.0
+,,13542.82
+,,12463.08
+,,12342.0
+,,8418.0
+,,6942.96
+,,5578.27
+,,4754.13
+,,4104.0
+,,3855.36
+,,3800.0
+111411.0,Mushroom Production,3443.5
+,,2139.69
+312210.0,Tobacco Stemming and Redrying,310.0
+,,173.0
+,,0.0
+,,0.0
+,,0.0
+,,0.0
+,,0.0
+,,0.0
+,,0.0
+,,-17.78
+,,-2697.0
+,,-3477.74
+,,-3941.1
+,,-6450.26
+,,-9991.0
+,,-17988.0
+,,-50060.25
+,,-105865.82
+,,-320583.87
+,,-381549.83
+,,-1018852.54
+,,-1286616.0
+446120.0,"Cosmetics, Beauty Supplies, and Perfume Stores",-7073134.73
+,,-9201003.9
+,,-42189358.75

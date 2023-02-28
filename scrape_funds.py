@@ -92,31 +92,27 @@ for year in [2016, 2017, 2018, 2019, 2020]:
 
 # try
 payload = {
-
-    "category": "contract",
-    "scope": "recipient_location",
-    "recipient_location": [
-        {
-            "country": "USA",
-            "state": "AK",
-            "county": "",
-            "city": "",
-            "zip": "",
-            "congressional_district": ""
+    "filters": {
+        "recipient_location": [
+            {
+                "country": "USA",
+                "state": "AK",
+                "county": "",
+                "city": "",
+                "zip": "",
+                "congressional_district": ""
+            }
+        ],
+        "time_period": [
+            {"start_date": "2017-01-01",
+            "end_date": "2017-12-31"}]
         }
-    ],
-    "naics_codes": [
-        "43"
-    ],
-    "time_period": {
-        "start_date": "2016-01-01",
-        "end_date": "2016-12-31"
-    },
-    "page": 15,
+        ,
+    "page": 1,
     "limit": 100,
-    "sort": "date_signed",
-    "order": "desc"
+    "category": "naics"
 }
+
 results = []
 response = requests.post(f"{url}{endpoint}", json = payload)
 data = response.json()["results"]
@@ -129,6 +125,21 @@ while len(data) == 100:
         break
     payload["page"] += 1
 
+print(results[:20])
 
+with open("2017.csv", "w", newline = "") as csvfile:
+    writer = csv.writer(csvfile)
+    headers = list(results[0].keys())
+    headers.append('State')
+    writer.writerow(headers)
+    for state in results:
+        values = list(state.values())
+        values.append('Alaska')
+        writer.writerow(values)
 
+data_2016 = pd.read_csv("2016.csv")
+data_2016 = data_2016.drop(columns = ['id'], axis = 1)
+data_2016.to_csv("2016_data.csv", index = False)
+
+# They are returning the same thing 
 
