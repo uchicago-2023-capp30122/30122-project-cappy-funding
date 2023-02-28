@@ -46,19 +46,17 @@ def data_year(list_states):
 
         payload = {
             "filters": {
-            "recipient_location": [
-                {
-                    "country": "USA",
-                    "state": state,
-                    "county": "",
-                    "city": "",
-                    "zip": "",
-                    "congressional_district": ""
-                }
+            "recipient_locations": [
+            {"country": "USA",
+             "state": "AK"}
+            
             ],
+            
+ 
             "time_period": [
                 {"start_date": "2018-01-01",
-                "end_date": "2018-12-31"}]
+                "end_date": "2018-12-31"}],
+            "lower_bound": 0
             }
             ,
             "page": 1,
@@ -78,19 +76,19 @@ def data_year(list_states):
                 break
             payload["page"] += 1
         
-        dict[state] = results
+        dict['only'] = results
                 
-    with open("2018.csv", "w", newline = "") as csvfile:
+    with open("only_2018.csv", "w", newline = "") as csvfile:
 
         writer = csv.writer(csvfile)
-        headers = list(dict[state][0].keys())
+        headers = list(dict['only'][0].keys())
         headers.append('State')
         writer.writerow(headers)
 
         for state, results in dict.items():
             for row in results:
                 row_vals = list(row.values())
-                row_vals.append(state)
+                row_vals.append('only')
                 writer.writerow(row_vals)
 
     return 
