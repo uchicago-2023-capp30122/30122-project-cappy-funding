@@ -37,16 +37,12 @@ total_data = pd.read_csv("state_total_data.csv")
 url = "https://api.usaspending.gov"
 endpoint = "/api/v2/search/spending_by_category/naics"
 
-for year in [2016, 2017, 2018, 2019, 2020]:
-    
+for year in [2016]:
+    dict = {}
     for state in total_data["code"]:
-        
-        for naics in naics_data['naics']:
 
-            payload = {
-
-    "category": "contract",
-    "scope": "recipient_location",
+        payload = {
+"filters": {
     "recipient_location": [
         {
             "country": "USA",
@@ -57,38 +53,92 @@ for year in [2016, 2017, 2018, 2019, 2020]:
             "congressional_district": ""
         }
     ],
-    "naics_codes": [
-        f"{naics}"
-    ],
-    "time_period": {
-        "start_date": f"{year}-01-01",
-        "end_date": f"{year}-12-31"
-    },
-    "page": 1,
-    "limit": 100,
-    "sort": "date_signed",
-    "order": "desc"
+    "time_period": [
+        {"start_date": f"{year}-01-01",
+        "end_date": f"{year}-12-31"}]
+    }
+    ,
+"page": 1,
+"limit": 100,
+"category": "naics"
 }
-            
-            results = []
+        results = []
+        response = requests.post(f"{url}{endpoint}", json = payload)
+        data = response.json()["results"]
+
+        while len(data) == 100:
             response = requests.post(f"{url}{endpoint}", json = payload)
             data = response.json()["results"]
-
-            while len(data) == 100:
-                response = requests.post(f"{url}{endpoint}", json = payload)
-                data = response.json()["results"]
-                results.extend(data)
-                if len(data) < 100:
-                    break
-                payload["page"] += 1
+            results.extend(data)
+            if len(data) < 100:
+                break
+            payload["page"] += 1
+        
+        dict[f'{state}'] = results
             
+    with open(f"{year}.csv", "w", newline = "") as csvfile:
 
-    with open(f"{year}_data.csv", "w", newline = "") as csvfile:
         writer = csv.writer(csvfile)
-        headers = data[0].keys()
+        headers = list(dict[0].values()[0].keys())
+        headers.append('State')
         writer.writerow(headers)
-        for state in data:
-            writer.writerow(state.values())
+
+        for state, results in dict.items():
+            for row in results:
+                row_vals = list(row.values())
+                row_vals.append(f'{state}')
+                writer.writerow(row_vals)
+
+# disparse the loop into one year: 2016
+total_data = pd.read_csv("state_total_data.csv")
+url = "https://api.usaspending.gov"
+endpoint = "/api/v2/search/spending_by_category/naics"
+dict = {}
+
+for state in total_data["code"]:
+
+    payload = {
+        "filters": {
+        "recipient_location": [
+            {
+                "country": "USA",
+                "state": f"{state}",
+                "county": "",
+                "city": "",
+                "zip": "",
+                "congressional_district": ""
+            }
+        ],
+        "time_period": [
+            {"start_date": "2016-01-01",
+            "end_date": "2016-12-31"}]
+        }
+        ,
+        "page": 1,
+        "limit": 100,
+        "category": "naics"
+        }
+
+    results = []
+    response = requests.post(f"{url}{endpoint}", json = payload)
+    data = response.json()["results"]
+
+    while len(data) == 100:
+        response = requests.post(f"{url}{endpoint}", json = payload)
+        data = response.json()["results"]
+        results.extend(data)
+        if len(data) < 100:
+            break
+        payload["page"] += 1
+
+
+
+
+
+
+
+
+
 
 # try
 payload = {
