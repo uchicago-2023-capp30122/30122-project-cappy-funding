@@ -37,12 +37,11 @@ def clean_census(input_filename, output_filename):
 
     # Transposes dataframe and rename columns
     df = df.transpose()
-    new_header = df.iloc[0]
+    df.columns = df.iloc[0]
     df = df[1:]
-    df.columns = new_header
     df.reset_index(inplace=True)
     df.rename(columns = {'Expenditure1':'State Expenditure', 
-    "index" : "State", "Utility expenditure" : "Utility"}, inplace = True)
+    "index" : "State", "Utility expenditure" : "Utilities"}, inplace = True)
 
     for col in [col for col in df.columns]:
         if col != "State":
@@ -59,17 +58,18 @@ def clean_census(input_filename, output_filename):
 
     for col in [col for col in required_col_names]:
         if col == "State Expenditure":
-            df[col + " as % of US Expenditure"] = df.apply(lambda x : (x[col] /
-            int(df.loc[df["State"] == "United States Total", col])) * 100, axis = 1)
+            col_name = col + " as % of US Expenditure"
         else:
-            df[col + " (State Expenditure as % of Total US)"] = \
-                df.apply(lambda x : (x[col] / int(df.loc[df["State"] ==
+            col_name = col + " (State Expenditure as % of Total US)"
+
+        df[col + " (State Expenditure as % of Total US)"] = \
+            df.apply(lambda x : (x[col] / int(df.loc[df["State"] ==
                 "United States Total", col])) * 100, axis = 1)
-            df[col + " (as % of Total State Expenditure)"] = (df[col] /
-            df["State Expenditure"] * 100)
+        df[col + " (as % of Total State Expenditure)"] = (df[col] /
+        df["State Expenditure"] * 100)
 
     df.set_index(["State"], inplace = True)
-    output_file = df.to_csv(output_filename)
+        output_file = df.to_csv(output_filename)
 
     return output_file
 
