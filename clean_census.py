@@ -69,6 +69,7 @@ def clean_census(input_filename, output_filename):
             df["State Expenditure"] * 100)
 
     df.set_index(["State"], inplace = True)
+    output_file = df.to_csv(output_filename)
 
     return output_file
 
