@@ -46,7 +46,7 @@ def data_year(list_states):
 
         payload = {
             "filters": {
-            "recipient_locations": [
+            "place_of_performance_locations": [
             {"country": "USA",
              "state": state}
             
@@ -77,7 +77,7 @@ def data_year(list_states):
         
         dict[state] = results
                 
-    with open("2020_final.csv", "w", newline = "") as csvfile:
+    with open("2016_performance.csv", "w", newline = "") as csvfile:
 
         writer = csv.writer(csvfile)
         headers = list(dict[state][0].keys())
