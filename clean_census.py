@@ -48,7 +48,7 @@ def clean_census_expenditure(df):
 
     required_col_names = [col for col in df.columns[1:]]
 
-    for col in [col for col in required_col_names]:
+    for col in required_col_names:
 
         # Calculates state expenditure in one cateogry as a proportion
         # of total US expenditure for this category
