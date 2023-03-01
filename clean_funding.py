@@ -1,5 +1,5 @@
 import pandas as pd
-from utils_clean_and_analyze import STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES
+from utils_clean_and_analyze import STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES, NAICS_SECTOR_LST
 
 
 def clean_funding(raw_funding_df):
@@ -41,9 +41,10 @@ def clean_funding(raw_funding_df):
 
         # Calculates funding for each category as a share of the total funding received by a state
         funding_df_without_us = funding_df.iloc[0:len(funding_df)-1]
-        funding_df[col + " (as % of Total Funding Received by State)"] = (funding_df_without_us[col] / funding_df_without_us["State Total (All Categories)"]) * 100
+        funding_df[col + " (as % of Total Funding Received by State)"] = (funding_df_without_us[col] / funding_df_without_us["Total Funding Received"]) * 100
 
-    funding_df.drop(columns = naics_sector_lst, inplace = True)
     funding_df.set_index("State", inplace=True)
+    funding_df_cut = funding_df.copy() 
+    funding_df_cut.drop(columns = NAICS_SECTOR_LST, inplace = True)
 
-    return funding_df
+    return funding_df, funding_df_cut
