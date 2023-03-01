@@ -89,6 +89,8 @@ NAICS_SECTOR_CODES = {
     "Public Administration (not covered in economic census)" : ("92",)
 }
 
+NAICS_SECTOR_LST = [k for k in NAICS_SECTOR_CODES]
+
 
 def combine_dataframes_by_state(main_df, df_lst):
     """
