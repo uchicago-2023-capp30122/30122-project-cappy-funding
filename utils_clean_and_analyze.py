@@ -80,7 +80,6 @@ NAICS_SECTOR_CODES = {
     "Finance and Insurance" : ("52",),
     "Real Estate and Rental and Leasing" : ("53",),
     "Professional, Scientific, and Technical Services" : ("54",),
-    "Management of Companies and Enterprises" : ("55",),
     "Administrative and Support and Waste Management and Remediation Services" : ("56",),
     "Educational Services" : ("61",),
     "Health Care and Social Assistance" : ("62",),
