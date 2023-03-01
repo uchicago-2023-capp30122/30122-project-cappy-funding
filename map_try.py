@@ -1,14 +1,75 @@
 import plotly.graph_objects as go
 import pandas as pd
 
+us_state_abbreviations = {
+    "Alabama": "AL",
+    "Alaska": "AK",
+    "Arizona": "AZ",
+    "Arkansas": "AR",
+    "California": "CA",
+    "Colorado": "CO",
+    "Connecticut": "CT",
+    "Delaware": "DE",
+    "Florida": "FL",
+    "Georgia": "GA",
+    "Hawaii": "HI",
+    "Idaho": "ID",
+    "Illinois": "IL",
+    "Indiana": "IN",
+    "Iowa": "IA",
+    "Kansas": "KS",
+    "Kentucky": "KY",
+    "Louisiana": "LA",
+    "Maine": "ME",
+    "Maryland": "MD",
+    "Massachusetts": "MA",
+    "Michigan": "MI",
+    "Minnesota": "MN",
+    "Mississippi": "MS",
+    "Missouri": "MO",
+    "Montana": "MT",
+    "Nebraska": "NE",
+    "Nevada": "NV",
+    "New Hampshire": "NH",
+    "New Jersey": "NJ",
+    "New Mexico": "NM",
+    "New York": "NY",
+    "North Carolina": "NC",
+    "North Dakota": "ND",
+    "Ohio": "OH",
+    "Oklahoma": "OK",
+    "Oregon": "OR",
+    "Pennsylvania": "PA",
+    "Rhode Island": "RI",
+    "South Carolina": "SC",
+    "South Dakota": "SD",
+    "Tennessee": "TN",
+    "Texas": "TX",
+    "Utah": "UT",
+    "Vermont": "VT",
+    "Virginia": "VA",
+    "Washington": "WA",
+    "West Virginia": "WV",
+    "Wisconsin": "WI",
+    "Wyoming": "WY",
+}
+
 # Define the data for the map
 state_2016 = pd.read_csv("2016_cleaned_funding.csv")['State']
+num_2016 = pd.read_csv("2016_cleaned_funding.csv")["Agriculture, Forestry, Fishing and Hunting (State as % of US)"]
+locations = list(state_2016)
+weights = list(num_2016)
+map_list = []
+num_list = []
+for location in locations[:-1]:
+    map_list.append(us_state_abbreviations[location])
+
+for weight in weights[:-1]:
+    num_list.append(weight)
 
 data = go.Choropleth(
-    locations=list(state_2016),
-    z=[50, 30, 10, 20, 15, 25, 5, 2, 45, 35, 5, 10, 30, 20, 15, 20, 25, 10,
-       5, 15, 10, 20, 25, 15, 30, 5, 10, 15, 20, 25, 30, 40, 20, 25, 15,
-       10, 25, 30, 20, 25, 10, 5, 25, 15, 10, 20, 30, 20, 25, 10, 30, 15],
+    locations = map_list,
+    z=num_list,
     locationmode='USA-states',
     colorscale='Reds',
     colorbar_title="Score"
