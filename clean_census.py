@@ -30,7 +30,7 @@ def clean_census_expenditure(df):
     df.columns = df.iloc[0]
     df = df[1:]
     df.reset_index(inplace=True)
-    df.rename(columns = {'Expenditure1':'State Expenditure', 
+    df.rename(columns = {'Expenditure1':'State Expenditure (in thousands)', 
     "index" : "State", "Utility expenditure" : "Utilities"}, inplace = True)
 
     # Converts specific columns in to integers
@@ -40,10 +40,10 @@ def clean_census_expenditure(df):
             df[col] = df[col].astype(int)
     
     # Merges sub-categories into single categories
-    df["Health and Social Services"] = df[social].sum(axis=1)
-    df["Education Related"] = df[educ].sum(axis=1)
-    df["Public Administration"] = df[educ].sum(axis=1)
-    df["Transportation"] = df[transport].sum(axis=1)
+    df["Health and Social Services Expenditure"] = df[social].sum(axis=1)
+    df["Education Related Expenditure"] = df[educ].sum(axis=1)
+    df["Public Administration Expenditure"] = df[educ].sum(axis=1)
+    df["Transportation Expenditure"] = df[transport].sum(axis=1)
     df.drop(columns = social + educ + govt + transport, inplace=True)
 
     required_col_names = [col for col in df.columns[1:]]
@@ -78,9 +78,11 @@ def clean_census_population(pop_df):
     ###
     """
     pop_df = pop_df.iloc[:,0:2]
-    pop_df.columns = ["State", "2020 Census Population"]
+    pop_df.columns = ["State", "Population"]
     pop_df['State'] = pop_df['State'].str.strip()
     pop_df = pop_df[pop_df["State"].isin(STATE_NAMES_AND_UNITED_STATES)]
+    pop_df["Population"] = pop_df["Population"].str.replace(',','')
+    pop_df["Population"] = pop_df["Population"].astype(int)
     pop_df.set_index("State", inplace=True)
 
     return pop_df
