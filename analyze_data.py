@@ -59,7 +59,6 @@ def create_funding_time_series_df(year_lst, clean_df_dct):
         us_row_only = funding_df.loc[funding_df.index == "United States"]
         us_row_only = us_row_only[NAICS_SECTOR_LST]
         us_row_only = us_row_only.transpose()
-        print(year)
         us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
         
         funding_time_series[year] = (us_row_only["Amount"] / us_row_only["Amount"].sum()) * 100
@@ -68,3 +67,21 @@ def create_funding_time_series_df(year_lst, clean_df_dct):
     funding_time_series.to_csv("us_funding_time_series.csv")
 
     return funding_time_series
+
+
+def create_expenditure_time_series_df(year_lst, clean_df_dct):
+    """
+    ###
+    """
+    expenditure_time_series = pd.DataFrame(columns = year_lst)
+    for year in year_lst:
+        expenditure_df = clean_df_dct.get(year)[0]
+        us_row_only = expenditure_df.loc[expenditure_df.index == "United States"]
+        sum = int(us_row_only.loc[us_row_only.index == "United States", "State Expenditure (in thousands)"])
+        us_row_only = us_row_only[["Health and Social Services Expenditure", "Education Related Expenditure", "Public Administration Expenditure", "Transportation Expenditure"]]
+        us_row_only = us_row_only.transpose()
+        us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
+        us_row_only["Sum"] = sum
+        expenditure_time_series[year] = (us_row_only["Amount"] / us_row_only["Sum"]) * 100
+            
+    return expenditure_time_series
