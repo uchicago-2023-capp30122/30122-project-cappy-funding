@@ -53,8 +53,8 @@ def data_year(list_states):
             ],
  
             "time_period": [
-                {"start_date": "2017-01-01",
-                "end_date": "2017-12-31"}],
+                {"start_date": "2019-01-01",
+                "end_date": "2019-12-31"}],
             "lower_bound": 0
             }
             ,
@@ -77,7 +77,7 @@ def data_year(list_states):
         
         dict[state] = results
                 
-    with open("2017.csv", "w", newline = "") as csvfile:
+    with open("2019_final.csv", "w", newline = "") as csvfile:
 
         writer = csv.writer(csvfile)
         headers = list(dict[state][0].keys())
