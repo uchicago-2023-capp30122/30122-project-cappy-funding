@@ -1,70 +1,115 @@
 import pandas as pd
-from clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
-from clean_funding import clean_funding
-from utils_clean_and_analyze import combine_dataframes_by_state, STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES, NAICS_SECTOR_LST
 
-YEARS = ["2016", "2017", "2018", "2019", "2020"]
+STATE_NAMES = ["Alaska", "Alabama", "Arkansas", "Arizona", "California",
+"Colorado", "Connecticut", "Delaware", "Florida", "Georgia",
+"Hawaii", "Iowa", "Idaho", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana",
+"Massachusetts", "Maryland", "Maine", "Michigan", "Minnesota", "Missouri", "Mississippi",
+"Montana", "North Carolina", "North Dakota", "Nebraska", "New Hampshire", "New Jersey",
+"New Mexico", "Nevada", "New York", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
+"Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Virginia",
+"Vermont", "Washington", "Wisconsin", "West Virginia", "Wyoming"]
 
-def analyze_expenditure_and_funding(years):
+STATE_NAMES_AND_UNITED_STATES = STATE_NAMES[:]
+STATE_NAMES_AND_UNITED_STATES.append("United States")
+
+us_state_abbreviations = {
+    "Alabama": "AL",
+    "Alaska": "AK",
+    "Arizona": "AZ",
+    "Arkansas": "AR",
+    "California": "CA",
+    "Colorado": "CO",
+    "Connecticut": "CT",
+    "Delaware": "DE",
+    "Florida": "FL",
+    "Georgia": "GA",
+    "Hawaii": "HI",
+    "Idaho": "ID",
+    "Illinois": "IL",
+    "Indiana": "IN",
+    "Iowa": "IA",
+    "Kansas": "KS",
+    "Kentucky": "KY",
+    "Louisiana": "LA",
+    "Maine": "ME",
+    "Maryland": "MD",
+    "Massachusetts": "MA",
+    "Michigan": "MI",
+    "Minnesota": "MN",
+    "Mississippi": "MS",
+    "Missouri": "MO",
+    "Montana": "MT",
+    "Nebraska": "NE",
+    "Nevada": "NV",
+    "New Hampshire": "NH",
+    "New Jersey": "NJ",
+    "New Mexico": "NM",
+    "New York": "NY",
+    "North Carolina": "NC",
+    "North Dakota": "ND",
+    "Ohio": "OH",
+    "Oklahoma": "OK",
+    "Oregon": "OR",
+    "Pennsylvania": "PA",
+    "Rhode Island": "RI",
+    "South Carolina": "SC",
+    "South Dakota": "SD",
+    "Tennessee": "TN",
+    "Texas": "TX",
+    "Utah": "UT",
+    "Vermont": "VT",
+    "Virginia": "VA",
+    "Washington": "WA",
+    "West Virginia": "WV",
+    "Wisconsin": "WI",
+    "Wyoming": "WY",
+}
+
+US_STATE_CODES = dict(map(reversed, us_state_abbreviations.items()))
+
+NAICS_SECTOR_CODES = {
+    "Agriculture, Forestry, Fishing and Hunting" : ("11",),
+    "Mining, Quarrying, and Oil and Gas Extraction" : ("21",),
+    "Utilities" : ("22",),
+    "Construction" : ("23",),
+    "Manufacturing" : ("31", "32", "33",),
+    "Wholesale Trade" : ("42",),
+    "Retail Trade" : ("44", "45",),
+    "Transportation and Warehousing" : ("48", "49",),
+    "Information" : ("51",),
+    "Finance and Insurance" : ("52",),
+    "Real Estate and Rental and Leasing" : ("53",),
+    "Professional, Scientific, and Technical Services" : ("54",),
+    "Administrative and Support and Waste Management and Remediation Services" : ("56",),
+    "Educational Services" : ("61",),
+    "Health Care and Social Assistance" : ("62",),
+    "Arts, Entertainment, and Recreation" : ("71",),
+    "Accommodation and Food Services" : ("72",),
+    "Other Services (except Public Administration)" : ("81",),
+    "Public Administration (not covered in economic census)" : ("92",)
+}
+
+
+def combine_dataframes_by_state(main_df, df_lst):
     """
-    ###
-
+    Recursively concatenates multiple panda dataframes (with "State" 
+    as the index) with only the required columns
     Inputs:
-        years (lst of str)
-
-    Returns:
-        cleaned_and_combined (dct)
-    """
-    # Creates and outputs population and poverty data
-    poverty_df = clean_census_poverty(pd.read_csv("us_poverty_by_state.csv"))
-    population_df = clean_census_population(pd.read_csv("us_census_population.csv")) 
-
-    poverty_df.to_csv("us_poverty_cleaned")
-    population_df.to_csv("us_population_cleaned")
-
-    # Clean and combines census data and funding data from each year from 2016 to 2020
-    expenditure_file_name = "_us_state_finances.csv"
-    funding_file_name = "_us_funding.csv"
-
-    cleaned_df_dct = {}
-
-    for year in years:
-        expenditure_csv = year + expenditure_file_name # "2016_us_state_finances.csv"
-        funding_csv = year + funding_file_name # "2016_us_funding.csv"
-
-        expenditure_df = clean_census_expenditure(pd.read_csv(expenditure_csv))
-        funding_df, funding_df_cut  = clean_funding(pd.read_csv(funding_csv))
-    
-        per_capita_df = pd.DataFrame(columns=["Expenditure per Capita (in thousands)", "Funding received per Capita (in thousands)"])
-        per_capita_df["Expenditure per Capita (in thousands)"] = expenditure_df["State Expenditure (in thousands)"] / population_df["Population"]
-        per_capita_df["Funding received per Capita (in thousands)"] = funding_df_cut["Total Funding Received"] / population_df["Population"]
-
-        cleaned_df_dct[year] = (expenditure_df, funding_df_cut, per_capita_df, funding_df)
-
-        # Outputs files into directory
-        expenditure_df.to_csv(year + "_cleaned_expenditure.csv")
-        funding_df_cut.to_csv(year + "_cleaned_funding.csv")
-        per_capita_df.to_csv(year + "_per_capita_analysis.csv")
-
-    return cleaned_df_dct
-
-
-def create_funding_time_series_df(year_lst, clean_df_dct):
-    """
-    ###
-    """
-    funding_time_series = pd.DataFrame(columns = year_lst)
-    for year in year_lst:
-        funding_df = clean_df_dct.get(year)[3]
-        us_row_only = funding_df.loc[funding_df.index == "United States"]
-        us_row_only = us_row_only[NAICS_SECTOR_LST]
-        us_row_only = us_row_only.transpose()
-        print(year)
-        us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
+        df_lst (lst of tuples): (df, [cols to extract])
+        ### If extracting all columns, [cols to extract] should be an
+        empty list ###
         
-        funding_time_series[year] = (us_row_only["Amount"] / us_row_only["Amount"].sum()) * 100
+    Returns:
+        final_df (pandas series): concatenated pandas dataframes
+    """
+    if len(df_lst) == 0:
+        return main_df
+    
+    other_df, col_lst = df_lst.pop()
 
-    # Outputs file into directory
-    funding_time_series.to_csv("us_funding_time_series.csv")
-
-    return funding_time_series
+    if col_lst != []:
+        new_df = main_df.merge(other_df[col_lst], on="State")
+    else:
+        new_df = main_df.merge(other_df, on="State")
+    
+    return combine_dataframes_by_state(new_df, df_lst)
