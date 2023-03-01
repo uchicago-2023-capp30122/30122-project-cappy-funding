@@ -18,19 +18,19 @@ def clean_funding(raw_funding_df):
         for sector, naics_code_tuple in NAICS_SECTOR_CODES.items():
             if len(naics_code_tuple) == 1:
                 subset_df = raw_funding_df[(raw_funding_df["code"].apply(lambda x : x.startswith(naics_code_tuple[0]))) & (raw_funding_df["State"] == state_code) & (raw_funding_df["amount"] >= 0)]
-                sum_val = subset_df["amount"].sum()
+                sum_val = subset_df["amount"].sum() / 1000
             else:
                 sum_val = 0
                 for naics_code in naics_code_tuple:
                     subset_df = raw_funding_df[(raw_funding_df["code"].apply(lambda x : x.startswith(naics_code))) & (raw_funding_df["State"] == state_code) & (raw_funding_df["amount"] >= 0)]
-                    sum_val += subset_df["amount"].sum()
+                    sum_val += subset_df["amount"].sum() / 1000
             
             funding_df.loc[funding_df["State"] == state, sector] = int(sum_val)
 
     required_col_names = [col for col in funding_df.columns[1:]]
 
     # Calculates total funding across categories for each state
-    funding_df["State Total (All Categories)"] = funding_df[required_col_names].sum(axis=1)
+    funding_df["Total Funding Received"] = funding_df[required_col_names].sum(axis=1)
 
     for col in required_col_names:
         # Calculates total funding for each category at the national level
