@@ -52,7 +52,7 @@ def clean_census_expenditure(df):
 
         # Calculates state expenditure in one cateogry as a proportion
         # of total US expenditure for this category
-        if col == "State Expenditure":
+        if col == "State Expenditure (in thousands)":
             df["State Total as % of US Total"] = \
                 df.apply(lambda x : (x[col] / int(df.loc[df["State"] ==
                     "United States", col])) * 100, axis = 1)
@@ -65,7 +65,7 @@ def clean_census_expenditure(df):
                     "United States", col])) * 100, axis = 1)
 
             df[col + " (% of Total Expenditure)"] = (df[col] /
-            df["State Expenditure"] * 100)
+            df["State Expenditure (in thousands)"] * 100)
 
     # Sets "State" column as index of dataframe
     df.set_index(["State"], inplace = True)
@@ -84,6 +84,8 @@ def clean_census_population(pop_df):
     pop_df["Population"] = pop_df["Population"].str.replace(',','')
     pop_df["Population"] = pop_df["Population"].astype(int)
     pop_df.set_index("State", inplace=True)
+
+    
 
     return pop_df
 
