@@ -60,8 +60,9 @@ def create_funding_time_series_df(year_lst, clean_df_dct):
         us_row_only = us_row_only[NAICS_SECTOR_LST]
         us_row_only = us_row_only.transpose()
         us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
-        
         funding_time_series[year] = (us_row_only["Amount"] / us_row_only["Amount"].sum()) * 100
+
+    funding_time_series.index.names = ["NAICS Category"]
 
     # Outputs file into directory
     funding_time_series.to_csv("us_funding_time_series.csv")
@@ -83,5 +84,10 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct):
         us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
         us_row_only["Sum"] = sum
         expenditure_time_series[year] = (us_row_only["Amount"] / us_row_only["Sum"]) * 100
+    
+    expenditure_time_series.index.names = ["Category"]
+    
+    # Outputs file into directory
+    expenditure_time_series.to_csv("us_expenditure_time_series.csv")
             
     return expenditure_time_series
