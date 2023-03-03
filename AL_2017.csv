@@ -1,0 +1,599 @@
+id,code,name,amount,State
+,541712,"Research and Development in the Physical, Engineering, and Life Sciences (except Biotechnology)",3004819757.83,AL
+,236220,Commercial and Institutional Building Construction,2411242728.01,AL
+,336611,Ship Building and Repairing,1109897419.26,AL
+,541330,Engineering Services,875698064.16,AL
+,336414,Guided Missile and Space Vehicle Manufacturing,843174162.12,AL
+,488190,Other Support Activities for Air Transportation,447560519.89,AL
+,336413,Other Aircraft Parts and Auxiliary Equipment Manufacturing,372034740.82,AL
+,336411,Aircraft Manufacturing,308277793.84,AL
+,541519,Other Computer Related Services,239521100.34,AL
+,336419,Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing,171330311.06,AL
+,541512,Computer Systems Design Services,167134182.55,AL
+,561210,Facilities Support Services,155760920.58,AL
+,541511,Custom Computer Programming Services,120343178.71,AL
+,541611,Administrative Management and General Management Consulting Services,95155333.56,AL
+,541710,"Research and Development in the Physical, Engineering, and Life Sciences",90756014.35,AL
+,622110,General Medical and Surgical Hospitals,87769855.16,AL
+,324110,Petroleum Refineries,82544422.38,AL
+,334220,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,76524621.88,AL
+,336415,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing,65761958.18,AL
+,524114,Direct Health and Medical Insurance Carriers,61759708.0,AL
+,311991,Perishable Prepared Food Manufacturing,61172253.24,AL
+,483111,Deep Sea Freight Transportation,53179171.23,AL
+,562910,Remediation Services,45822075.97,AL
+,541513,Computer Facilities Management Services,41266218.4,AL
+,237990,Other Heavy and Civil Engineering Construction,38943698.21,AL
+,541690,Other Scientific and Technical Consulting Services,34865969.46,AL
+,561720,Janitorial Services,32929249.41,AL
+,315999,Other Apparel Accessories and Other Apparel Manufacturing,30166134.71,AL
+,237310,"Highway, Street, and Bridge Construction",30156269.84,AL
+,811219,Other Electronic and Precision Equipment Repair and Maintenance,29758879.54,AL
+,541990,"All Other Professional, Scientific, and Technical Services",29316552.69,AL
+,321991,Manufactured Home (Mobile Home) Manufacturing,29223936.08,AL
+,332999,All Other Miscellaneous Fabricated Metal Product Manufacturing,28830040.78,AL
+,236210,Industrial Building Construction,25528645.36,AL
+,518210,"Data Processing, Hosting, and Related Services",25056635.24,AL
+,611430,Professional and Management Development Training,24327033.53,AL
+,561110,Office Administrative Services,21914091.66,AL
+,611630,Language Schools,19336854.52,AL
+,332993,Ammunition (except Small Arms) Manufacturing,18983356.44,AL
+,336120,Heavy Duty Truck Manufacturing,18906963.72,AL
+,541380,Testing Laboratories,18247930.07,AL
+,315220,Men’s and Boys’ Cut and Sew Apparel Manufacturing,18067138.36,AL
+,311812,Commercial Bakeries,18006435.45,AL
+,541370,Surveying and Mapping (except Geophysical) Services,17662886.12,AL
+,541715,"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",17418290.9,AL
+,541614,"Process, Physical Distribution, and Logistics Consulting Services",17003273.56,AL
+,334511,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",16266263.38,AL
+,722310,Food Service Contractors,15597607.4,AL
+,334111,Electronic Computer Manufacturing,13044588.75,AL
+,221122,Electric Power Distribution,12965204.15,AL
+,238220,"Plumbing, Heating, and Air-Conditioning Contractors",12902998.86,AL
+,424480,Fresh Fruit and Vegetable Merchant Wholesalers,12401568.65,AL
+,335313,Switchgear and Switchboard Apparatus Manufacturing,12247197.72,AL
+,336612,Boat Building,11781385.09,AL
+,339113,Surgical Appliance and Supplies Manufacturing,11734408.79,AL
+,335932,Noncurrent-Carrying Wiring Device Manufacturing,11086081.86,AL
+,332312,Fabricated Structural Metal Manufacturing,11046276.22,AL
+,334418,Printed Circuit Assembly (Electronic Assembly) Manufacturing,10610972.12,AL
+,561612,Security Guards and Patrol Services,9756596.9,AL
+,541711,Research and Development in Biotechnology,9464476.59,AL
+,238910,Site Preparation Contractors,9343911.4,AL
+,621111,Offices of Physicians (except Mental Health Specialists),9325061.49,AL
+,339112,Surgical and Medical Instrument Manufacturing,8913848.26,AL
+,336112,Light Truck and Utility Vehicle Manufacturing,8871624.34,AL
+,238990,All Other Specialty Trade Contractors,7366694.47,AL
+,611710,Educational Support Services,7151451.39,AL
+,333415,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing,6812697.05,AL
+,336211,Motor Vehicle Body Manufacturing,6799435.69,AL
+,524298,All Other Insurance Related Activities,6733400.0,AL
+,621399,Offices of All Other Miscellaneous Health Practitioners,6427492.43,AL
+,336390,Other Motor Vehicle Parts Manufacturing,6123851.07,AL
+,541620,Environmental Consulting Services,6066135.04,AL
+,332995,Other Ordnance and Accessories Manufacturing,5847076.55,AL
+,336992,"Military Armored Vehicle, Tank, and Tank Component Manufacturing",5706424.09,AL
+,493110,General Warehousing and Storage,5555572.65,AL
+,238210,Electrical Contractors and Other Wiring Installation Contractors,5338740.96,AL
+,332994,"Small Arms, Ordnance, and Ordnance Accessories Manufacturing",5082586.37,AL
+,611512,Flight Training,4903983.67,AL
+,541310,Architectural Services,4900341.81,AL
+,562111,Solid Waste Collection,4773542.68,AL
+,561730,Landscaping Services,4740276.53,AL
+,221310,Water Supply and Irrigation Systems,4593602.73,AL
+,335931,Current-Carrying Wiring Device Manufacturing,4343507.46,AL
+,423430,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers,4244345.16,AL
+,541613,Marketing Consulting Services,4200349.65,AL
+,315990,Apparel Accessories and Other Apparel Manufacturing,4138896.14,AL
+,337215,"Showcase, Partition, Shelving, and Locker Manufacturing",3995783.29,AL
+,339999,All Other Miscellaneous Manufacturing,3957036.24,AL
+,512110,Motion Picture and Video Production,3912447.73,AL
+,337214,Office Furniture (except Wood) Manufacturing,3906786.69,AL
+,621999,All Other Miscellaneous Ambulatory Health Care Services,3895135.78,AL
+,334210,Telephone Apparatus Manufacturing,3885298.0,AL
+,721110,Hotels (except Casino Hotels) and Motels,3871581.66,AL
+,334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,3805913.51,AL
+,332510,Hardware Manufacturing,3682286.2,AL
+,561990,All Other Support Services,3421478.69,AL
+,541360,Geophysical Surveying and Mapping Services,3415868.27,AL
+,313210,Broadwoven Fabric Mills,3380670.36,AL
+,623110,Nursing Care Facilities (Skilled Nursing Facilities),3348930.53,AL
+,336330,Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,3282976.71,AL
+,335312,Motor and Generator Manufacturing,3257315.37,AL
+,334112,Computer Storage Device Manufacturing,3153420.48,AL
+,624310,Vocational Rehabilitation Services,3079387.55,AL
+,333293,Printing Machinery and Equipment Manufacturing,3077402.55,AL
+,314999,All Other Miscellaneous Textile Product Mills,3076636.93,AL
+,313310,Textile and Fabric Finishing Mills,3073545.6,AL
+,334614,"Software and Other Prerecorded Compact Disc, Tape, and Record Reproducing",3046521.83,AL
+,621910,Ambulance Services,3026612.87,AL
+,339116,Dental Laboratories,2880386.07,AL
+,611310,"Colleges, Universities, and Professional Schools",2681507.41,AL
+,561499,All Other Business Support Services,2665199.53,AL
+,336212,Truck Trailer Manufacturing,2636956.32,AL
+,332710,Machine Shops,2582830.2,AL
+,333999,All Other Miscellaneous General Purpose Machinery Manufacturing,2577652.63,AL
+,517919,All Other Telecommunications,2482127.96,AL
+,562920,Materials Recovery Facilities,2362874.48,AL
+,812320,Drycleaning and Laundry Services (except Coin-Operated),2346686.74,AL
+,811310,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance,2324100.06,AL
+,221320,Sewage Treatment Facilities,2238208.67,AL
+,115310,Support Activities for Forestry,2184581.78,AL
+,112990,All Other Animal Production,2145404.0,AL
+,541713,Research and Development in Nanotechnology,2140000.0,AL
+,333120,Construction Machinery Manufacturing,2115696.14,AL
+,423490,Other Professional Equipment and Supplies Merchant Wholesalers,2110407.3,AL
+,485991,Special Needs Transportation,2083929.18,AL
+,811213,Communication Equipment Repair and Maintenance,2027135.44,AL
+,541612,Human Resources Consulting Services,2024894.52,AL
+,335311,"Power, Distribution, and Specialty Transformer Manufacturing",2021428.86,AL
+,561621,Security Systems Services (except Locksmiths),1972342.15,AL
+,238290,Other Building Equipment Contractors,1954562.41,AL
+,334519,Other Measuring and Controlling Device Manufacturing,1888043.19,AL
+,333613,Mechanical Power Transmission Equipment Manufacturing,1830769.21,AL
+,311999,All Other Miscellaneous Food Manufacturing,1796776.69,AL
+,623990,Other Residential Care Facilities,1770718.14,AL
+,425120,Wholesale Trade Agents and Brokers,1735353.78,AL
+,333319,Other Commercial and Service Industry Machinery Manufacturing,1732950.83,AL
+,332813,"Electroplating, Plating, Polishing, Anodizing, and Coloring",1709355.32,AL
+,621330,Offices of Mental Health Practitioners (except Physicians),1705265.49,AL
+,332722,"Bolt, Nut, Screw, Rivet, and Washer Manufacturing",1695236.32,AL
+,923120,Administration of Public Health Programs,1682271.63,AL
+,336320,Motor Vehicle Electrical and Electronic Equipment Manufacturing,1638514.46,AL
+,518111,Internet Service Providers,1636122.42,AL
+,722320,Caterers,1629529.23,AL
+,923110,Administration of Education Programs,1602860.31,AL
+,237120,Oil and Gas Pipeline and Related Structures Construction,1598643.95,AL
+,333519,Rolling Mill and Other Metalworking Machinery Manufacturing,1521501.39,AL
+,335999,All Other Miscellaneous Electrical Equipment and Component Manufacturing,1488921.63,AL
+,511210,Software Publishers,1464324.87,AL
+,334290,Other Communications Equipment Manufacturing,1432526.77,AL
+,333618,Other Engine Equipment Manufacturing,1378223.81,AL
+,221330,Steam and Air-Conditioning Supply,1362000.0,AL
+,561320,Temporary Help Services,1353147.92,AL
+,333911,Pump and Pumping Equipment Manufacturing,1299344.53,AL
+,221210,Natural Gas Distribution,1266708.78,AL
+,541430,Graphic Design Services,1251892.44,AL
+,621420,Outpatient Mental Health and Substance Abuse Centers,1232702.0,AL
+,337212,Custom Architectural Woodwork and Millwork Manufacturing,1230035.0,AL
+,812332,Industrial Launderers,1146370.47,AL
+,621512,Diagnostic Imaging Centers,995115.57,AL
+,332313,Plate Work Manufacturing,977040.75,AL
+,336350,Motor Vehicle Transmission and Power Train Parts Manufacturing,940980.81,AL
+,325412,Pharmaceutical Preparation Manufacturing,939793.48,AL
+,334416,"Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing",908502.09,AL
+,334515,Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals,904482.0,AL
+,621112,"Offices of Physicians, Mental Health Specialists",871530.84,AL
+,624221,Temporary Shelters,870525.0,AL
+,331110,Iron and Steel Mills and Ferroalloy Manufacturing,869798.72,AL
+,339920,Sporting and Athletic Goods Manufacturing,868591.39,AL
+,484220,"Specialized Freight (except Used Goods) Trucking, Local",849586.72,AL
+,311511,Fluid Milk Manufacturing,819373.82,AL
+,339114,Dental Equipment and Supplies Manufacturing,775403.16,AL
+,334310,Audio and Video Equipment Manufacturing,775138.45,AL
+,491110,Postal Service,773532.33,AL
+,621511,Medical Laboratories,773279.22,AL
+,561611,Investigation Services,770908.88,AL
+,562991,Septic Tank and Related Services,761209.85,AL
+,336412,Aircraft Engine and Engine Parts Manufacturing,751986.01,AL
+,332996,Fabricated Pipe and Pipe Fitting Manufacturing,749783.05,AL
+,333921,Elevator and Moving Stairway Manufacturing,733420.29,AL
+,488119,Other Airport Operations,722041.0,AL
+,561710,Exterminating and Pest Control Services,721844.57,AL
+,332991,Ball and Roller Bearing Manufacturing,703168.97,AL
+,213112,Support Activities for Oil and Gas Operations,694555.0,AL
+,339991,"Gasket, Packing, and Sealing Device Manufacturing",691376.5,AL
+,211111,Crude Petroleum and Natural Gas Extraction,687806.67,AL
+,561510,Travel Agencies,675209.41,AL
+,623220,Residential Mental Health and Substance Abuse Facilities,674801.0,AL
+,519130,Internet Publishing and Broadcasting and Web Search Portals,673456.0,AL
+,812930,Parking Lots and Garages,671728.25,AL
+,624229,Other Community Housing Services,649163.93,AL
+,561421,Telephone Answering Services,638688.56,AL
+,517210,Wireless Telecommunications Carriers (except Satellite),636338.07,AL
+,333924,"Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing",633700.04,AL
+,332911,Industrial Valve Manufacturing,631695.52,AL
+,541219,Other Accounting Services,595086.78,AL
+,336214,Travel Trailer and Camper Manufacturing,592764.1,AL
+,332420,Metal Tank (Heavy Gauge) Manufacturing,588609.13,AL
+,541211,Offices of Certified Public Accountants,586927.19,AL
+,334512,"Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",583170.32,AL
+,561492,Court Reporting and Stenotype Services,576589.31,AL
+,333413,Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing,546432.14,AL
+,334513,"Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",543544.63,AL
+,332439,Other Metal Container Manufacturing,529895.23,AL
+,334412,Bare Printed Circuit Board Manufacturing,526351.28,AL
+,336340,Motor Vehicle Brake System Manufacturing,509299.41,AL
+,332216,Saw Blade and Handtool Manufacturing,507683.9,AL
+,488210,Support Activities for Rail Transportation,507587.6,AL
+,519190,All Other Information Services,506062.94,AL
+,332613,Spring Manufacturing,505721.08,AL
+,238110,Poured Concrete Foundation and Structure Contractors,503796.0,AL
+,311612,Meat Processed from Carcasses,497021.1,AL
+,331491,"Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",487491.87,AL
+,333241,Food Product Machinery Manufacturing,468716.61,AL
+,238330,Flooring Contractors,460054.0,AL
+,327331,Concrete Block and Brick Manufacturing,457960.83,AL
+,484210,Used Household and Office Goods Moving,445975.21,AL
+,333611,Turbine and Turbine Generator Set Units Manufacturing,444924.55,AL
+,541350,Building Inspection Services,443554.53,AL
+,541910,Marketing Research and Public Opinion Polling,434494.0,AL
+,532412,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",429770.0,AL
+,332321,Metal Window and Door Manufacturing,426847.14,AL
+,811111,General Automotive Repair,416962.18,AL
+,621340,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",394719.6,AL
+,334510,Electromedical and Electrotherapeutic Apparatus Manufacturing,393037.95,AL
+,531120,Lessors of Nonresidential Buildings (except Miniwarehouses),389875.04,AL
+,561790,Other Services to Buildings and Dwellings,388340.2,AL
+,333515,Cutting Tool and Machine Tool Accessory Manufacturing,381507.33,AL
+,336360,Motor Vehicle Seating and Interior Trim Manufacturing,366505.84,AL
+,333992,Welding and Soldering Equipment Manufacturing,362327.81,AL
+,238320,Painting and Wall Covering Contractors,356846.29,AL
+,332311,Prefabricated Metal Building and Component Manufacturing,354399.86,AL
+,316998,All Other Leather Good and Allied Product Manufacturing,336889.55,AL
+,334516,Analytical Laboratory Instrument Manufacturing,335115.52,AL
+,541850,Outdoor Advertising,332742.04,AL
+,562119,Other Waste Collection,331094.15,AL
+,424120,Stationery and Office Supplies Merchant Wholesalers,329119.66,AL
+,335929,Other Communication and Energy Wire Manufacturing,321015.17,AL
+,334417,Electronic Connector Manufacturing,316106.47,AL
+,312112,Bottled Water Manufacturing,315717.85,AL
+,441210,Recreational Vehicle Dealers,314940.87,AL
+,333995,Fluid Power Cylinder and Actuator Manufacturing,296851.18,AL
+,333612,"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",290939.21,AL
+,337127,Institutional Furniture Manufacturing,288839.65,AL
+,423610,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",287270.69,AL
+,424340,Footwear Merchant Wholesalers,279768.75,AL
+,334413,Semiconductor and Related Device Manufacturing,270706.87,AL
+,331221,Rolled Steel Shape Manufacturing,267289.67,AL
+,517911,Telecommunications Resellers,265635.14,AL
+,333996,Fluid Power Pump and Motor Manufacturing,264565.0,AL
+,561431,Private Mail Centers,263993.54,AL
+,238120,Structural Steel and Precast Concrete Contractors,260100.57,AL
+,333111,Farm Machinery and Equipment Manufacturing,258950.37,AL
+,314910,Textile Bag and Canvas Mills,258943.01,AL
+,311615,Poultry Processing,254091.19,AL
+,811212,Computer and Office Machine Repair and Maintenance,250114.15,AL
+,332322,Sheet Metal Work Manufacturing,248849.79,AL
+,326220,Rubber and Plastics Hoses and Belting Manufacturing,248190.51,AL
+,333112,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,242365.87,AL
+,238140,Masonry Contractors,242276.62,AL
+,325510,Paint and Coating Manufacturing,237357.6,AL
+,311611,Animal (except Poultry) Slaughtering,232937.59,AL
+,624190,Other Individual and Family Services,228958.26,AL
+,315992,Glove and Mitten Manufacturing,227433.92,AL
+,541618,Other Management Consulting Services,226914.64,AL
+,515210,Cable and Other Subscription Programming,222041.99,AL
+,621310,Offices of Chiropractors,218899.2,AL
+,424720,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),218670.58,AL
+,327390,Other Concrete Product Manufacturing,217621.0,AL
+,336370,Motor Vehicle Metal Stamping,216668.93,AL
+,624120,Services for the Elderly and Persons with Disabilities,211430.62,AL
+,721211,RV (Recreational Vehicle) Parks and Campgrounds,210619.0,AL
+,561422,Telemarketing Bureaus and Other Contact Centers,208788.0,AL
+,331318,"Other Aluminum Rolling, Drawing, and Extruding",207668.8,AL
+,813110,Religious Organizations,207646.32,AL
+,333922,Conveyor and Conveying Equipment Manufacturing,202500.87,AL
+,611699,All Other Miscellaneous Schools and Instruction,199445.51,AL
+,541810,Advertising Agencies,196000.0,AL
+,333318,Other Commercial and Service Industry Machinery Manufacturing,190942.99,AL
+,811121,"Automotive Body, Paint, and Interior Repair and Maintenance",186400.2,AL
+,488991,Packing and Crating,185080.16,AL
+,444190,Other Building Material Dealers,181116.02,AL
+,333991,Power-Driven Handtool Manufacturing,180799.86,AL
+,924110,Administration of Air and Water Resource and Solid Waste Management Programs,178146.65,AL
+,423850,Service Establishment Equipment and Supplies Merchant Wholesalers,176885.94,AL
+,541820,Public Relations Agencies,175057.2,AL
+,335912,Primary Battery Manufacturing,173235.0,AL
+,444130,Hardware Stores,169255.18,AL
+,325998,All Other Miscellaneous Chemical Product and Preparation Manufacturing,166248.64,AL
+,333249,Other Industrial Machinery Manufacturing,161514.47,AL
+,621320,Offices of Optometrists,161318.4,AL
+,517311,Wired Telecommunications Carriers,160887.0,AL
+,325520,Adhesive Manufacturing,160652.07,AL
+,337211,Wood Office Furniture Manufacturing,159133.59,AL
+,562112,Hazardous Waste Collection,159054.78,AL
+,541921,"Photography Studios, Portrait",153928.96,AL
+,236118,Residential Remodelers,153369.15,AL
+,333512,Machine Tool (Metal Cutting Types) Manufacturing,153368.09,AL
+,332919,Other Metal Valve and Pipe Fitting Manufacturing,150415.14,AL
+,332913,Plumbing Fixture Fitting and Trim Manufacturing,145744.98,AL
+,336310,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,144295.98,AL
+,331420,"Copper Rolling, Drawing, Extruding, and Alloying",143181.26,AL
+,611519,Other Technical and Trade Schools,141383.42,AL
+,311813,"Frozen Cakes, Pies, and Other Pastries Manufacturing",139636.97,AL
+,332119,"Metal Crown, Closure, and Other Metal Stamping (except Automotive)",137770.56,AL
+,532420,Office Machinery and Equipment Rental and Leasing,137175.88,AL
+,424410,General Line Grocery Merchant Wholesalers,137045.86,AL
+,315280,Other Cut and Sew Apparel Manufacturing,136062.76,AL
+,454310,Fuel Dealers,135209.39,AL
+,333517,Machine Tool Manufacturing,132302.24,AL
+,562998,All Other Miscellaneous Waste Management Services,130547.17,AL
+,335921,Fiber Optic Cable Manufacturing,128180.65,AL
+,444210,Outdoor Power Equipment Stores,127345.33,AL
+,333314,Optical Instrument and Lens Manufacturing,126863.0,AL
+,314110,Carpet and Rug Mills,125272.06,AL
+,325120,Industrial Gas Manufacturing,124496.54,AL
+,335129,Other Lighting Equipment Manufacturing,124131.71,AL
+,541199,All Other Legal Services,123070.33,AL
+,238390,Other Building Finishing Contractors,122552.0,AL
+,424990,Other Miscellaneous Nondurable Goods Merchant Wholesalers,121964.04,AL
+,238160,Roofing Contractors,121680.13,AL
+,237110,Water and Sewer Line and Related Structures Construction,112201.98,AL
+,333912,Air and Gas Compressor Manufacturing,111649.54,AL
+,238350,Finish Carpentry Contractors,111000.0,AL
+,624230,Emergency and Other Relief Services,110338.92,AL
+,562211,Hazardous Waste Treatment and Disposal,110174.36,AL
+,321113,Sawmills,109000.02,AL
+,335911,Storage Battery Manufacturing,107896.06,AL
+,332618,Other Fabricated Wire Product Manufacturing,107025.53,AL
+,541714,Research and Development in Biotechnology (except Nanobiotechnology),104998.0,AL
+,325612,Polish and Other Sanitation Good Manufacturing,101018.95,AL
+,423860,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers,98438.0,AL
+,221118,Other Electric Power Generation,98183.0,AL
+,321114,Wood Preservation,97270.0,AL
+,541930,Translation and Interpretation Services,94835.26,AL
+,337122,Nonupholstered Wood Household Furniture Manufacturing,94272.64,AL
+,423910,Sporting and Recreational Goods and Supplies Merchant Wholesalers,93118.7,AL
+,311710,Seafood Product Preparation and Packaging,93002.0,AL
+,326122,Plastics Pipe and Pipe Fitting Manufacturing,91918.66,AL
+,813410,Civic and Social Organizations,90354.2,AL
+,811118,Other Automotive Mechanical and Electrical Repair and Maintenance,89170.16,AL
+,325199,All Other Basic Organic Chemical Manufacturing,89064.13,AL
+,712110,Museums,87630.72,AL
+,423830,Industrial Machinery and Equipment Merchant Wholesalers,87052.09,AL
+,333913,Measuring and Dispensing Pump Manufacturing,84710.92,AL
+,423710,Hardware Merchant Wholesalers,84521.53,AL
+,532120,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",84018.5,AL
+,311824,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",80111.87,AL
+,331210,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,78839.59,AL
+,315190,Other Apparel Knitting Mills,78540.08,AL
+,327110,"Pottery, Ceramics, and Plumbing Fixture Manufacturing",77980.0,AL
+,423740,Refrigeration Equipment and Supplies Merchant Wholesalers,77743.0,AL
+,711130,Musical Groups and Artists,76870.0,AL
+,511130,Book Publishers,72233.7,AL
+,811412,Appliance Repair and Maintenance,71891.43,AL
+,332912,Fluid Power Valve and Hose Fitting Manufacturing,71528.86,AL
+,332323,Ornamental and Architectural Metal Work Manufacturing,71407.34,AL
+,339950,Sign Manufacturing,70065.77,AL
+,313220,Narrow Fabric Mills and Schiffli Machine Embroidery,68529.6,AL
+,212321,Construction Sand and Gravel Mining,68426.42,AL
+,541410,Interior Design Services,67882.0,AL
+,337121,Upholstered Household Furniture Manufacturing,67023.44,AL
+,326130,"Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",66578.5,AL
+,336510,Railroad Rolling Stock Manufacturing,64171.26,AL
+,311119,Other Animal Food Manufacturing,63255.84,AL
+,326111,Plastics Bag and Pouch Manufacturing,62306.0,AL
+,423820,Farm and Garden Machinery and Equipment Merchant Wholesalers,60519.54,AL
+,311411,"Frozen Fruit, Juice, and Vegetable Manufacturing",59745.0,AL
+,315210,Cut and Sew Apparel Contractors,58712.68,AL
+,811420,Reupholstery and Furniture Repair,58366.34,AL
+,423450,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",58150.0,AL
+,332721,Precision Turned Product Manufacturing,56860.65,AL
+,622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,56454.8,AL
+,334514,Totalizing Fluid Meter and Counting Device Manufacturing,56412.93,AL
+,532111,Passenger Car Rental,55989.45,AL
+,562212,Solid Waste Landfill,55732.52,AL
+,531320,Offices of Real Estate Appraisers,55065.0,AL
+,519120,Libraries and Archives,54179.0,AL
+,313230,Nonwoven Fabric Mills,54170.5,AL
+,311613,Rendering and Meat Byproduct Processing,53928.0,AL
+,441228,"Motorcycle, ATV, and All Other Motor Vehicle Dealers",53233.72,AL
+,335314,Relay and Industrial Control Manufacturing,50443.72,AL
+,332112,Nonferrous Forging,50166.49,AL
+,311513,Cheese Manufacturing,50074.91,AL
+,488410,Motor Vehicle Towing,50000.0,AL
+,511120,Periodical Publishers,49631.0,AL
+,922160,Fire Protection,47213.9,AL
+,332410,Power Boiler and Heat Exchanger Manufacturing,47210.63,AL
+,332215,"Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",45695.57,AL
+,423720,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,45098.56,AL
+,611513,Apprenticeship Training,45000.0,AL
+,322219,Other Paperboard Container Manufacturing,44463.05,AL
+,327910,Abrasive Product Manufacturing,43918.1,AL
+,453998,All Other Miscellaneous Store Retailers (except Tobacco Stores),43062.0,AL
+,337125,Household Furniture (except Wood and Metal) Manufacturing,42045.48,AL
+,531390,Other Activities Related to Real Estate,41442.28,AL
+,485510,Charter Bus Industry,39839.0,AL
+,811211,Consumer Electronics Repair and Maintenance,39680.0,AL
+,446110,Pharmacies and Drug Stores,39348.53,AL
+,333132,Oil and Gas Field Machinery and Equipment Manufacturing,38503.26,AL
+,541890,Other Services Related to Advertising,38500.0,AL
+,238310,Drywall and Insulation Contractors,38120.76,AL
+,423810,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,38079.11,AL
+,531190,Lessors of Other Real Estate Property,37316.4,AL
+,484121,"General Freight Trucking, Long-Distance, Truckload",36800.0,AL
+,335221,Household Cooking Appliance Manufacturing,36163.26,AL
+,333414,Heating Equipment (except Warm Air Furnaces) Manufacturing,35069.1,AL
+,561613,Armored Car Services,34841.75,AL
+,332111,Iron and Steel Forging,34394.69,AL
+,327211,Flat Glass Manufacturing,34096.0,AL
+,921190,Other General Government Support,33557.53,AL
+,325611,Soap and Other Detergent Manufacturing,33350.0,AL
+,541110,Offices of Lawyers,33111.18,AL
+,333316,Photographic and Photocopying Equipment Manufacturing,31991.67,AL
+,326140,Polystyrene Foam Product Manufacturing,31810.63,AL
+,811198,All Other Automotive Repair and Maintenance,31404.98,AL
+,812910,Pet Care (except Veterinary) Services,31000.0,AL
+,922190,"Other Justice, Public Order, and Safety Activities",29640.0,AL
+,924120,Administration of Conservation Programs,29528.0,AL
+,423990,Other Miscellaneous Durable Goods Merchant Wholesalers,29396.48,AL
+,443142,Electronics Stores,29292.0,AL
+,335122,"Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing",29148.26,AL
+,316210,Footwear Manufacturing,28935.02,AL
+,326199,All Other Plastics Product Manufacturing,28622.5,AL
+,811490,Other Personal and Household Goods Repair and Maintenance,28083.9,AL
+,321213,Engineered Wood Member (except Truss) Manufacturing,27750.0,AL
+,532490,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,27713.45,AL
+,339940,Office Supplies (except Paper) Manufacturing,27391.56,AL
+,541870,Advertising Material Distribution Services,27290.0,AL
+,313320,Fabric Coating Mills,27258.12,AL
+,114119,Other Marine Fishing,27200.0,AL
+,332812,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",27028.64,AL
+,333244,Printing Machinery and Equipment Manufacturing,26844.46,AL
+,325320,Pesticide and Other Agricultural Chemical Manufacturing,26638.37,AL
+,337124,Metal Household Furniture Manufacturing,25927.68,AL
+,323117,Books Printing,25408.69,AL
+,611420,Computer Training,25100.0,AL
+,561622,Locksmiths,24020.0,AL
+,339115,Ophthalmic Goods Manufacturing,23070.0,AL
+,423210,Furniture Merchant Wholesalers,22860.0,AL
+,812331,Linen Supply,22187.96,AL
+,621498,All Other Outpatient Care Centers,22038.91,AL
+,523910,Miscellaneous Intermediation,22000.0,AL
+,813319,Other Social Advocacy Organizations,21600.0,AL
+,722514,"Cafeterias, Grill Buffets, and Buffets",21597.03,AL
+,324191,Petroleum Lubricating Oil and Grease Manufacturing,21551.85,AL
+,321920,Wood Container and Pallet Manufacturing,21532.0,AL
+,713950,Bowling Centers,20600.0,AL
+,323111,Commercial Printing (except Screen and Books),19879.72,AL
+,311224,Soybean and Other Oilseed Processing,19750.5,AL
+,332992,Small Arms Ammunition Manufacturing,19525.6,AL
+,213115,Support Activities for Nonmetallic Minerals (except Fuels) Mining,19008.73,AL
+,423440,Other Commercial Equipment Merchant Wholesalers,18739.82,AL
+,333914,"Measuring, Dispensing, and Other Pumping Equipment Manufacturing",18602.0,AL
+,336999,All Other Transportation Equipment Manufacturing,18040.21,AL
+,811113,Automotive Transmission Repair,17906.3,AL
+,332811,Metal Heat Treating,17812.48,AL
+,339994,"Broom, Brush, and Mop Manufacturing",17655.0,AL
+,322220,Paper Bag and Coated and Treated Paper Manufacturing,17565.2,AL
+,423120,Motor Vehicle Supplies and New Parts Merchant Wholesalers,16199.0,AL
+,713990,All Other Amusement and Recreation Industries,16000.0,AL
+,325414,Biological Product (except Diagnostic) Manufacturing,15950.01,AL
+,336991,"Motorcycle, Bicycle, and Parts Manufacturing",15857.87,AL
+,424440,Poultry and Poultry Product Merchant Wholesalers,15469.0,AL
+,713940,Fitness and Recreational Sports Centers,15452.18,AL
+,331529,Other Nonferrous Metal Foundries (except Die-Casting),15435.0,AL
+,453920,Art Dealers,15000.0,AL
+,311421,Fruit and Vegetable Canning,14782.99,AL
+,311412,Frozen Specialty Food Manufacturing,14450.69,AL
+,541191,Title Abstract and Settlement Offices,14275.5,AL
+,324121,Asphalt Paving Mixture and Block Manufacturing,14080.83,AL
+,315240,"Women’s, Girls’, and Infants’ Cut and Sew Apparel Manufacturing",13831.48,AL
+,335228,Other Major Household Appliance Manufacturing,13311.72,AL
+,333243,"Sawmill, Woodworking, and Paper Machinery Manufacturing",13075.6,AL
+,423730,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,13015.65,AL
+,331222,Steel Wire Drawing,12987.48,AL
+,333993,Packaging Machinery Manufacturing,12696.56,AL
+,335224,Household Laundry Equipment Manufacturing,12516.07,AL
+,541420,Industrial Design Services,12375.0,AL
+,213113,Support Activities for Coal Mining,12159.2,AL
+,812199,Other Personal Care Services,11655.0,AL
+,326299,All Other Rubber Product Manufacturing,11555.6,AL
+,333923,"Overhead Traveling Crane, Hoist, and Monorail System Manufacturing",11407.82,AL
+,324199,All Other Petroleum and Coal Products Manufacturing,11354.0,AL
+,335210,Small Electrical Appliance Manufacturing,11303.64,AL
+,922110,Courts,10340.95,AL
+,453210,Office Supplies and Stationery Stores,10259.0,AL
+,423690,Other Electronic Parts and Equipment Merchant Wholesalers,10128.0,AL
+,441110,New Car Dealers,10117.66,AL
+,488310,Port and Harbor Operations,10071.94,AL
+,113110,Timber Tract Operations,10050.53,AL
+,237130,Power and Communication Line and Related Structures Construction,9975.0,AL
+,325211,Plastics Material and Resin Manufacturing,9678.28,AL
+,335121,Residential Electric Lighting Fixture Manufacturing,9554.02,AL
+,325212,Synthetic Rubber Manufacturing,9420.0,AL
+,512210,Record Production,9350.0,AL
+,333514,"Special Die and Tool, Die Set, Jig, and Fixture Manufacturing",9222.5,AL
+,532299,All Other Consumer Goods Rental,9186.13,AL
+,423420,Office Equipment Merchant Wholesalers,9161.53,AL
+,331523,Nonferrous Metal Die-Casting Foundries,9127.69,AL
+,334517,Irradiation Apparatus Manufacturing,9095.0,AL
+,532292,Recreational Goods Rental,8300.0,AL
+,238150,Glass and Glazing Contractors,8079.59,AL
+,493120,Refrigerated Warehousing and Storage,7936.11,AL
+,448150,Clothing Accessories Stores,7916.0,AL
+,812210,Funeral Homes and Funeral Services,7893.0,AL
+,624110,Child and Youth Services,7650.0,AL
+,325311,Nitrogenous Fertilizer Manufacturing,7579.2,AL
+,323119,Other Commercial Printing,7508.8,AL
+,212312,Crushed and Broken Limestone Mining and Quarrying,7353.83,AL
+,321999,All Other Miscellaneous Wood Product Manufacturing,6906.25,AL
+,322230,Stationery Product Manufacturing,6824.5,AL
+,424490,Other Grocery and Related Products Merchant Wholesalers,6739.0,AL
+,454390,Other Direct Selling Establishments,6644.0,AL
+,111920,Cotton Farming,6548.17,AL
+,812310,Coin-Operated Laundries and Drycleaners,6499.3,AL
+,333511,Industrial Mold Manufacturing,6280.4,AL
+,323113,Commercial Screen Printing,5975.0,AL
+,423930,Recyclable Material Merchant Wholesalers,5852.5,AL
+,711510,"Independent Artists, Writers, and Performers",5820.12,AL
+,325413,In-Vitro Diagnostic Substance Manufacturing,5000.0,AL
+,423510,Metal Service Centers and Other Metal Merchant Wholesalers,4950.0,AL
+,713120,Amusement Arcades,4875.0,AL
+,337920,Blind and Shade Manufacturing,4814.08,AL
+,921140,"Executive and Legislative Offices, Combined",4600.0,AL
+,311514,"Dry, Condensed, and Evaporated Dairy Product Manufacturing",4347.0,AL
+,621210,Offices of Dentists,4258.5,AL
+,327991,Cut Stone and Stone Product Manufacturing,4095.0,AL
+,611691,Exam Preparation and Tutoring,4000.0,AL
+,561410,Document Preparation Services,3987.85,AL
+,322121,Paper (except Newsprint) Mills,3986.85,AL
+,312111,Soft Drink Manufacturing,3944.08,AL
+,325180,Other Basic Inorganic Chemical Manufacturing,3859.5,AL
+,424920,"Book, Periodical, and Newspaper Merchant Wholesalers",3780.0,AL
+,327999,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing,3683.89,AL
+,423840,Industrial Supplies Merchant Wholesalers,3669.32,AL
+,441310,Automotive Parts and Accessories Stores,3649.0,AL
+,451110,Sporting Goods Stores,3499.95,AL
+,337110,Wood Kitchen Cabinet and Countertop Manufacturing,3250.0,AL
+,424690,Other Chemical and Allied Products Merchant Wholesalers,2870.4,AL
+,326191,Plastics Plumbing Fixture Manufacturing,1994.08,AL
+,488390,Other Support Activities for Water Transportation,1849.3,AL
+,511110,Newspaper Publishers,1646.01,AL
+,515111,Radio Networks,1362.0,AL
+,517410,Satellite Telecommunications,1215.0,AL
+,326291,Rubber Product Manufacturing for Mechanical Use,1104.6,AL
+,314994,"Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills",1020.0,AL
+,339993,"Fastener, Button, Needle, and Pin Manufacturing",351.68,AL
+,511199,All Other Publishers,0.0,AL
+,531311,Residential Property Managers,0.0,AL
+,332212,Hand and Edge Tool Manufacturing,0.0,AL
+,314121,Curtain and Drapery Mills,0.0,AL
+,561599,All Other Travel Arrangement and Reservation Services,0.0,AL
+,221121,Electric Bulk Power Transmission and Control,0.0,AL
+,316211,Rubber and Plastics Footwear Manufacturing,0.0,AL
+,561439,Other Business Service Centers (including Copy Shops),0.0,AL
+,316213,Men's Footwear (except Athletic) Manufacturing,0.0,AL
+,327320,Ready-Mix Concrete Manufacturing,0.0,AL
+,336213,Motor Home Manufacturing,0.0,AL
+,113310,Logging,0.0,AL
+,221112,Fossil Fuel Electric Power Generation,0.0,AL
+,315299,All Other Cut and Sew Apparel Manufacturing,0.0,AL
+,325411,Medicinal and Botanical Manufacturing,0.0,AL
+,325920,Explosives Manufacturing,0.0,AL
+,334119,Other Computer Peripheral Equipment Manufacturing,0.0,AL
+,334611,Software Reproducing,0.0,AL
+,337910,Mattress Manufacturing,0.0,AL
+,339111,Laboratory Apparatus and Furniture Manufacturing,0.0,AL
+,339944,Carbon Paper and Inked Ribbon Manufacturing,0.0,AL
+,423310,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",0.0,AL
+,445110,Supermarkets and Other Grocery (except Convenience) Stores,0.0,AL
+,448190,Other Clothing Stores,0.0,AL
+,484110,"General Freight Trucking, Local",0.0,AL
+,485113,Bus and Other Motor Vehicle Transit Systems,0.0,AL
+,531110,Lessors of Residential Buildings and Dwellings,0.0,AL
+,532112,Passenger Car Leasing,0.0,AL
+,562219,Other Nonhazardous Waste Treatment and Disposal,0.0,AL
+,611210,Junior Colleges,0.0,AL
+,112390,Other Poultry Production,-111.17,AL
+,331512,Steel Investment Foundries,-283.82,AL
+,333518,Other Metalworking Machinery Manufacturing,-352.27,AL
+,115112,"Soil Preparation, Planting, and Cultivating",-413.75,AL
+,332431,Metal Can Manufacturing,-1000.0,AL
+,442210,Floor Covering Stores,-4744.0,AL
+,322211,Corrugated and Solid Fiber Box Manufacturing,-6957.0,AL
+,711219,Other Spectator Sports,-8150.0,AL
+,927110,Space Research and Technology,-11825.0,AL
+,541320,Landscape Architectural Services,-11885.72,AL
+,323116,Manifold Business Forms Printing,-15079.01,AL
+,922120,Police Protection,-17250.0,AL
+,813920,Professional Organizations,-67199.7,AL
+,561920,Convention and Trade Show Organizers,-67973.62,AL
+,493190,Other Warehousing and Storage,-106538.92,AL
+,331315,"Aluminum Sheet, Plate, and Foil Manufacturing",-123679.76,AL
+,611692,Automobile Driving Schools,-221245.23,AL
+,541940,Veterinary Services,-256947.11,AL
+,541720,Research and Development in the Social Sciences and Humanities,-353172.05,AL
+,517110,Wired Telecommunications Carriers,-409410.71,AL
+,334419,Other Electronic Component Manufacturing,-6210256.53,AL
