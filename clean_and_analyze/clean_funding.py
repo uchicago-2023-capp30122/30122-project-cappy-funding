@@ -12,6 +12,9 @@ def clean_funding(raw_funding_df):
     naics_sector_lst = [k for k in NAICS_SECTOR_CODES.keys()]
     funding_df = pd.DataFrame(STATE_NAMES_AND_UNITED_STATES, columns=["State"])
     funding_df = pd.concat([funding_df,pd.DataFrame(columns = naics_sector_lst)])
+    
+    funding_df_2 = pd.DataFrame(STATE_NAMES_AND_UNITED_STATES, columns=["State"])
+    funding_df_2 = pd.concat([funding_df,pd.DataFrame(columns = naics_sector_lst)])
 
     # Calculates funding for each category in each state and inputs values into funding_df
     for state_code, state in US_STATE_CODES.items():
@@ -41,10 +44,13 @@ def clean_funding(raw_funding_df):
 
         # Calculates funding for each category as a share of the total funding received by a state
         funding_df_without_us = funding_df.iloc[0:len(funding_df)-1]
-        funding_df[col + " (as % of Total Funding Received by State)"] = (funding_df_without_us[col] / funding_df_without_us["Total Funding Received"]) * 100
+        funding_df_2[col + " (as % of Total Funding Received by State)"] = (funding_df_without_us[col] / funding_df_without_us["Total Funding Received"]) * 100
 
     funding_df.set_index("State", inplace=True)
+    funding_df_2.set_index("State", inplace=True)
     funding_df_cut = funding_df.copy() 
     funding_df_cut.drop(columns = NAICS_SECTOR_LST, inplace = True)
+    funding_df_cut_2 = funding_df_2.copy()
+    funding_df_cut_2.drop(columns = NAICS_SECTOR_LST, inplace = True)
 
-    return funding_df, funding_df_cut
+    return funding_df, funding_df_cut, funding_df_cut_2

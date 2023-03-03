@@ -19,8 +19,8 @@ def analyze_expenditure_and_funding(years):
     poverty_df = clean_census_poverty(pd.read_csv("us_poverty_by_state.csv"))
     population_df = clean_census_population(pd.read_csv("us_census_population.csv")) 
 
-    poverty_df.to_csv("us_poverty_cleaned")
-    population_df.to_csv("us_population_cleaned")
+    # poverty_df.to_csv("us_poverty_cleaned")
+    # population_df.to_csv("us_population_cleaned")
 
     # Clean and combines census data and funding data from each year from 2016 to 2020
     expenditure_file_name = "_us_state_finances.csv"
@@ -33,17 +33,18 @@ def analyze_expenditure_and_funding(years):
         funding_csv = year + funding_file_name # "2016_us_funding.csv"
 
         expenditure_df = clean_census_expenditure(pd.read_csv(expenditure_csv))
-        funding_df, funding_df_cut  = clean_funding(pd.read_csv(funding_csv))
+        funding_df, funding_df_cut, funding_df_cut_2  = clean_funding(pd.read_csv(funding_csv))
     
         per_capita_df = pd.DataFrame(columns=["Expenditure per Capita (in thousands)", "Funding received per Capita (in thousands)"])
         per_capita_df["Expenditure per Capita (in thousands)"] = expenditure_df["State Expenditure (in thousands)"] / population_df["Population"]
         per_capita_df["Funding received per Capita (in thousands)"] = funding_df_cut["Total Funding Received"] / population_df["Population"]
 
-        cleaned_df_dct[year] = (expenditure_df, funding_df_cut, per_capita_df, funding_df)
+        cleaned_df_dct[year] = (expenditure_df, funding_df_cut, per_capita_df, funding_df, funding_df_cut_2)
 
         # Outputs files into directory
         expenditure_df.to_csv(year + "_cleaned_expenditure.csv")
-        funding_df_cut.to_csv(year + "_cleaned_funding.csv")
+        funding_df_cut.to_csv(year + "_cleaned_funding_by_state.csv")
+        funding_df_cut_2.to_csv(year + "_cleaned_funding_within_state.csv")
         per_capita_df.to_csv(year + "_per_capita_analysis.csv")
 
     return cleaned_df_dct
