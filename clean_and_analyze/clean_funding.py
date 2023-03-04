@@ -1,5 +1,5 @@
 import pandas as pd
-from utils_clean_and_analyze import STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES, NAICS_SECTOR_LST
+from utils_clean_and_analyze import STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES
 
 
 def clean_funding(raw_funding_df, year):
