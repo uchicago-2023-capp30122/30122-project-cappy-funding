@@ -1,8 +1,9 @@
 import pandas as pd
-from collections import namedtuple
-from clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
-from clean_funding import clean_funding
-from utils_clean_and_analyze import NAICS_SECTOR_LST
+
+from clean_and_analyze.collections import namedtuple
+from clean_and_analyze.clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
+from clean_and_analyze.clean_funding import clean_funding
+from clean_and_analyze.utils_clean_and_analyze import NAICS_SECTOR_LST
 
 CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df", "funding_df_absolute", "funding_df_by_state", "funding_df_within_state"])
 
