@@ -81,7 +81,7 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct):
         expenditure_df = clean_df_dct.get(year)[0]
         us_row_only = expenditure_df.loc[expenditure_df.index == "United States"]
         sum = int(us_row_only.loc[us_row_only.index == "United States", "State Expenditure (in thousands)"])
-        us_row_only = us_row_only[["Health and Social Services Expenditure", "Education Related Expenditure", "Public Administration Expenditure", "Transportation Expenditure"]]
+        us_row_only = us_row_only[["Utilities", "Health and Social Services Expenditure", "Education Related Expenditure", "Public Administration Expenditure", "Transportation Expenditure"]]
         us_row_only = us_row_only.transpose()
         us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
         us_row_only["Sum"] = sum
