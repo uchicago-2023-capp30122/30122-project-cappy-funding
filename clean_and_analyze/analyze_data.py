@@ -16,19 +16,19 @@ RAW_DATA_DIR = "data/raw_data/"
 # RAW_DATA_DIR = "..data.raw_data."
 
 
-def clean_and_analyze_all(year_lst):
+def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     """
     ###
     """
-    a = cleaned_df_dct = analyze_expenditure_and_funding(year_lst)
-    b = create_funding_time_series_df(year_lst, cleaned_df_dct)
-    c = create_expenditure_time_series_df(year_lst, cleaned_df_dct)
-    d = combine_multiple_years(year_lst, cleaned_df_dct)
+    a = cleaned_df_dct = analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath)
+    b = create_funding_time_series_df(year_lst, cleaned_df_dct, to_filepath)
+    c = create_expenditure_time_series_df(year_lst, cleaned_df_dct, to_filepath)
+    d = combine_multiple_years(year_lst, cleaned_df_dct, to_filepath)
 
     return a, b, c, d
 
 
-def analyze_expenditure_and_funding(years):
+def analyze_expenditure_and_funding(years, from_filepath, to_filepath):
     """
     ###
 
@@ -39,19 +39,19 @@ def analyze_expenditure_and_funding(years):
         cleaned_and_combined (dct)
     """
     # Creates and outputs population and poverty data
-    poverty_df = clean_census_poverty(pd.read_csv(RAW_DATA_DIR + "us_poverty_by_state.csv"))
-    population_df = clean_census_population(pd.read_csv(RAW_DATA_DIR + "us_census_population.csv")) 
+    poverty_df = clean_census_poverty(pd.read_csv(from_filepath + "us_poverty_by_state.csv"))
+    population_df = clean_census_population(pd.read_csv(from_filepath + "us_census_population.csv")) 
 
-    poverty_df.to_csv(CLEAN_DATA_DIR + "us_poverty_cleaned.csv")
-    population_df.to_csv(CLEAN_DATA_DIR + "us_population_cleaned.csv")
+    poverty_df.to_csv(to_filepath + "us_poverty_cleaned.csv")
+    population_df.to_csv(to_filepath + "us_population_cleaned.csv")
 
     # Clean and combines census data and funding data from each year from 2016 to 2020
 
     cleaned_df_dct = {}
 
     for year in years:
-        expenditure_csv = RAW_DATA_DIR + year + "_us_state_finances.csv" # "2016_us_state_finances.csv"
-        funding_csv = RAW_DATA_DIR + year + "_us_funding.csv" # "2016_us_funding.csv"
+        expenditure_csv = from_filepath + year + "_us_state_finances.csv" # "2016_us_state_finances.csv"
+        funding_csv = from_filepath + year + "_us_funding.csv" # "2016_us_funding.csv"
 
         expenditure_df = clean_census_expenditure(pd.read_csv(expenditure_csv))
         funding_df_absolute, funding_df_by_state, funding_df_within_state  = clean_funding(pd.read_csv(funding_csv), year)
@@ -63,16 +63,16 @@ def analyze_expenditure_and_funding(years):
         cleaned_df_dct[year] = CleanedData(expenditure_df, per_capita_df, funding_df_absolute, funding_df_by_state, funding_df_within_state)
 
         # Outputs files into directory
-        funding_df_by_state.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_by_state.csv")
-        funding_df_within_state.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_within_state.csv")
-        funding_df_absolute.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_absolute.csv")
-        expenditure_df.to_csv(CLEAN_DATA_DIR + year + "_cleaned_expenditure.csv")
-        per_capita_df.to_csv(CLEAN_DATA_DIR + year + "_per_capita_analysis.csv")
+        funding_df_by_state.to_csv(to_filepath + year + "_cleaned_funding_by_state.csv")
+        funding_df_within_state.to_csv(to_filepath + year + "_cleaned_funding_within_state.csv")
+        funding_df_absolute.to_csv(to_filepath + year + "_cleaned_funding_absolute.csv")
+        expenditure_df.to_csv(to_filepath + year + "_cleaned_expenditure.csv")
+        per_capita_df.to_csv(to_filepath + year + "_per_capita_analysis.csv")
 
     return cleaned_df_dct
 
 
-def create_funding_time_series_df(year_lst, clean_df_dct):
+def create_funding_time_series_df(year_lst, clean_df_dct, to_filepath):
     """
     ###
     """
@@ -88,12 +88,12 @@ def create_funding_time_series_df(year_lst, clean_df_dct):
     funding_time_series.index.names = ["NAICS Category"]
 
     # Outputs file into directory
-    funding_time_series.to_csv(CLEAN_DATA_DIR + "us_funding_time_series.csv")
+    funding_time_series.to_csv(to_filepath + "us_funding_time_series.csv")
 
     return funding_time_series
 
 
-def create_expenditure_time_series_df(year_lst, clean_df_dct):
+def create_expenditure_time_series_df(year_lst, clean_df_dct, to_filepath):
     """
     ###
     """
@@ -111,12 +111,12 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct):
     expenditure_time_series.index.names = ["Category"]
 
     # Outputs file into directory
-    expenditure_time_series.to_csv(CLEAN_DATA_DIR + "us_expenditure_time_series.csv")
+    expenditure_time_series.to_csv(to_filepath + "us_expenditure_time_series.csv")
             
     return expenditure_time_series
 
 
-def combine_multiple_years(year_lst, clean_df_dct):
+def combine_multiple_years(year_lst, clean_df_dct, to_filepath):
     """
     ###
     """
@@ -129,6 +129,6 @@ def combine_multiple_years(year_lst, clean_df_dct):
     combined_df = combined_df.sort_values(["State", "Year"])
 
     # Outputs file into directory
-    combined_df.to_csv(CLEAN_DATA_DIR + "all_years_funding_by_state.csv")
+    combined_df.to_csv(to_filepath + "all_years_funding_by_state.csv")
 
     return combined_df
