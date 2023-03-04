@@ -5,9 +5,8 @@ from .clean_census import clean_census_expenditure, clean_census_population, cle
 from .clean_funding import clean_funding
 from .utils_clean_and_analyze import NAICS_SECTOR_LST
 
+# Namedtupled to store multiple cleaned dataframes (used in analyze_expenditure_and_funding function)
 CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df", "funding_df_absolute", "funding_df_by_state", "funding_df_within_state"])
-YEARS = ["2016", "2017", "2018", "2019", "2020"]
-
 
 def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     """
