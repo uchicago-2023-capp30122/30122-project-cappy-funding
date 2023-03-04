@@ -47,6 +47,7 @@ def analyze_expenditure_and_funding(years):
         funding_df_within_state.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_within_state.csv")
         funding_df.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_full.csv")
         expenditure_df.to_csv(CLEAN_DATA_DIR + year + "_cleaned_expenditure.csv")
+        per_capita_df.to_csv(CLEAN_DATA_DIR + year + "_per_capita_analysis.csv")
 
     return cleaned_df_dct
 
