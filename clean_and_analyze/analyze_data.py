@@ -1,16 +1,20 @@
 import pandas as pd
 
-from clean_and_analyze.collections import namedtuple
-from clean_and_analyze.clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
-from clean_and_analyze.clean_funding import clean_funding
-from clean_and_analyze.utils_clean_and_analyze import NAICS_SECTOR_LST
+from collections import namedtuple
+from .clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
+from .clean_funding import clean_funding
+from .utils_clean_and_analyze import NAICS_SECTOR_LST
 
 CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df", "funding_df_absolute", "funding_df_by_state", "funding_df_within_state"])
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 
-CLEAN_DATA_DIR = "../data/clean_data/"
-RAW_DATA_DIR = "../data/raw_data/"
+CLEAN_DATA_DIR = "data/clean_data/"
+RAW_DATA_DIR = "data/raw_data/"
+
+# CLEAN_DATA_DIR = "..data.clean_data."
+# RAW_DATA_DIR = "..data.raw_data."
+
 
 def clean_and_analyze_all(year_lst):
     """

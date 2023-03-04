@@ -1,5 +1,5 @@
 import pandas as pd
-from utils_clean_and_analyze import STATE_NAMES_AND_UNITED_STATES
+from .utils_clean_and_analyze import STATE_NAMES_AND_UNITED_STATES
 
 
 def clean_census_expenditure(df):
