@@ -1,7 +1,7 @@
 import pandas as pd
 from clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
 from clean_funding import clean_funding
-from utils_clean_and_analyze import combine_dataframes_by_state, STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES, NAICS_SECTOR_LST, CleanedData
+from utils_clean_and_analyze import NAICS_SECTOR_LST, CleanedData
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 
@@ -106,7 +106,7 @@ def combine_multiple_years(year_lst, clean_df_dct):
 
     combined_df = pd.concat(funding_df_lst)
     combined_df = combined_df[combined_df.index != "United States"]
-    combined_df = combined_df.sort_values()
+    combined_df = combined_df.sort_values(["State", "Year"])
 
     # Outputs file into directory
     combined_df.to_csv(CLEAN_DATA_DIR + "all_years_funding_by_state.csv")
