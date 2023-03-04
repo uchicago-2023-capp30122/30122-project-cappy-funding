@@ -44,18 +44,18 @@ def analyze_expenditure_and_funding(years):
         funding_csv = RAW_DATA_DIR + year + "_us_funding.csv" # "2016_us_funding.csv"
 
         expenditure_df = clean_census_expenditure(pd.read_csv(expenditure_csv))
-        funding_df, funding_df_by_state, funding_df_within_state  = clean_funding(pd.read_csv(funding_csv), year)
+        funding_df_absolute, funding_df_by_state, funding_df_within_state  = clean_funding(pd.read_csv(funding_csv), year)
     
         per_capita_df = pd.DataFrame(columns=["Expenditure per Capita (in thousands)", "Funding received per Capita (in thousands)"])
         per_capita_df["Expenditure per Capita (in thousands)"] = expenditure_df["State Expenditure (in thousands)"] / population_df["Population"]
         per_capita_df["Funding received per Capita (in thousands)"] = funding_df_by_state["Total Funding Received"] / population_df["Population"]
 
-        cleaned_df_dct[year] = CleanedData(expenditure_df, per_capita_df, funding_df, funding_df_by_state, funding_df_within_state)
+        cleaned_df_dct[year] = CleanedData(expenditure_df, per_capita_df, funding_df_absolute, funding_df_by_state, funding_df_within_state)
 
         # Outputs files into directory
         funding_df_by_state.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_by_state.csv")
         funding_df_within_state.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_within_state.csv")
-        funding_df.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_full.csv")
+        funding_df_absolute.to_csv(CLEAN_DATA_DIR + year + "_cleaned_funding_absolute.csv")
         expenditure_df.to_csv(CLEAN_DATA_DIR + year + "_cleaned_expenditure.csv")
         per_capita_df.to_csv(CLEAN_DATA_DIR + year + "_per_capita_analysis.csv")
 
@@ -68,8 +68,8 @@ def create_funding_time_series_df(year_lst, clean_df_dct):
     """
     funding_time_series = pd.DataFrame(columns = year_lst)
     for year in year_lst:
-        funding_df = clean_df_dct.get(year).funding_df
-        us_row_only = funding_df.loc[funding_df.index == "United States"]
+        funding_df_absolute = clean_df_dct.get(year).funding_df_absolute
+        us_row_only = funding_df_absolute.loc[funding_df_absolute.index == "United States"]
         us_row_only = us_row_only[NAICS_SECTOR_LST]
         us_row_only = us_row_only.transpose()
         us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
