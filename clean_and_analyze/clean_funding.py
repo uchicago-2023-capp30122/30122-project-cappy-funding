@@ -2,7 +2,7 @@ import pandas as pd
 from utils_clean_and_analyze import STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES, NAICS_SECTOR_LST
 
 
-def clean_funding(raw_funding_df):
+def clean_funding(raw_funding_df, year):
     """
     ###
     """
@@ -13,8 +13,10 @@ def clean_funding(raw_funding_df):
     funding_df = pd.DataFrame(STATE_NAMES_AND_UNITED_STATES, columns=["State"])
     funding_df = pd.concat([funding_df,pd.DataFrame(columns = naics_sector_lst)])
     
-    funding_df_2 = pd.DataFrame(STATE_NAMES_AND_UNITED_STATES, columns=["State"])
-    funding_df_2 = pd.concat([funding_df,pd.DataFrame(columns = naics_sector_lst)])
+    funding_df_within_state = pd.DataFrame(STATE_NAMES_AND_UNITED_STATES, columns=["State"]) # Within State
+    funding_df_by_state = pd.DataFrame(STATE_NAMES_AND_UNITED_STATES, columns=["State"]) # By State
+
+    funding_df_lst = [funding_df, funding_df_within_state, funding_df_by_state]
 
     # Calculates funding for each category in each state and inputs values into funding_df
     for state_code, state in US_STATE_CODES.items():
@@ -33,24 +35,35 @@ def clean_funding(raw_funding_df):
     required_col_names = [col for col in funding_df.columns[1:]]
 
     # Calculates total funding across categories for each state
-    funding_df["Total Funding Received"] = funding_df[required_col_names].sum(axis=1)
+    for df in funding_df_lst:
+        df["Total Funding Received"] = funding_df[required_col_names].sum(axis=1)
 
     for col in required_col_names:
-        # Calculates total funding for each category at the national level
+        #Calculates total funding for each category at the national level
         funding_df.loc[funding_df["State"] == "United States", col] = funding_df[col].sum()
 
         # Calculates funding for each state as a share of US by category
-        funding_df[col + " (State as % of US)"] = funding_df.apply(lambda x : (x[col] / funding_df.loc[funding_df["State"] == "United States", col]) * 100, axis = 1)
+        funding_df_by_state[col] = funding_df.apply(lambda x : (x[col] / funding_df.loc[funding_df["State"] == "United States", col]) * 100, axis = 1)
 
         # Calculates funding for each category as a share of the total funding received by a state
         funding_df_without_us = funding_df.iloc[0:len(funding_df)-1]
-        funding_df_2[col + " (as % of Total Funding Received by State)"] = (funding_df_without_us[col] / funding_df_without_us["Total Funding Received"]) * 100
+        funding_df_within_state[col] = (funding_df_without_us[col] / funding_df_without_us["Total Funding Received"]) * 100
+
+    funding_df["Year"] = year
+    funding_df_cols = list(funding_df.columns)
+    funding_df = funding_df[[funding_df_cols[-1]] + funding_df_cols[:-1]]
+
+    funding_df_within_state["Year"] = year
+    funding_df_2_cols = list(funding_df_within_state.columns)
+    funding_df_within_state = funding_df_within_state[[funding_df_2_cols[-1]] + funding_df_2_cols[:-1]]
+
+    funding_df_by_state["Year"] = year
+    funding_df_3_cols = list(funding_df_by_state.columns)
+    funding_df_by_state = funding_df_by_state[[funding_df_3_cols[-1]] + funding_df_3_cols[:-1]]
 
     funding_df.set_index("State", inplace=True)
-    funding_df_2.set_index("State", inplace=True)
-    funding_df_cut = funding_df.copy() 
-    funding_df_cut.drop(columns = NAICS_SECTOR_LST, inplace = True)
-    funding_df_cut_2 = funding_df_2.copy()
-    funding_df_cut_2.drop(columns = NAICS_SECTOR_LST, inplace = True)
+    funding_df_within_state.set_index("State", inplace=True)
+    funding_df_by_state.set_index("State", inplace=True)
 
-    return funding_df, funding_df_cut, funding_df_cut_2
+
+    return funding_df, funding_df_by_state, funding_df_within_state

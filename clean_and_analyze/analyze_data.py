@@ -5,6 +5,7 @@ from utils_clean_and_analyze import combine_dataframes_by_state, STATE_NAMES, ST
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 
+
 def analyze_expenditure_and_funding(years):
     """
     ###
@@ -33,19 +34,19 @@ def analyze_expenditure_and_funding(years):
         funding_csv = year + funding_file_name # "2016_us_funding.csv"
 
         expenditure_df = clean_census_expenditure(pd.read_csv(expenditure_csv))
-        funding_df, funding_df_cut, funding_df_cut_2  = clean_funding(pd.read_csv(funding_csv))
+        funding_df, funding_df_by_state, funding_df_within_state  = clean_funding(pd.read_csv(funding_csv), year)
     
         per_capita_df = pd.DataFrame(columns=["Expenditure per Capita (in thousands)", "Funding received per Capita (in thousands)"])
         per_capita_df["Expenditure per Capita (in thousands)"] = expenditure_df["State Expenditure (in thousands)"] / population_df["Population"]
-        per_capita_df["Funding received per Capita (in thousands)"] = funding_df_cut["Total Funding Received"] / population_df["Population"]
+        per_capita_df["Funding received per Capita (in thousands)"] = funding_df_by_state["Total Funding Received"] / population_df["Population"]
 
-        cleaned_df_dct[year] = (expenditure_df, funding_df_cut, per_capita_df, funding_df, funding_df_cut_2)
+        cleaned_df_dct[year] = (expenditure_df, funding_df_by_state, per_capita_df, funding_df, funding_df_within_state)
 
         # Outputs files into directory
-        expenditure_df.to_csv(year + "_cleaned_expenditure.csv")
-        funding_df_cut.to_csv(year + "_cleaned_funding_by_state.csv")
-        funding_df_cut_2.to_csv(year + "_cleaned_funding_within_state.csv")
-        per_capita_df.to_csv(year + "_per_capita_analysis.csv")
+        # funding_df_by_state.to_csv(year + "_cleaned_funding_by_state.csv")
+        # funding_df_within_state.to_csv(year + "_cleaned_funding_within_state.csv")
+        # funding_df.to_csv(year + "_cleaned_funding_full.csv")
+        # expenditure_df.to_csv(year + "_cleaned_expenditure.csv")
 
     return cleaned_df_dct
 
@@ -92,3 +93,18 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct):
     expenditure_time_series.to_csv("us_expenditure_time_series.csv")
             
     return expenditure_time_series
+
+
+def combine_multiple_years(year_lst, clean_df_dct):
+    """
+    ###
+    """
+    funding_df_lst = []
+    for year in year_lst:
+        funding_df_lst.append(clean_df_dct.get(year)[1])
+
+    combined_df = pd.concat(funding_df_lst)
+    combined_df = combined_df[combined_df.index != "United States"]
+    combined_df = combined_df.sort_values()
+
+    return combined_df.to_csv("all_years_funding_by_state.csv")
