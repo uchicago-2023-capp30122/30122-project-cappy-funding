@@ -13,12 +13,10 @@ def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     """
     ###
     """
-    a = cleaned_df_dct = analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath)
-    b = create_funding_time_series_df(year_lst, cleaned_df_dct, to_filepath)
-    c = create_expenditure_time_series_df(year_lst, cleaned_df_dct, to_filepath)
-    d = combine_multiple_years(year_lst, cleaned_df_dct, to_filepath)
-
-    return a, b, c, d
+    cleaned_df_dct = analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath)
+    create_funding_time_series_df(year_lst, cleaned_df_dct, to_filepath)
+    create_expenditure_time_series_df(year_lst, cleaned_df_dct, to_filepath)
+    combine_multiple_years(year_lst, cleaned_df_dct, to_filepath)
 
 
 def analyze_expenditure_and_funding(years, from_filepath, to_filepath):
