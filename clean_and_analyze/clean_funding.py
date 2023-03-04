@@ -48,22 +48,14 @@ def clean_funding(raw_funding_df, year):
         # Calculates funding for each category as a share of the total funding received by a state
         funding_df_without_us = funding_df.iloc[0:len(funding_df)-1]
         funding_df_within_state[col] = (funding_df_without_us[col] / funding_df_without_us["Total Funding Received"]) * 100
+    
+    for df in funding_df_lst:
+        df["Year"] = year
+        df.set_index("State", inplace=True)
 
-    funding_df["Year"] = year
-    funding_df_cols = list(funding_df.columns)
-    funding_df = funding_df[[funding_df_cols[-1]] + funding_df_cols[:-1]]
-
-    funding_df_within_state["Year"] = year
-    funding_df_2_cols = list(funding_df_within_state.columns)
-    funding_df_within_state = funding_df_within_state[[funding_df_2_cols[-1]] + funding_df_2_cols[:-1]]
-
-    funding_df_by_state["Year"] = year
-    funding_df_3_cols = list(funding_df_by_state.columns)
-    funding_df_by_state = funding_df_by_state[[funding_df_3_cols[-1]] + funding_df_3_cols[:-1]]
-
-    funding_df.set_index("State", inplace=True)
-    funding_df_within_state.set_index("State", inplace=True)
-    funding_df_by_state.set_index("State", inplace=True)
+    funding_df = funding_df[[list(funding_df.columns)[-1]] + list(funding_df.columns)[:-1]]
+    funding_df_within_state = funding_df_within_state[[list(funding_df_within_state.columns)[-1]] + list(funding_df_within_state.columns)[:-1]]
+    funding_df_by_state = funding_df_by_state[[list(funding_df_by_state.columns)[-1]] + list(funding_df_by_state.columns)[:-1]]
 
 
     return funding_df, funding_df_by_state, funding_df_within_state
