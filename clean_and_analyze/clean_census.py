@@ -85,8 +85,6 @@ def clean_census_population(pop_df):
     pop_df["Population"] = pop_df["Population"].astype(int)
     pop_df.set_index("State", inplace=True)
 
-    pop_df.to_csv("us_cleaned_population.csv")
-
     return pop_df
 
 
@@ -99,7 +97,5 @@ def clean_census_poverty(poverty_df):
     poverty_df['State'] = poverty_df['State'].str.strip()
     poverty_df = poverty_df[poverty_df["State"].isin(STATE_NAMES_AND_UNITED_STATES)]
     poverty_df.set_index("State", inplace=True)
-
-    poverty_df.to_csv("us_cleaned_poverty.csv")
 
     return poverty_df

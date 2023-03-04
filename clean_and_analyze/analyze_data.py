@@ -8,6 +8,16 @@ YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "../data/clean_data/"
 RAW_DATA_DIR = "../data/raw_data/"
 
+def clean_and_analyze_all(year_lst):
+    """
+    ###
+    """
+    cleaned_df_dct = analyze_expenditure_and_funding(year_lst)
+    create_funding_time_series_df(year_lst, cleaned_df_dct)
+    create_expenditure_time_series_df(year_lst, cleaned_df_dct)
+    combine_multiple_years(year_lst, cleaned_df_dct)
+
+
 def analyze_expenditure_and_funding(years):
     """
     ###
