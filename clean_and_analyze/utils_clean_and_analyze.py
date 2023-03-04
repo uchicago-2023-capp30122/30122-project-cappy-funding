@@ -1,4 +1,5 @@
 import pandas as pd
+from collections import namedtuple
 
 STATE_NAMES = ["Alaska", "Alabama", "Arkansas", "Arizona", "California",
 "Colorado", "Connecticut", "Delaware", "Florida", "Georgia",
@@ -91,6 +92,7 @@ NAICS_SECTOR_CODES = {
 
 NAICS_SECTOR_LST = [k for k in NAICS_SECTOR_CODES]
 
+CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df", "funding_df", "funding_df_by_state", "funding_df_within_state"])
 
 def combine_dataframes_by_state(main_df, df_lst):
     """

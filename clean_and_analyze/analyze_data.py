@@ -1,7 +1,7 @@
 import pandas as pd
 from clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
 from clean_funding import clean_funding
-from utils_clean_and_analyze import combine_dataframes_by_state, STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES, NAICS_SECTOR_LST
+from utils_clean_and_analyze import combine_dataframes_by_state, STATE_NAMES, STATE_NAMES_AND_UNITED_STATES, US_STATE_CODES, NAICS_SECTOR_CODES, NAICS_SECTOR_LST, CleanedData
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 
@@ -40,7 +40,7 @@ def analyze_expenditure_and_funding(years):
         per_capita_df["Expenditure per Capita (in thousands)"] = expenditure_df["State Expenditure (in thousands)"] / population_df["Population"]
         per_capita_df["Funding received per Capita (in thousands)"] = funding_df_by_state["Total Funding Received"] / population_df["Population"]
 
-        cleaned_df_dct[year] = (expenditure_df, funding_df_by_state, per_capita_df, funding_df, funding_df_within_state)
+        cleaned_df_dct[year] = CleanedData(expenditure_df, per_capita_df, funding_df, funding_df_by_state, funding_df_within_state)
 
         # Outputs files into directory
         # funding_df_by_state.to_csv(year + "_cleaned_funding_by_state.csv")
@@ -57,7 +57,7 @@ def create_funding_time_series_df(year_lst, clean_df_dct):
     """
     funding_time_series = pd.DataFrame(columns = year_lst)
     for year in year_lst:
-        funding_df = clean_df_dct.get(year)[3]
+        funding_df = clean_df_dct.get(year).funding_df
         us_row_only = funding_df.loc[funding_df.index == "United States"]
         us_row_only = us_row_only[NAICS_SECTOR_LST]
         us_row_only = us_row_only.transpose()
@@ -78,7 +78,7 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct):
     """
     expenditure_time_series = pd.DataFrame(columns = year_lst)
     for year in year_lst:
-        expenditure_df = clean_df_dct.get(year)[0]
+        expenditure_df = clean_df_dct.get(year).expenditure_df
         us_row_only = expenditure_df.loc[expenditure_df.index == "United States"]
         sum = int(us_row_only.loc[us_row_only.index == "United States", "State Expenditure (in thousands)"])
         us_row_only = us_row_only[["Utilities", "Health and Social Services Expenditure", "Education Related Expenditure", "Public Administration Expenditure", "Transportation Expenditure"]]
@@ -101,7 +101,7 @@ def combine_multiple_years(year_lst, clean_df_dct):
     """
     funding_df_lst = []
     for year in year_lst:
-        funding_df_lst.append(clean_df_dct.get(year)[1])
+        funding_df_lst.append(clean_df_dct.get(year).funding_df_by_state)
 
     combined_df = pd.concat(funding_df_lst)
     combined_df = combined_df[combined_df.index != "United States"]
