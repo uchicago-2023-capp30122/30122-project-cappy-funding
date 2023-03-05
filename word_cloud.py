@@ -20,7 +20,7 @@ def create_word_clouds():
     for year in range(2016, 2021):
         # create a dictionary that contains the NAICS category as the key and the funding percentage for the current year as the value
         category_weight = {}
-        for index, row in df.iterrows():
+        for _, row in df.iterrows():
             category = row['NAICS Category']
             weight = row[str(year)]
             category_weight[category] = weight
@@ -32,18 +32,18 @@ def create_word_clouds():
         wordcloud = WordCloud(width = 800, height = 800, 
                         background_color ='white', 
                         min_font_size = 7,
-                        max_words = 50, # limit the number of words
+                        max_words = 50,
                         mask = funding_mask, # use the funding image as the mask
-                        contour_width=1, # add contour lines to the text
-                        contour_color='lightgrey', # set contour line color
+                        contour_width=1,
+                        contour_color='lightgrey',
                         colormap='tab20',
-                        scale=2 # set color palette
+                        scale=2
                     ).generate_from_frequencies(top_categories)
 
         # plot the word cloud using matplotlib
         plt.figure(figsize = (10, 10), facecolor = None) 
-        plt.imshow(wordcloud, aspect='auto') # use equal aspect ratio to prevent stretching
+        plt.imshow(wordcloud, aspect='auto')
         plt.axis("off") 
         plt.tight_layout(pad = 0) 
-        plt.title(f"Word Cloud of NAICS Category for {year}", fontsize=20) # add a title
+        plt.title(f"Word Cloud of NAICS Category for {year}", fontsize=20)
         plt.show()

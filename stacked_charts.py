@@ -65,6 +65,6 @@ def create_stacked_bar_chart():
     fig.update_xaxes(type='category')
     fig.update_layout(title='Top 10 Categories receiving Federal Funding by Year (2016-2020)')
 
-    # Show the chart
+    # Show chart
     fig.show()
 
