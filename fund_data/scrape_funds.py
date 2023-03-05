@@ -77,7 +77,7 @@ def data_year(list_states):
         
         dict[state] = results
                 
-    with open("2018_performance.csv", "w", newline = "") as csvfile:
+    with open("2016_us_funding.csv", "w", newline = "") as csvfile:
 
         writer = csv.writer(csvfile)
         headers = list(dict[state][0].keys())
