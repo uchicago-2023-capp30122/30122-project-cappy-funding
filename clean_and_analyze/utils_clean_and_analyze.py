@@ -1,18 +1,21 @@
 import pandas as pd
-from collections import namedtuple
 
+# List of states in the US (exlcuding territories)
 STATE_NAMES = ["Alaska", "Alabama", "Arkansas", "Arizona", "California",
 "Colorado", "Connecticut", "Delaware", "Florida", "Georgia",
-"Hawaii", "Iowa", "Idaho", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana",
-"Massachusetts", "Maryland", "Maine", "Michigan", "Minnesota", "Missouri", "Mississippi",
-"Montana", "North Carolina", "North Dakota", "Nebraska", "New Hampshire", "New Jersey",
-"New Mexico", "Nevada", "New York", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
-"Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Virginia",
+"Hawaii", "Iowa", "Idaho", "Illinois", "Indiana", "Kansas", "Kentucky", 
+"Louisiana","Massachusetts", "Maryland", "Maine", "Michigan", "Minnesota",
+"Missouri", "Mississippi", "Montana", "North Carolina", "North Dakota", 
+"Nebraska", "New Hampshire", "New Jersey", "New Mexico", "Nevada", 
+"New York", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", 
+"South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Virginia",
 "Vermont", "Washington", "Wisconsin", "West Virginia", "Wyoming"]
 
+# List of states in the US (exlcuding territories) and also "United States"
 STATE_NAMES_AND_UNITED_STATES = STATE_NAMES[:]
 STATE_NAMES_AND_UNITED_STATES.append("United States")
 
+# Dictionary of state name (key) and state codes (value)
 us_state_abbreviations = {
     "Alabama": "AL",
     "Alaska": "AK",
@@ -66,8 +69,10 @@ us_state_abbreviations = {
     "Wyoming": "WY",
 }
 
+# Reversed dictionary of state codes (key) and state names (value)
 US_STATE_CODES = dict(map(reversed, us_state_abbreviations.items()))
 
+# Dictionary of NAICS sector names (key) and sector codes (value)
 NAICS_SECTOR_CODES = {
     "Agriculture, Forestry, Fishing and Hunting" : ("11",),
     "Mining, Quarrying, and Oil and Gas Extraction" : ("21",),
@@ -90,8 +95,11 @@ NAICS_SECTOR_CODES = {
     "Public Administration (not covered in economic census)" : ("92",)
 }
 
+# List of NAICS sector names
 NAICS_SECTOR_LST = [k for k in NAICS_SECTOR_CODES]
 
+
+# Recursive helper function that was not used in the project
 def combine_dataframes_by_state(main_df, df_lst):
     """
     Recursively concatenates multiple panda dataframes (with "State" 
