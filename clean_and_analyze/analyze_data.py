@@ -1,12 +1,14 @@
 import pandas as pd
-
 from collections import namedtuple
-from .clean_census import clean_census_expenditure, clean_census_population, clean_census_poverty
+from .clean_census import clean_census_expenditure, \
+    clean_census_population, clean_census_poverty
 from .clean_funding import clean_funding
 from .utils_clean_and_analyze import NAICS_SECTOR_LST
 
-# Namedtupled to store multiple cleaned dataframes (used in analyze_expenditure_and_funding function)
-CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df", "funding_df_absolute", "funding_df_by_state", "funding_df_within_state"])
+# Namedtupled to store multiple cleaned dataframes
+# (used in analyze_expenditure_and_funding function)
+CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df",
+ "funding_df_absolute", "funding_df_by_state", "funding_df_within_state"])
 
 def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     """
@@ -20,7 +22,8 @@ def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     
     Returns (none)
     """
-    cleaned_df_dct = analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath)
+    cleaned_df_dct = analyze_expenditure_and_funding(year_lst, 
+    from_filepath, to_filepath)
     create_funding_time_series_df(year_lst, cleaned_df_dct, to_filepath)
     create_expenditure_time_series_df(year_lst, cleaned_df_dct, to_filepath)
     combine_multiple_years(year_lst, cleaned_df_dct, to_filepath)
@@ -28,9 +31,9 @@ def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
 
 def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
     """
-    Cleans poverty csv, population csv, as well as yearly state expenditure csv and 
-    yearly funding csv. Computes yearly per_capita expenditure and funding. Output
-    these files as multiple cleaned csv.
+    Cleans poverty csv, population csv, as well as yearly state expenditure 
+    csv and yearly funding csv. Computes yearly per_capita expenditure and 
+    funding. Output these files as multiple cleaned csv.
 
     Inputs:
         year_lst (lst of str): list of years to clean
@@ -38,15 +41,18 @@ def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
         to_filepath (str): filepath to store cleaned data files
 
     Returns:
-        cleaned_df_dct (dct): a dictionary that stores each year's cleabed datasets
+        cleaned_df_dct (dct): a dictionary that stores each year's cleaned datasets
             key (str): one year
-            value (tuple of pandas series): a named tuple that stores five datasets
+            value (tuple of pandas series): a named tuple that stores
+            five datasets
     """
     # Cleans and outputs poverty and population csv
-    poverty_df = clean_census_poverty(pd.read_csv(from_filepath + "us_poverty_by_state.csv"))
+    poverty_df = clean_census_poverty(pd.read_csv(from_filepath 
+    + "us_poverty_by_state.csv"))
     poverty_df.to_csv(to_filepath + "us_poverty_cleaned.csv")
 
-    population_df = clean_census_population(pd.read_csv(from_filepath + "us_census_population.csv")) 
+    population_df = clean_census_population(pd.read_csv(from_filepath
+    + "us_census_population.csv")) 
     population_df.to_csv(to_filepath + "us_population_cleaned.csv")
 
     # Cleans and outputs datasets for each year
@@ -54,27 +60,40 @@ def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
     for year in year_lst:
 
         # Retrieves expenditure and funding csv from raw_data/ directory
-        expenditure_csv = from_filepath + year + "_us_state_finances.csv" # "2016_us_state_finances.csv"
-        funding_csv = from_filepath + year + "_us_funding.csv" # "2016_us_funding.csv"
+        expenditure_csv = from_filepath + year + "_us_state_finances.csv"
+        funding_csv = from_filepath + year + "_us_funding.csv" 
 
         # Cleans expenditure and funding dataset for one year
         expenditure_df = clean_census_expenditure(pd.read_csv(expenditure_csv))
-        funding_df_absolute, funding_df_by_state, funding_df_within_state  = clean_funding(pd.read_csv(funding_csv), year)
+        funding_df_absolute, funding_df_by_state, funding_df_within_state \
+             = clean_funding(pd.read_csv(funding_csv), year)
         
-        # Computes expenditure per capita and funding received per capita for one year
-        per_capita_df = pd.DataFrame(columns=["Expenditure per Capita (in thousands)", "Funding received per Capita (in thousands)"])
-        per_capita_df["Expenditure per Capita (in thousands)"] = expenditure_df["State Expenditure (in thousands)"] / population_df["Population"]
-        per_capita_df["Funding received per Capita (in thousands)"] = funding_df_by_state["Total Funding Received"] / population_df["Population"]
+        # Calculates expenditure and funding received per capita for one year
+        per_capita_df = pd.DataFrame(columns=["Expenditure per Capita (in thousands)",
+         "Funding received per Capita (in thousands)"])
+    
+        per_capita_df["Expenditure per Capita (in thousands)"] = \
+            expenditure_df["State Expenditure (in thousands)"] / population_df["Population"]
 
-        # Sets dictionary key to the year and stores five datasets dictionary value in a namedtuple
-        cleaned_df_dct[year] = CleanedData(expenditure_df, per_capita_df, funding_df_absolute, funding_df_by_state, funding_df_within_state)
+        per_capita_df["Funding received per Capita (in thousands)"] = \
+            funding_df_by_state["Total Funding Received"] / population_df["Population"]
+
+        # Sets dictionary key to the year and stores five datasets 
+        # dictionary value in a namedtuple
+        cleaned_df_dct[year] = CleanedData(expenditure_df, per_capita_df, 
+        funding_df_absolute, funding_df_by_state, funding_df_within_state)
 
         # Outputs files into the clean_data/ directory
-        funding_df_by_state.to_csv(to_filepath + year + "_cleaned_funding_by_state.csv")
-        funding_df_within_state.to_csv(to_filepath + year + "_cleaned_funding_within_state.csv")
-        funding_df_absolute.to_csv(to_filepath + year + "_cleaned_funding_absolute.csv")
-        expenditure_df.to_csv(to_filepath + year + "_cleaned_expenditure.csv")
-        per_capita_df.to_csv(to_filepath + year + "_per_capita_analysis.csv")
+        funding_df_by_state.to_csv(to_filepath + year + 
+        "_cleaned_funding_by_state.csv")
+        funding_df_within_state.to_csv(to_filepath + year + 
+        "_cleaned_funding_within_state.csv")
+        funding_df_absolute.to_csv(to_filepath + year + 
+        "_cleaned_funding_absolute.csv")
+        expenditure_df.to_csv(to_filepath + year + 
+        "_cleaned_expenditure.csv")
+        per_capita_df.to_csv(to_filepath + year + 
+        "_per_capita_analysis.csv")
 
     return cleaned_df_dct
 
@@ -82,13 +101,13 @@ def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
 def create_funding_time_series_df(year_lst, clean_df_dct, to_filepath):
     """
 
-    Creates and outputs a timeseries csv that shows the percentage of funding awarded
-    for each category at the national level across smultiple years. Outputs the
-    timeseries as a csv.
+    Creates and outputs a timeseries csv that shows the percentage of funding
+    awarded for each category at the national level across smultiple years. 
+    Outputs the timeseries as a csv.
     
     Inputs:
         year_lst (lst of str): list of years to construct time series
-        cleaned_df_dct (dct): a dictionary that stores each year's cleabed datasets
+        cleaned_df_dct (dct): a dictionary that stores each year's cleaned datasets
             key (str): one year
             value (tuple): a named tuple that stores five datasets
         to_filepath (str): filepath to store cleaned data files
@@ -105,15 +124,18 @@ def create_funding_time_series_df(year_lst, clean_df_dct, to_filepath):
         funding_df_absolute = clean_df_dct.get(year).funding_df_absolute
 
         # Obtains total funding for the whole country in one year
-        us_row_only = funding_df_absolute.loc[funding_df_absolute.index == "United States"]
+        us_row_only = funding_df_absolute.loc[funding_df_absolute.index\
+             == "United States"]
         us_row_only = us_row_only[NAICS_SECTOR_LST]
 
-        # Tranposes dataset such that the rows are the categories and the column is the funding amount for each cateogry
+        # Tranposes dataset such that the rows are the categories and the 
+        # column is the funding amount for each cateogry
         us_row_only = us_row_only.transpose()
         us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
 
         # Computes the percentage for each category out of the total funding
-        funding_time_series[year] = (us_row_only["Amount"] / us_row_only["Amount"].sum()) * 100
+        funding_time_series[year] = (us_row_only["Amount"] / 
+        us_row_only["Amount"].sum()) * 100
 
     funding_time_series.index.names = ["NAICS Category"]
 
@@ -125,13 +147,13 @@ def create_funding_time_series_df(year_lst, clean_df_dct, to_filepath):
 
 def create_expenditure_time_series_df(year_lst, clean_df_dct, to_filepath):
     """
-    Creates and outputs a timeseries csv that shows the percentage of expenditure
-    for each category at the national level across smultiple years. Outputs the
-    timeseries as a csv.
+    Creates and outputs a timeseries csv that shows the percentage of 
+    expenditure for each category at the national level across multiple years.
+    Outputs the timeseries as a csv.
 
     Inputs:
         year_lst (lst of str): list of years to construct time series
-        cleaned_df_dct (dct): a dictionary that stores each year's cleabed datasets
+        cleaned_df_dct (dct): a dictionary that stores each year's cleaned datasets
             key (str): one year
             value (tuple): a named tuple that stores five datasets
         to_filepath (str): filepath to store cleaned data files
@@ -149,12 +171,16 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct, to_filepath):
 
         # Obtains total expenditure for the whole country in one year
         us_row_only = expenditure_df.loc[expenditure_df.index == "United States"]
-        sum = int(us_row_only.loc[us_row_only.index == "United States", "State Expenditure (in thousands)"])
+        sum = int(us_row_only.loc[us_row_only.index == "United States", 
+        "State Expenditure (in thousands)"])
 
         # Retains only the five main expenditure categories
-        us_row_only = us_row_only[["Utilities", "Health and Social Services Expenditure", "Education Related Expenditure", "Public Administration Expenditure", "Transportation Expenditure"]]
+        us_row_only = us_row_only[["Utilities",
+        "Health and Social Services Expenditure", "Education Related Expenditure",
+        "Public Administration Expenditure", "Transportation Expenditure"]]
 
-        # Tranposes dataset such that the rows are the categories and the column is the amount for each cateogry
+        # Tranposes dataset such that the rows are the categories and the 
+        # column is the amount for each cateogry
         us_row_only = us_row_only.transpose()
         us_row_only.rename(columns = {'United States':'Amount'}, inplace = True)
 
@@ -162,7 +188,8 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct, to_filepath):
         us_row_only["Sum"] = sum
 
         # Computes the percentage for each category out of the total expenditure
-        expenditure_time_series[year] = (us_row_only["Amount"] / us_row_only["Sum"]) * 100
+        expenditure_time_series[year] = (us_row_only["Amount"] / 
+        us_row_only["Sum"]) * 100
     
     expenditure_time_series.index.names = ["Category"]
 
@@ -180,7 +207,7 @@ def combine_multiple_years(year_lst, clean_df_dct, to_filepath):
 
     Inputs:
         year_lst (lst of str): list of years to construct time series
-        cleaned_df_dct (dct): a dictionary that stores each year's cleabed datasets
+        cleaned_df_dct (dct): a dictionary that stores each year's cleaned datasets
             key (str): one year
             value (tuple): a named tuple that stores five datasets
         to_filepath (str): filepath to store cleaned data files

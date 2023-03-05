@@ -22,10 +22,14 @@ def clean_census_expenditure(df):
     df.drop(df.index[0:66], inplace=True)
 
     # Retains only specific expenditure categories
-    social = ["Public welfare", "Hospitals", "Health", "Employment security administration", "Veterans' services"]
+    social = ["Public welfare", "Hospitals", "Health", 
+    "Employment security administration", "Veterans' services"]
+    
     educ = ["Education", "Libraries"]
-    govt = ["Financial administration", "Judicial and legal", "General public buildings", "Other governmental administration"]
-    transport = ["Highways", "Air transportation (airports)", "Parking facilities", "Sea and inland port facilities"]
+    govt = ["Financial administration", "Judicial and legal", 
+    "General public buildings", "Other governmental administration"]
+    transport = ["Highways", "Air transportation (airports)", 
+    "Parking facilities", "Sea and inland port facilities"]
     others = ["Utility expenditure", "Expenditure1"]
 
     df = df[df["Description"].isin(social + educ + govt + transport + others)]
