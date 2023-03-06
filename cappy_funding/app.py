@@ -40,17 +40,17 @@ def main():
     )
 
     if user_input == 1:
-        run_visualization()
+        return run_visualization()
 
     elif user_input == 2:
-        run_api_download()
+        return run_api_download()
 
     elif user_input == 3:
-        run_data_clean_and_analyze()
+        return run_data_clean_and_analyze()
 
     elif user_input == 4:
         sys.exit()
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
