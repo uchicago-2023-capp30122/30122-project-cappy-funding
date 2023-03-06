@@ -1,6 +1,6 @@
 import sys
-from .cappy_funding.data.raw_data import scrape_funds
-from .cappy_funding.clean_and_analyze import analyze_data
+from cappy_funding.data.raw_data import scrape_funds
+from cappy_funding.clean_and_analyze import analyze_data
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "data/clean_data/"
@@ -10,7 +10,7 @@ def run_api_download():
     """
     Runs the API download and data cleaning functions
     """
-    scrape_funds.total_funding()
+    return scrape_funds.total_funding()
     # scrape_funds.data_year()
 
 
@@ -18,7 +18,7 @@ def run_data_clean_and_analyze():
     """
     Runs the data cleaning and analysis functions
     """
-    analyze_data.clean_and_analyze_all(YEARS, RAW_DATA_DIR, CLEAN_DATA_DIR)
+    return analyze_data.clean_and_analyze_all(YEARS, RAW_DATA_DIR, CLEAN_DATA_DIR)
 
 
 def run_visualization():
