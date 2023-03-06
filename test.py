@@ -14,9 +14,10 @@ from PIL import Image
 app = dash.Dash(__name__)
 
 # Import and clean data
-
-# Data for graphs
-df = pd.read_csv("all_years_funding_by_state.csv")
+CLEAN_DATA = "data/clean_data/"
+file_name = "all_years_funding_by_state.csv"
+file_path = os.path.join(CLEAN_DATA, file_name)
+df = pd.read_csv(file_path)
 
 # functions for fig
 #scatterplot
