@@ -2,12 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-def funding_stacked_area_chart(filepath):
+def create_stacked_area_chart(filepath):
     """
     Create a stacked area chart showing federal funding percentage by NAICS 
     category over time (2016-2020).
     """
 
+    # Read CSV file
     df = pd.read_csv(filepath + 'us_funding_time_series.csv', index_col=0)
 
     # Sort the DataFrame in descending order based on the sum of each row
@@ -16,22 +17,24 @@ def funding_stacked_area_chart(filepath):
     # Reverse the order of the rows
     df = df.iloc[::-1]
 
+    # Generate a list of 19 pretty and distinguishable colors
+    colors = px.colors.qualitative.Alphabet[:19][::-1]
+
     # Plot stacked area chart with the colors and set y-axis limits
-    df.T.plot(kind='area', 
-            stacked=True, 
-            figsize=(12,8), 
-            color=px.colors.qualitative.Alphabet[:19][::-1], 
-            ylim=(0, 100)
-            )
+    fig, ax = plt.subplots(figsize=(12,8))
+    df.T.plot(kind='area', stacked=True, ax=ax, color=colors, ylim=(0, 100))
 
     # Add title and labels
-    plt.title('Federal Funding Percentage by NAICS Category Over Time (2016-2020)', fontsize=20)
-    plt.xlabel('Year', fontsize=14)
-    plt.ylabel('Funding Percentage', fontsize=14)
-    plt.legend(title='NAICS Category', bbox_to_anchor=(1.05, 1), loc='upper left')
+    ax.set_title('Federal Funding Percentage by NAICS Category Over Time (2016-2020)', fontsize=20)
+    ax.set_xlabel('Year', fontsize=14)
+    ax.set_ylabel('Funding Percentage', fontsize=14)
+    ax.legend(title='NAICS Category', bbox_to_anchor=(1.05, 1), loc='upper left')
 
-    # Show chart
-    plt.show()
+    # Save chart to file
+    fig.savefig('data/clean_data/stacked_area_chart.png')
+
+    # Return chart
+    return fig
 
 
 def top_10_categories_stacked_bar_chart(filepath):
