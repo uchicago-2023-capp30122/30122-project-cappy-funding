@@ -18,7 +18,7 @@ def run_api_download():
     scrape_funds.total_funding()
     
     scrape_funds.data_year()
-    print("\n All years downloaded from USA Spending API...")
+    print("\nAll years downloaded from USA Spending API...")
 
 
 def run_data_clean_and_analyze():
@@ -38,8 +38,8 @@ def run_visualization():
 def run():
     """
     """
-    print("Welcome to Cappy Funding! To use the interface, please input one \
-        of the following 4 options into the virtual environment command line:\n")
+    print("\nWelcome to Cappy Funding!")
+    print("To use the interface, please input one of the following 4 options into command line:")
 
     user_input = input(
         "\n1: Open data visualization dashboard\n"
@@ -53,7 +53,7 @@ def run():
         run_visualization()
 
     elif user_input == "2":
-        print("\nStarting API download to data/raw_data/ directory...\n")
+        print("\nStarting API download to /data/raw_data/ directory...\n")
         run_api_download()
 
     elif user_input == "3":
@@ -61,5 +61,5 @@ def run():
         run_data_clean_and_analyze()
 
     elif user_input == "4":
-        print("\nExiting system now...")
+        print("\nExiting application now...")
         sys.exit()
