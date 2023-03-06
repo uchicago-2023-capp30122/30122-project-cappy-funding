@@ -107,8 +107,8 @@ def expenditurepc_scatterplot():
 
 def expenditurepc_vs_fundingpc_scatterplot():
     """
-    Create a scatter plot showing expenditure per capita versus population for 
-    each state in the United States from 2016 to 2020.
+    Create a scatter plot showing expenditure per capita versus funding per 
+    capita for each state in the United States from 2016 to 2020.
     """
 
     dfs = []
