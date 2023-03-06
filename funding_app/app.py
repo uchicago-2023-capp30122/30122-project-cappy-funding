@@ -1,11 +1,11 @@
 import sys
 
-from .fund_data import scrape_funds
-from .clean_and_analyze import analyze_data
+from ..fund_data import scrape_funds
+from ..clean_and_analyze import analyze_data
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
-CLEAN_DATA_DIR = "data/clean_data/"
-RAW_DATA_DIR = "data/raw_data/"
+CLEAN_DATA_DIR = "..data/clean_data/"
+RAW_DATA_DIR = "..data/raw_data/"
 
 def run_api_download_and_clean():
     """
