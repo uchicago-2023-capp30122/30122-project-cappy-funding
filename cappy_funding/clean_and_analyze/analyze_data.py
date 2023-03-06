@@ -22,11 +22,16 @@ def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     
     Returns (none)
     """
+
+    raw
+
     cleaned_df_dct = analyze_expenditure_and_funding(year_lst, 
     from_filepath, to_filepath)
     create_funding_time_series_df(year_lst, cleaned_df_dct, to_filepath)
     create_expenditure_time_series_df(year_lst, cleaned_df_dct, to_filepath)
     combine_multiple_years(year_lst, cleaned_df_dct, to_filepath)
+
+    print("All datasets cleaned and analysed")
 
 
 def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
