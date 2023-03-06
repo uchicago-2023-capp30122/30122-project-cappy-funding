@@ -2,13 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-def funding_stacked_area_chart():
+def funding_stacked_area_chart(filepath):
     """
     Create a stacked area chart showing federal funding percentage by NAICS 
     category over time (2016-2020).
     """
 
-    df = pd.read_csv('us_funding_time_series.csv', index_col=0)
+    df = pd.read_csv(filepath + 'us_funding_time_series.csv', index_col=0)
 
     # Sort the DataFrame in descending order based on the sum of each row
     df = df.loc[df.sum(axis=1).sort_values(ascending=True).index]
@@ -34,14 +34,14 @@ def funding_stacked_area_chart():
     plt.show()
 
 
-def top_10_categories_stacked_bar_chart():
+def top_10_categories_stacked_bar_chart(filepath):
     """
     Create a stacked bar chart using Plotly Express to show the top 10 NAICS 
     categories that received federal funding between 2016 and 2020. 
     The chart displays the funding percentage for each category in each year.
     """
 
-    df = pd.read_csv('us_funding_time_series.csv')
+    df = pd.read_csv(filepath + 'us_funding_time_series.csv')
 
     # Calculate the mean funding percentage for each category over the 5-year period
     df_mean = df.loc[:, '2016':'2020'].mean(axis=1)

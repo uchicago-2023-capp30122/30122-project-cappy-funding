@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objs as go
 import plotly.express as px
 
-def expenditurepc_scatterplot():
+def expenditurepc_scatterplot(filepath):
     """
     Create a scatter plot showing expenditure per capita versus population for 
     each state in the United States from 2016 to 2020.
@@ -11,7 +11,7 @@ def expenditurepc_scatterplot():
     # Load data for each year
     data = {}
     for year in range(2016, 2021):
-        df = pd.read_csv(f"{year}_per_capita_analysis.csv")
+        df = pd.read_csv(filepath + f"{year}_per_capita_analysis.csv")
         df = df.drop(df[df["State"] == "United States"].index)
         populations = pd.read_csv("us_cleaned_population.csv")
         populations = populations.drop(populations[populations["State"] == "United States"].index)
@@ -105,7 +105,7 @@ def expenditurepc_scatterplot():
     fig.show()
 
 
-def expenditurepc_vs_fundingpc_scatterplot():
+def expenditurepc_vs_fundingpc_scatterplot(filepath):
     """
     Create a scatter plot showing expenditure per capita versus funding per 
     capita for each state in the United States from 2016 to 2020.
@@ -116,7 +116,7 @@ def expenditurepc_vs_fundingpc_scatterplot():
     # Load data for each year
     for year in range(2016, 2021):
         # Read in the per capita analysis csv for the year
-        df = pd.read_csv(f"{year}_per_capita_analysis.csv")
+        df = pd.read_csv(filepath + f"{year}_per_capita_analysis.csv")
         df = df.drop(df[df["State"] == "United States"].index)
         df["Year"] = year
         dfs.append(df)
