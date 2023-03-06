@@ -13,7 +13,7 @@ def funding_word_clouds(filepath):
     df = pd.read_csv(filepath + 'us_funding_time_series.csv')
 
     # load the funding image
-    funding_mask = np.array(Image.open("Funding2.png"))
+    funding_mask = np.array(Image.open(filepath + "Funding2.png"))
 
     # loop through the years
     for year in range(2016, 2021):
@@ -45,4 +45,6 @@ def funding_word_clouds(filepath):
         plt.axis("off") 
         plt.tight_layout(pad = 0) 
         plt.title(f"Word Cloud of NAICS Category for {year}", fontsize=20)
-        plt.show()
+
+        # Save word clouds to file
+        plt.savefig(f'data/clean_data/word_cloud_{year}.png', bbox_inches='tight')

@@ -32,10 +32,9 @@ def create_stacked_area_chart(filepath):
     plt.margins(0.05)
 
     # Save chart to file
-    fig.savefig('data/clean_data/stacked_area_chart.png', bbox_inches='tight')
+    plt.savefig('data/clean_data/stacked_area_chart.png', bbox_inches='tight')
 
-    # Return chart
-    return fig
+
 
 
 def top_10_categories_stacked_bar_chart(filepath):
