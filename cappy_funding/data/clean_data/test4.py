@@ -165,9 +165,9 @@ app.layout = html.Div([
 
     html.H2("Stacked Area Charts", style = {"color": "blue", "text-align": "center"}),
 
-    html.Img(src = "scatter_area_chart.png"),
+    html.Img(src = "cappy-funding/data/clean_data/stacked_area_chart.png"),
 
-    html.H2("Stacked Bar Charts", style = {"color": "yellow", "text-align": "center"}),
+    html.H2("Stacked Bar Charts", style = {"color": "green", "text-align": "center"}),
 
     dcc.Graph(id = "stacked_bar_charts", style = {"padding": "40px"}),
 
