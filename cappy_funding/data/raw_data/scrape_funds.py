@@ -26,6 +26,7 @@ def data_year():
     dict = {}
 
     for year in ['2016','2017', '2018', '2019', '2020']:
+        
         for state in list_states:
 
             payload = {
@@ -73,5 +74,7 @@ def data_year():
                     row_vals = list(row.values())
                     row_vals.append(state)
                     writer.writerow(row_vals)
+            
+            print(f'{year} federal funding raw data downloaded...')
 
     return 
