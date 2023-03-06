@@ -5,6 +5,9 @@ from .clean_census import clean_census_expenditure, \
 from .clean_funding import clean_funding
 from .utils_clean_and_analyze import NAICS_SECTOR_LST
 
+# Stops pandas from printing warnings in the terminal
+pd.options.mode.chained_assignment = None
+
 # Namedtupled to store multiple cleaned dataframes
 # (used in analyze_expenditure_and_funding function)
 CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df",
@@ -23,15 +26,13 @@ def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     Returns (none)
     """
 
-    raw
-
     cleaned_df_dct = analyze_expenditure_and_funding(year_lst, 
     from_filepath, to_filepath)
     create_funding_time_series_df(year_lst, cleaned_df_dct, to_filepath)
     create_expenditure_time_series_df(year_lst, cleaned_df_dct, to_filepath)
     combine_multiple_years(year_lst, cleaned_df_dct, to_filepath)
 
-    print("All datasets cleaned and analysed")
+    print("\nAll datasets have been cleaned and analysed and saved to /data/clean_data/")
 
 
 def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
@@ -100,6 +101,9 @@ def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
         per_capita_df.to_csv(to_filepath + year + 
         "_per_capita_analysis.csv")
 
+        # Print statement to let user know that one year of data has been cleaned
+        print(year + " data has been cleaned and analyzed")
+
     return cleaned_df_dct
 
 
@@ -146,6 +150,9 @@ def create_funding_time_series_df(year_lst, clean_df_dct, to_filepath):
 
     # Outputs file into the clean_data/ directory
     funding_time_series.to_csv(to_filepath + "us_funding_time_series.csv")
+
+    # Print statement to let user know that time series data has been created
+    print("Funding time series data data has been created")
 
     return funding_time_series
 
@@ -200,6 +207,9 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct, to_filepath):
 
     # Outputs file into the clean_data/ directory
     expenditure_time_series.to_csv(to_filepath + "us_expenditure_time_series.csv")
+
+    # Print statement to let user know that time series data has been created
+    print("Expenditure time series data data has been created")
             
     return expenditure_time_series
 
@@ -236,5 +246,8 @@ def combine_multiple_years(year_lst, clean_df_dct, to_filepath):
 
     # Outputs file into the clean_data/ directory
     combined_df.to_csv(to_filepath + "all_years_funding_by_state.csv")
+
+    # Print statement to let user know that time series data has been created
+    print("Funding by state (all years) data data has been created")
 
     return combined_df

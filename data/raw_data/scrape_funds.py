@@ -10,23 +10,24 @@ def total_funding():
     response = requests.get(f"{url}{endpoint}")
     data = response.json()
 
-    with open("./cappy_funding/data/raw_data/state_total_data.csv", "w", newline = "") as csvfile:
+    with open("./cappy_funding/data/raw_data//test_state_total_data.csv", "w", newline = "") as csvfile:
         writer = csv.writer(csvfile)
         headers = data[0].keys()
         writer.writerow(headers)
         for state in data:
             writer.writerow(state.values())
 
+# get the data from one year: 2016
+
 def data_year():
 
-    total_data = pd.read_csv("./cappy_funding/data/raw_data/state_total_data.csv")
+    total_data = pd.read_csv("data/raw_data/state_total_data.csv")
     list_states = total_data["code"]
     url = "https://api.usaspending.gov"
     endpoint = "/api/v2/search/spending_by_category/naics"
     dict = {}
 
-    for year in ['2016','2017', '2018', '2019', '2020']:
-        
+    for year in ['2016']:
         for state in list_states:
 
             payload = {
@@ -74,7 +75,5 @@ def data_year():
                     row_vals = list(row.values())
                     row_vals.append(state)
                     writer.writerow(row_vals)
-            
-            print(f'{year} federal funding raw data downloaded...')
 
     return 
