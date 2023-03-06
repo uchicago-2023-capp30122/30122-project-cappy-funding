@@ -1,22 +1,16 @@
 import sys
 
-from .fund_data import scrape_funds
-from .clean_and_analyze import analyze_data
+from ..fund_data import scrape_funds
+from ..clean_and_analyze import analyze_data
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
-CLEAN_DATA_DIR = "data/clean_data/"
-RAW_DATA_DIR = "data/raw_data/"
+CLEAN_DATA_DIR = "..data/clean_data/"
+RAW_DATA_DIR = "..data/raw_data/"
 
 def run_api_download_and_clean():
     """
     Runs the API download and data cleaning functions
     """
-    if len(sys.argv) != 1:
-        print(
-            f"Usage: python3 {sys.argv[0]}"
-        )
-        sys.exit(1)
-
     # Part that runs API download
 
     # Part that runs data cleaning and analysis
@@ -28,3 +22,12 @@ def run_visualization():
     Runs the data vizualisation functions
     """
     pass
+
+def main():
+    """
+    """
+    run_api_download_and_clean()
+    run_visualization()
+
+if __name__ == "__main__":
+    main()
