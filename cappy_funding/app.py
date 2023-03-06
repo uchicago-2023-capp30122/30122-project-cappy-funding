@@ -11,17 +11,15 @@ def run_api_download():
     """
     Runs the API download and data cleaning functions
     """
-    x = scrape_funds.total_funding()
+    scrape_funds.total_funding()
     scrape_funds.data_year()
-    print("RAN")
-    return x
 
 
 def run_data_clean_and_analyze():
     """
     Runs the data cleaning and analysis functions
     """
-    return analyze_data.clean_and_analyze_all(YEARS, RAW_DATA_DIR, CLEAN_DATA_DIR)
+    analyze_data.clean_and_analyze_all(YEARS, RAW_DATA_DIR, CLEAN_DATA_DIR)
 
 
 def run_visualization():
