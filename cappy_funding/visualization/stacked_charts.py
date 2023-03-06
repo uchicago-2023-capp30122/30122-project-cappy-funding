@@ -24,14 +24,15 @@ def create_stacked_area_chart(filepath):
     fig, ax = plt.subplots(figsize=(12,8))
     df.T.plot(kind='area', stacked=True, ax=ax, color=colors, ylim=(0, 100))
 
-    # Add title and labels
+    # Add title and labels and set margins
     ax.set_title('Federal Funding Percentage by NAICS Category Over Time (2016-2020)', fontsize=20)
     ax.set_xlabel('Year', fontsize=14)
     ax.set_ylabel('Funding Percentage', fontsize=14)
     ax.legend(title='NAICS Category', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.margins(0.05)
 
     # Save chart to file
-    fig.savefig('data/clean_data/stacked_area_chart.png')
+    fig.savefig('data/clean_data/stacked_area_chart.png', bbox_inches='tight')
 
     # Return chart
     return fig
