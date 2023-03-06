@@ -1,6 +1,6 @@
 import sys
-from .cappy-funding.data.raw_data import scrape_funds
-from .cappy-funding.clean_and_analyze import analyze_data
+from .cappy_funding.data.raw_data import scrape_funds
+from .cappy_funding.clean_and_analyze import analyze_data
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "data/clean_data/"
