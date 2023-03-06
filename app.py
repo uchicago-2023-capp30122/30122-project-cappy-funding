@@ -1,5 +1,4 @@
 import sys
-
 from data.raw_data import scrape_funds
 from clean_and_analyze import analyze_data
 
@@ -7,15 +6,18 @@ YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "data/clean_data/"
 RAW_DATA_DIR = "data/raw_data/"
 
-def run_api_download_and_clean():
+def run_api_download():
     """
     Runs the API download and data cleaning functions
     """
-    # Part that runs API download
     scrape_funds.total_funding()
     scrape_funds.data_year()
 
-    # Part that runs data cleaning and analysis
+
+def run_data_clean_and_analyze():
+    """
+    Runs the data cleaning and analysis functions
+    """
     analyze_data.clean_and_analyze_all(YEARS, RAW_DATA_DIR, CLEAN_DATA_DIR)
 
 
@@ -25,11 +27,31 @@ def run_visualization():
     """
     pass
 
+
 def main():
     """
     """
-    run_api_download_and_clean()
-    run_visualization()
+    print("Welcome! Please select one of the four options below:")
+    user_input = input(
+        "Instructions"
+        "1: Run data visualisation"
+        "2: Run API download"
+        "3: Run data cleaning and analysis"
+        "4: Exit application"
+    )
+
+    if user_input == 1:
+        run_visualization()
+
+    elif user_input == 2:
+        run_api_download()
+
+    elif user_input == 3:
+        run_data_clean_and_analyze
+
+    elif user_input == 4:
+        sys.exit()
+
 
 if __name__ == "__main__":
     main()
