@@ -1,6 +1,6 @@
 import sys
-from data.raw_data import scrape_funds
-from clean_and_analyze import analyze_data
+from .data.raw_data import scrape_funds
+from .clean_and_analyze import analyze_data
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "data/clean_data/"
@@ -31,13 +31,12 @@ def run_visualization():
 def main():
     """
     """
-    print("Welcome! Please select one of the four options below:")
+    print("Welcome! Please select one of the four options below:\n")
     user_input = input(
-        "Instructions"
-        "1: Run data visualisation"
-        "2: Run API download"
-        "3: Run data cleaning and analysis"
-        "4: Exit application"
+        "\n1: Run data visualisation\n"
+        "2: Run API download\n"
+        "3: Run data cleaning and analysis\n"
+        "4: Exit application\n"
     )
 
     if user_input == 1:
