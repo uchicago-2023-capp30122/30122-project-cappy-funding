@@ -1,13 +1,15 @@
-import pandas as pd
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import numpy as np
-from PIL import Image
-import plotly.express as px
+import os
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+import numpy as np
+from dash import dcc
+from dash import html
+import plotly.express as px
+import plotly.graph_objs as go
 from dash.dependencies import Input, Output
+import pandas as pd
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+from PIL import Image
 
 def funding_word_clouds():
     """

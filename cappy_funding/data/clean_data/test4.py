@@ -16,6 +16,7 @@ app = dash.Dash(__name__)
 # Import and clean data
 df = pd.read_csv("all_years_funding_by_state.csv")
 
+# functions for fig
 #scatterplot
 def create_scatterplot():
     # Load data for each year
@@ -114,6 +115,8 @@ def create_scatterplot():
 
     return fig
 
+
+
 # stacked bar chart
 def create_stacked_bar_chart():
     """
@@ -152,7 +155,6 @@ def create_stacked_bar_chart():
 
 
 
-
 # app layout
 app.layout = html.Div([
     html.H1("USA States Funding and Expenditure", style = {"text-align": "center"}),
@@ -161,13 +163,13 @@ app.layout = html.Div([
 
     dcc.Graph(id = "scatterplot", style = {"padding": "40px"}),
 
-    html.H2("Stacked Bar Charts", style = {"color": "blue", "text-align": "center"}),
+    html.H2("Stacked Area Charts", style = {"color": "blue", "text-align": "center"}),
+
+    html.Img(src = "scatter_area_chart.png"),
+
+    html.H2("Stacked Bar Charts", style = {"color": "yellow", "text-align": "center"}),
 
     dcc.Graph(id = "stacked_bar_charts", style = {"padding": "40px"}),
-
-    html.H2("Stacked Area Charts", style = {"color": "green", "text-align": "center"}),
-
-    html.Img(src= "stacked_area_chart.png"),
 
     html.H2("Heat Map of USA States Fund Spending", style = {"text-align": "center", "padding": "40px"}),
 
@@ -218,6 +220,7 @@ app.layout = html.Div([
     Input(component_id = "year_slider", component_property = "value")]
 )
 
+
 def generate_graph(option_field, option_year):
     dff = df.copy()
     dff = dff[dff["Year"] == option_year]
@@ -228,8 +231,6 @@ def generate_graph(option_field, option_year):
                   'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY']
     dff['state_code'] = state_code
 
-    fig1 = create_scatterplot()
-    fig2 = create_stacked_bar_chart()
 
     # Create a Choropleth object
     fig = go.Figure(
@@ -254,6 +255,9 @@ def generate_graph(option_field, option_year):
         template="plotly_dark",
         margin=dict(l=50, r=50, t=50, b=50)
     )
+
+    fig1 = create_scatterplot()
+    fig2 = create_stacked_bar_chart()
 
     return fig1, fig2, fig
 

@@ -1,35 +1,19 @@
-import os
-import dash
-import numpy as np
-from dash import dcc
-from dash import html
-import plotly.express as px
-import plotly.graph_objs as go
-from dash.dependencies import Input, Output
 import pandas as pd
-import matplotlib.pyplot as plt
-from PIL import Image
+import plotly.graph_objs as go
+import plotly.express as px
 
+def expenditurepc_scatterplot(filepath):
+    """
+    Create a scatter plot showing expenditure per capita versus population for 
+    each state in the United States from 2016 to 2020.
+    """
 
-
-
-app = dash.Dash(__name__)
-
-app.layout = html.Div([
-    html.H1('Scatterplot Chart'),
-    dcc.Graph(id='scatter'),
-    html.Div(id='dummy', style={'display': 'none'})
-])
-
-@app.callback(Output('scatter', 'figure'), [Input('dummy', 'children')])
-
-def create_scatterplot(_):
     # Load data for each year
     data = {}
     for year in range(2016, 2021):
-        df = pd.read_csv(f"{year}_per_capita_analysis.csv")
+        df = pd.read_csv(filepath + f"{year}_per_capita_analysis.csv")
         df = df.drop(df[df["State"] == "United States"].index)
-        populations = pd.read_csv("us_population_cleaned.csv")
+        populations = pd.read_csv("us_cleaned_population.csv")
         populations = populations.drop(populations[populations["State"] == "United States"].index)
         df = pd.merge(df, populations, on="State")
         data[str(year)] = df
@@ -58,8 +42,7 @@ def create_scatterplot(_):
     mean_expenditure = df["Expenditure per Capita (in thousands)"].mean()
 
     # Add mean line
-    fig.add_shape(
-        type="line",
+    fig.add_shape(type="line",
         x0=df["Population"].min(),
         x1=df["Population"].max(),
         y0=mean_expenditure,
@@ -117,11 +100,49 @@ def create_scatterplot(_):
             yanchor="top"
         )]
     )
-
-    return fig
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
+    
+    # Show the plot
+    fig.show()
 
 
+def expenditurepc_vs_fundingpc_scatterplot(filepath):
+    """
+    Create a scatter plot showing expenditure per capita versus funding per 
+    capita for each state in the United States from 2016 to 2020.
+    """
 
+    dfs = []
+
+    # Load data for each year
+    for year in range(2016, 2021):
+        # Read in the per capita analysis csv for the year
+        df = pd.read_csv(filepath + f"{year}_per_capita_analysis.csv")
+        df = df.drop(df[df["State"] == "United States"].index)
+        df["Year"] = year
+        dfs.append(df)
+
+    df = pd.concat(dfs)
+    df_pop = pd.read_csv('us_cleaned_population.csv')
+    df_merge = pd.merge(df, df_pop, on='State', how='left')
+
+    # Calculate the total expenditure and funding for each state for each year
+    df_grouped = df_merge.groupby(['Year', 'State', 'Population'], as_index=False).sum()
+
+    # Remove the United States from the data
+    df_grouped = df_grouped[df_grouped['State'] != 'United States']
+
+    # Create a scatter plot of expenditure per capita vs funding per capita
+    fig = px.scatter(df_grouped, 
+                    x='Funding received per Capita (in thousands)', 
+                    y='Expenditure per Capita (in thousands)', 
+                    color='State', 
+                    hover_name='State', 
+                    size='Population', 
+                    animation_frame='Year', 
+                    color_discrete_sequence=px.colors.qualitative.Alphabet
+                    )
+
+    fig.update_layout(title='Expenditure per Capita vs Funding received per Capita (2016-2020)')
+
+    # Show the plot
+    fig.show()

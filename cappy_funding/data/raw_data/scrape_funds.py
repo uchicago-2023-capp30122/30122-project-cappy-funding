@@ -3,45 +3,31 @@ import pandas as pd
 import csv
 
 # total amound in every state
+def total_funding():
 
-url = "https://api.usaspending.gov"
-endpoint = "/api/v2/recipient/state/"
-response = requests.get(f"{url}{endpoint}")
-data = response.json()
+    url = "https://api.usaspending.gov"
+    endpoint = "/api/v2/recipient/state/"
+    response = requests.get(f"{url}{endpoint}")
+    data = response.json()
 
-with open("state_total_data.csv", "w", newline = "") as csvfile:
-    writer = csv.writer(csvfile)
-    headers = data[0].keys()
-    writer.writerow(headers)
-    for state in data:
-        writer.writerow(state.values())
-
-# get all NAICS code
-
-endpoint = "/api/v2/references/naics/"
-response = requests.get(f"{url}{endpoint}")
-data = response.json()
-
-with open("naics.csv", "w", newline = "") as csvfile:
-    writer = csv.writer(csvfile)
-    headers = data['results'][0].keys()
-    writer.writerow(headers)
-    for state in data['results']:
-        writer.writerow(state.values())
-
-naics_data = pd.read_csv("naics.csv")
+    with open("data/raw_data/test_state_total_data.csv", "w", newline = "") as csvfile:
+        writer = csv.writer(csvfile)
+        headers = data[0].keys()
+        writer.writerow(headers)
+        for state in data:
+            writer.writerow(state.values())
 
 # get the data from one year: 2016
 
-total_data = pd.read_csv("state_total_data.csv")
-list_states = total_data["code"]
+def data_year():
 
-def data_year(list_states):
-        
+    total_data = pd.read_csv("data/raw_data/state_total_data.csv")
+    list_states = total_data["code"]
     url = "https://api.usaspending.gov"
     endpoint = "/api/v2/search/spending_by_category/naics"
     dict = {}
-    for year in ['2016', '2017', '2018', '2019', '2020']
+
+    for year in ['2016']:
         for state in list_states:
 
             payload = {
@@ -77,7 +63,7 @@ def data_year(list_states):
             
             dict[state] = results
                     
-        with open(f"data/raw_data/{year}_us_funding.csv", "w", newline = "") as csvfile:
+        with open(f"data/raw_data/test_{year}_us_funding.csv", "w", newline = "") as csvfile:
 
             writer = csv.writer(csvfile)
             headers = list(dict[state][0].keys())
@@ -91,4 +77,3 @@ def data_year(list_states):
                     writer.writerow(row_vals)
 
     return 
-
