@@ -10,7 +10,7 @@ def total_funding():
     response = requests.get(f"{url}{endpoint}")
     data = response.json()
 
-    with open("state_total_data.csv", "w", newline = "") as csvfile:
+    with open("test_state_total_data.csv", "w", newline = "") as csvfile:
         writer = csv.writer(csvfile)
         headers = data[0].keys()
         writer.writerow(headers)
