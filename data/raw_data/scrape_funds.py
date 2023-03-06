@@ -10,7 +10,7 @@ def total_funding():
     response = requests.get(f"{url}{endpoint}")
     data = response.json()
 
-    with open("state_total_data.csv", "w", newline = "") as csvfile:
+    with open("data/raw_data/test_state_total_data.csv", "w", newline = "") as csvfile:
         writer = csv.writer(csvfile)
         headers = data[0].keys()
         writer.writerow(headers)
@@ -27,7 +27,7 @@ def data_year():
     endpoint = "/api/v2/search/spending_by_category/naics"
     dict = {}
 
-    for year in ['2016', '2017', '2018', '2019', '2020']:
+    for year in ['2016']:
         for state in list_states:
 
             payload = {
@@ -63,7 +63,7 @@ def data_year():
             
             dict[state] = results
                     
-        with open(f"data/raw_data/{year}_us_funding.csv", "w", newline = "") as csvfile:
+        with open(f"data/raw_data/test_{year}_us_funding.csv", "w", newline = "") as csvfile:
 
             writer = csv.writer(csvfile)
             headers = list(dict[state][0].keys())
