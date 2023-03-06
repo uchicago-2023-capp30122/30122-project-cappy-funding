@@ -51,9 +51,9 @@ def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
     + "us_poverty_by_state.csv"))
     poverty_df.to_csv(to_filepath + "us_poverty_cleaned.csv")
 
-    # population_df = clean_census_population(pd.read_csv(from_filepath
-    # + "us_census_population.csv")) 
-    # population_df.to_csv(to_filepath + "us_population_cleaned.csv")
+    population_df = clean_census_population(pd.read_csv(from_filepath
+    + "us_census_population.csv")) 
+    population_df.to_csv(to_filepath + "us_population_cleaned.csv")
 
     # Cleans and outputs datasets for each year
     cleaned_df_dct = {}
@@ -84,16 +84,16 @@ def analyze_expenditure_and_funding(year_lst, from_filepath, to_filepath):
         funding_df_absolute, funding_df_by_state, funding_df_within_state)
 
         # Outputs files into the clean_data/ directory
-        # funding_df_by_state.to_csv(to_filepath + year + 
-        # "_cleaned_funding_by_state.csv")
-        # funding_df_within_state.to_csv(to_filepath + year + 
-        # "_cleaned_funding_within_state.csv")
-        # funding_df_absolute.to_csv(to_filepath + year + 
-        # "_cleaned_funding_absolute.csv")
-        # expenditure_df.to_csv(to_filepath + year + 
-        # "_cleaned_expenditure.csv")
-        # per_capita_df.to_csv(to_filepath + year + 
-        # "_per_capita_analysis.csv")
+        funding_df_by_state.to_csv(to_filepath + year + 
+        "_cleaned_funding_by_state.csv")
+        funding_df_within_state.to_csv(to_filepath + year + 
+        "_cleaned_funding_within_state.csv")
+        funding_df_absolute.to_csv(to_filepath + year + 
+        "_cleaned_funding_absolute.csv")
+        expenditure_df.to_csv(to_filepath + year + 
+        "_cleaned_expenditure.csv")
+        per_capita_df.to_csv(to_filepath + year + 
+        "_per_capita_analysis.csv")
 
     return cleaned_df_dct
 
@@ -140,7 +140,7 @@ def create_funding_time_series_df(year_lst, clean_df_dct, to_filepath):
     funding_time_series.index.names = ["NAICS Category"]
 
     # Outputs file into the clean_data/ directory
-    # funding_time_series.to_csv(to_filepath + "us_funding_time_series.csv")
+    funding_time_series.to_csv(to_filepath + "us_funding_time_series.csv")
 
     return funding_time_series
 
@@ -194,7 +194,7 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct, to_filepath):
     expenditure_time_series.index.names = ["Category"]
 
     # Outputs file into the clean_data/ directory
-    # expenditure_time_series.to_csv(to_filepath + "us_expenditure_time_series.csv")
+    expenditure_time_series.to_csv(to_filepath + "us_expenditure_time_series.csv")
             
     return expenditure_time_series
 

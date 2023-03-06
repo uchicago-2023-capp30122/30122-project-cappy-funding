@@ -14,10 +14,7 @@ from PIL import Image
 app = dash.Dash(__name__)
 
 # Import and clean data
-CLEAN_DATA = "data/clean_data/"
-file_name = "all_years_funding_by_state.csv"
-file_path = os.path.join(CLEAN_DATA, file_name)
-df = pd.read_csv(file_path)
+df = pd.read_csv("all_years_funding_by_state.csv")
 
 # functions for fig
 #scatterplot
@@ -118,36 +115,7 @@ def create_scatterplot():
 
     return fig
 
-# stacked area chart
-def create_stacked_area_chart():
-    """
-    Create a stacked area chart showing federal funding percentage by NAICS 
-    category over time (2016-2020).
-    """
 
-    # Read CSV file
-    df = pd.read_csv('us_funding_time_series.csv', index_col=0)
-
-    # Sort the DataFrame in descending order based on the sum of each row
-    df = df.loc[df.sum(axis=1).sort_values(ascending=True).index]
-
-    # Reverse the order of the rows
-    df = df.iloc[::-1]
-
-    # Generate a list of 19 pretty and distinguishable colors
-    colors = px.colors.qualitative.Alphabet[:19][::-1]
-
-    # Plot stacked area chart with the colors and set y-axis limits
-    fig = df.T.plot(kind='area', stacked=True, figsize=(12,8), color=colors, ylim=(0, 100))
-
-    # Add title and labels
-    fig = plt.title('Federal Funding Percentage by NAICS Category Over Time (2016-2020)', fontsize=20)
-    fig = plt.xlabel('Year', fontsize=14)
-    fig = plt.ylabel('Funding Percentage', fontsize=14)
-    fig = plt.legend(title='NAICS Category', bbox_to_anchor=(1.05, 1), loc='upper left')
-
-    # Show chart
-    return fig
 
 # stacked bar chart
 def create_stacked_bar_chart():
@@ -185,50 +153,7 @@ def create_stacked_bar_chart():
     # Show chart
     return fig
 
-# wordcould
-def create_word_clouds():
-    """
-    Create word cloud graphs for each year between 2016 and 2020 based on 
-    federal funding by NAICS category.
-    """
 
-    # read the csv file
-    df = pd.read_csv('us_funding_time_series.csv')
-
-    # load the funding image
-    funding_mask = np.array(Image.open("Funding2.png"))
-
-    # loop through the years
-    for year in range(2016, 2021):
-        # create a dictionary that contains the NAICS category as the key and the funding percentage for the current year as the value
-        category_weight = {}
-        for _, row in df.iterrows():
-            category = row['NAICS Category']
-            weight = row[str(year)]
-            category_weight[category] = weight
-
-        # sort the dictionary by value in descending order and select the top 10 categories
-        top_categories = dict(sorted(category_weight.items(), key=lambda item: item[1], reverse=True)[:10])
-
-        # create a word cloud object and generate the word cloud using the dictionary and the funding image as the mask
-        wordcloud = WordCloud(width = 800, height = 800, 
-                        background_color ='white', 
-                        min_font_size = 7,
-                        max_words = 50,
-                        mask = funding_mask, # use the funding image as the mask
-                        contour_width=1,
-                        contour_color='lightgrey',
-                        colormap='tab20',
-                        scale=2
-                    ).generate_from_frequencies(top_categories)
-
-        # plot the word cloud using matplotlib
-        fig = plt.figure(figsize = (10, 10), facecolor = None) 
-        fig = plt.imshow(wordcloud, aspect='auto')
-        fig = plt.axis("off") 
-        fig = plt.tight_layout(pad = 0) 
-        fig = plt.title(f"Word Cloud of NAICS Category for {year}", fontsize=20)
-        return fig
 
 # app layout
 app.layout = html.Div([
@@ -240,15 +165,11 @@ app.layout = html.Div([
 
     html.H2("Stacked Area Charts", style = {"color": "blue", "text-align": "center"}),
 
-    dcc.Graph(id = "stacked_area_charts", style = {"padding": "40px"}),
+    html.Img(src = "cappy-funding/data/clean_data/stacked_area_chart.png"),
 
-    html.H2("Stacked Bar Charts", style = {"color": "yellow", "text-align": "center"}),
+    html.H2("Stacked Bar Charts", style = {"color": "green", "text-align": "center"}),
 
     dcc.Graph(id = "stacked_bar_charts", style = {"padding": "40px"}),
-
-    html.H2("Word Cloud for Top Fund Spending Fields", style = {"color": "green", "text-align": "center"}),
-
-    dcc.Graph(id = "wordcloud", style = {"padding": "40px"}),
 
     html.H2("Heat Map of USA States Fund Spending", style = {"text-align": "center", "padding": "40px"}),
 
@@ -293,9 +214,7 @@ app.layout = html.Div([
 # app callbacks
 @app.callback(
     [Output(component_id = "scatterplot", component_property = "figure"),
-     Output(component_id = "stacked_area_charts", component_property = "figure"),
      Output(component_id = "stacked_bar_charts", component_property = "figure"),
-     Output(component_id = "wordcloud", component_property = "figure"),
      Output(component_id = "heat-map", component_property = "figure")],
     [Input(component_id = "select_field", component_property = "value"),
     Input(component_id = "year_slider", component_property = "value")]
@@ -338,11 +257,9 @@ def generate_graph(option_field, option_year):
     )
 
     fig1 = create_scatterplot()
-    fig2 = create_stacked_area_chart()
-    fig3 = create_stacked_bar_chart()
-    fig4 = create_word_clouds()
+    fig2 = create_stacked_bar_chart()
 
-    return fig1, fig2, fig3, fig4, fig
+    return fig1, fig2, fig
 
 if __name__ == '__main__':
     app.run_server(port = 12346, debug=True)
