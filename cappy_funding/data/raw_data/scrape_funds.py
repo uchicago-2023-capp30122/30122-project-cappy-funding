@@ -10,7 +10,7 @@ def total_funding():
     response = requests.get(f"{url}{endpoint}")
     data = response.json()
 
-    with open("data/raw_data/test_state_total_data.csv", "w", newline = "") as csvfile:
+    with open("./cappy_funding/data/raw_data//test_state_total_data.csv", "w", newline = "") as csvfile:
         writer = csv.writer(csvfile)
         headers = data[0].keys()
         writer.writerow(headers)
@@ -63,7 +63,7 @@ def data_year():
             
             dict[state] = results
                     
-        with open(f"data/raw_data/test_{year}_us_funding.csv", "w", newline = "") as csvfile:
+        with open(f"./cappy_funding/data/raw_data/{year}_us_funding.csv", "w", newline = "") as csvfile:
 
             writer = csv.writer(csvfile)
             headers = list(dict[state][0].keys())

@@ -1,17 +1,20 @@
 import sys
+import pathlib
 from cappy_funding.data.raw_data import scrape_funds
 from cappy_funding.clean_and_analyze import analyze_data
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
-CLEAN_DATA_DIR = "data/clean_data/"
-RAW_DATA_DIR = "data/raw_data/"
+CLEAN_DATA_DIR = "./cappy_funding/data/clean_data/"
+RAW_DATA_DIR = "./cappy_funding/data/raw_data/"
 
 def run_api_download():
     """
     Runs the API download and data cleaning functions
     """
-    return scrape_funds.total_funding()
-    # scrape_funds.data_year()
+    x = scrape_funds.total_funding()
+    scrape_funds.data_year()
+    print("RAN")
+    return x
 
 
 def run_data_clean_and_analyze():
@@ -28,7 +31,7 @@ def run_visualization():
     pass
 
 
-def main():
+def run():
     """
     """
     print("Welcome! Please select one of the four options below:\n")
@@ -39,18 +42,19 @@ def main():
         "4: Exit application\n"
     )
 
-    if user_input == 1:
-        return run_visualization()
+    if user_input == "1":
+        run_visualization()
 
-    elif user_input == 2:
-        return run_api_download()
+    elif user_input == "2":
+        print("TEST 2")
+        run_api_download()
 
-    elif user_input == 3:
-        return run_data_clean_and_analyze()
+    elif user_input == "3":
+        run_data_clean_and_analyze()
 
-    elif user_input == 4:
+    elif user_input == "4":
         sys.exit()
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
