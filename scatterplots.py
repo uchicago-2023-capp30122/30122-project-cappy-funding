@@ -1,7 +1,8 @@
-import plotly.graph_objs as go
 import pandas as pd
+import plotly.graph_objs as go
+import plotly.express as px
 
-def create_scatterplot():
+def expenditurepc_scatterplot():
     """
     Create a scatter plot showing expenditure per capita versus population for 
     each state in the United States from 2016 to 2020.
@@ -41,8 +42,7 @@ def create_scatterplot():
     mean_expenditure = df["Expenditure per Capita (in thousands)"].mean()
 
     # Add mean line
-    fig.add_shape(
-        type="line",
+    fig.add_shape(type="line",
         x0=df["Population"].min(),
         x1=df["Population"].max(),
         y0=mean_expenditure,
@@ -101,5 +101,48 @@ def create_scatterplot():
         )]
     )
     
-    # Show plot
+    # Show the plot
+    fig.show()
+
+
+def expenditurepc_vs_fundingpc_scatterplot():
+    """
+    Create a scatter plot showing expenditure per capita versus population for 
+    each state in the United States from 2016 to 2020.
+    """
+
+    dfs = []
+
+    # Load data for each year
+    for year in range(2016, 2021):
+        # Read in the per capita analysis csv for the year
+        df = pd.read_csv(f"{year}_per_capita_analysis.csv")
+        df = df.drop(df[df["State"] == "United States"].index)
+        df["Year"] = year
+        dfs.append(df)
+
+    df = pd.concat(dfs)
+    df_pop = pd.read_csv('us_cleaned_population.csv')
+    df_merge = pd.merge(df, df_pop, on='State', how='left')
+
+    # Calculate the total expenditure and funding for each state for each year
+    df_grouped = df_merge.groupby(['Year', 'State', 'Population'], as_index=False).sum()
+
+    # Remove the United States from the data
+    df_grouped = df_grouped[df_grouped['State'] != 'United States']
+
+    # Create a scatter plot of expenditure per capita vs funding per capita
+    fig = px.scatter(df_grouped, 
+                    x='Funding received per Capita (in thousands)', 
+                    y='Expenditure per Capita (in thousands)', 
+                    color='State', 
+                    hover_name='State', 
+                    size='Population', 
+                    animation_frame='Year', 
+                    color_discrete_sequence=px.colors.qualitative.Alphabet
+                    )
+
+    fig.update_layout(title='Expenditure per Capita vs Funding received per Capita (2016-2020)')
+
+    # Show the plot
     fig.show()

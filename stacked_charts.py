@@ -2,13 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-def create_stacked_area_chart():
+def funding_stacked_area_chart():
     """
     Create a stacked area chart showing federal funding percentage by NAICS 
     category over time (2016-2020).
     """
 
-    # Read CSV file
     df = pd.read_csv('us_funding_time_series.csv', index_col=0)
 
     # Sort the DataFrame in descending order based on the sum of each row
@@ -17,11 +16,13 @@ def create_stacked_area_chart():
     # Reverse the order of the rows
     df = df.iloc[::-1]
 
-    # Generate a list of 19 pretty and distinguishable colors
-    colors = px.colors.qualitative.Alphabet[:19][::-1]
-
     # Plot stacked area chart with the colors and set y-axis limits
-    df.T.plot(kind='area', stacked=True, figsize=(12,8), color=colors, ylim=(0, 100))
+    df.T.plot(kind='area', 
+            stacked=True, 
+            figsize=(12,8), 
+            color=px.colors.qualitative.Alphabet[:19][::-1], 
+            ylim=(0, 100)
+            )
 
     # Add title and labels
     plt.title('Federal Funding Percentage by NAICS Category Over Time (2016-2020)', fontsize=20)
@@ -33,14 +34,13 @@ def create_stacked_area_chart():
     plt.show()
 
 
-def create_stacked_bar_chart():
+def top_10_categories_stacked_bar_chart():
     """
     Create a stacked bar chart using Plotly Express to show the top 10 NAICS 
     categories that received federal funding between 2016 and 2020. 
     The chart displays the funding percentage for each category in each year.
     """
 
-    # Read in the data
     df = pd.read_csv('us_funding_time_series.csv')
 
     # Calculate the mean funding percentage for each category over the 5-year period
@@ -59,7 +59,13 @@ def create_stacked_bar_chart():
     df_melt = pd.melt(df_filtered, id_vars=['NAICS Category'], var_name='Year', value_name='Funding Percentage')
 
     # Create the stacked bar chart using Plotly Express and set the category order
-    fig = px.bar(df_melt, x='Year', y='Funding Percentage', color='NAICS Category', barmode='stack', category_orders={'NAICS Category': category_order})
+    fig = px.bar(df_melt, 
+                x='Year', 
+                y='Funding Percentage', 
+                color='NAICS Category', 
+                barmode='stack', 
+                category_orders={'NAICS Category': category_order}
+                )
 
     # Update the figure information
     fig.update_xaxes(type='category')

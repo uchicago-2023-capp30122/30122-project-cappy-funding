@@ -4,13 +4,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
 
-def create_word_clouds():
+def funding_word_clouds():
     """
     Create word cloud graphs for each year between 2016 and 2020 based on 
     federal funding by NAICS category.
     """
 
-    # read the csv file
     df = pd.read_csv('us_funding_time_series.csv')
 
     # load the funding image
