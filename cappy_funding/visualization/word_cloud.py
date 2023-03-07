@@ -2,7 +2,7 @@ import pandas as pd
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import numpy as np
-from PIL import Image
+import matplotlib.colors as mcolors
 
 def funding_word_clouds(filepath):
     """
@@ -10,41 +10,43 @@ def funding_word_clouds(filepath):
     federal funding by NAICS category.
     """
 
+    # load the data
     df = pd.read_csv(filepath + 'us_funding_time_series.csv')
 
-    # load the funding image
-    funding_mask = np.array(Image.open(filepath + "Funding2.png"))
+    # define a custom color map
+    meranti_colors = ['#FC766AFF', '#5B84B1FF', '#D8BFD8FF', '#DC143CFF', '#3C3C3CFF']
+    meranti_colors_rgb = [mcolors.hex2color(color) for color in meranti_colors]
+    meranti_cmap = mcolors.LinearSegmentedColormap.from_list('meranti', meranti_colors_rgb)
 
-    # loop through the years
+    # define a custom word cloud shape
+    x, y = np.ogrid[:300, :300]
+    mask = (x - 150) ** 2 + (y - 150) ** 2 > 130 ** 2
+    mask = 255 * mask.astype(int)
+
+    # iterate over the years and get the top 10 categories for each year
     for year in range(2016, 2021):
-        # create a dictionary that contains the NAICS category as the key and the funding percentage for the current year as the value
-        category_weight = {}
-        for _, row in df.iterrows():
-            category = row['NAICS Category']
-            weight = row[str(year)]
-            category_weight[category] = weight
+        # select rows where funding for the given year is not null
+        not_null_rows = df.loc[df[f"{year}"].notnull()]
 
-        # sort the dictionary by value in descending order and select the top 10 categories
-        top_categories = dict(sorted(category_weight.items(), key=lambda item: item[1], reverse=True)[:10])
+        # sort the not-null rows by funding percentage in descending order and select the top 5 categories
+        top_5_categories = not_null_rows.sort_values(by=f"{year}", ascending=False).head(5)
 
-        # create a word cloud object and generate the word cloud using the dictionary and the funding image as the mask
-        wordcloud = WordCloud(width = 800, height = 800, 
-                        background_color ='white', 
-                        min_font_size = 7,
-                        max_words = 50,
-                        mask = funding_mask, # use the funding image as the mask
-                        contour_width=1,
-                        contour_color='lightgrey',
-                        colormap='tab20',
-                        scale=2
-                    ).generate_from_frequencies(top_categories)
+        # extract the category names as a list, filter out any category containing "service", and join them with double quotes to ensure they stay as a whole
+        category_list = [f'"{name}"' for name in top_5_categories["NAICS Category"].tolist()]
 
-        # plot the word cloud using matplotlib
-        plt.figure(figsize = (10, 10), facecolor = None) 
-        plt.imshow(wordcloud, aspect='auto')
-        plt.axis("off") 
-        plt.tight_layout(pad = 0) 
-        plt.title(f"Word Cloud of NAICS Category for {year}", fontsize=20)
+        # combine the category names into a single string
+        text = ' '.join(category_list)
+        text = text.replace("Services", " ")
+
+        # create a word cloud object with custom color map and mask
+        wordcloud = WordCloud(background_color="white", colormap=meranti_cmap, mask=mask).generate(text)
+
+        # plot the word cloud
+        plt.figure(figsize=(8, 8))
+        plt.imshow(wordcloud, interpolation="bilinear")
+        plt.axis("off")
+        plt.title(f"Word Cloud of NAICS Category for {year}", fontsize=20, fontweight='bold')
+        plt.tight_layout(pad=0)
 
         # Save word clouds to file
         plt.savefig(f'data/clean_data/word_cloud_{year}.png', bbox_inches='tight')
