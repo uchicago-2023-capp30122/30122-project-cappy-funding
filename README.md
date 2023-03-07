@@ -12,7 +12,12 @@ git clone git@github.com:uchicago-capp122-spring23/30122-project-cappy-funding.g
 cd 30122-project-cappy-funding/
 ```
 
-3. Run the program:
+3. Install Poetry
+```
+poetry install
+```
+
+4. Run the program:
 ```
 poetry run python3 -m cappy_funding
 ```
