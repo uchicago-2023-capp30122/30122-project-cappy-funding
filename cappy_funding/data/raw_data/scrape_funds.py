@@ -17,7 +17,7 @@ def total_funding():
         for state in data:
             writer.writerow(state.values())
 
-def data_year(year_list = ['2016']):
+def data_year(start_year, end_year):
 
     total_data = pd.read_csv("./cappy_funding/data/raw_data/state_total_data.csv")
     list_states = total_data["code"]
@@ -25,7 +25,11 @@ def data_year(year_list = ['2016']):
     endpoint = "/api/v2/search/spending_by_category/naics"
     dict = {}
 
-    for year in year_list:
+    year_lst = []
+    for year in range(int(start_year), int(end_year) + 1):
+        year_lst.append(year)
+
+    for year in year_lst:
         
         for state in list_states:
 
