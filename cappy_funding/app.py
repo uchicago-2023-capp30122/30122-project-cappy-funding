@@ -34,9 +34,9 @@ def run_visualization():
 
     print("\nCreating funding word cloud for each year...")
     word_cloud.funding_word_clouds(CLEAN_DATA_DIR)
-    print("\nAll years funding word cloud saved to visualization/...")
+    print("All years funding word cloud saved to visualization/...")
 
-    print("Opening data visualization dashboard")
+    print("\nOpening data visualization dashboard...")
     app = graph.app
     app.run_server(debug=False)
 
