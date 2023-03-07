@@ -28,8 +28,15 @@ def run_visualization():
     """
     Runs the data vizualisation functions
     """
+    print("\nCreating funding time series stacked chart...")
     stacked_charts.create_stacked_area_chart(CLEAN_DATA_DIR)
+    print("Funding time series stacked chart saved to visualization/")
+
+    print("\nCreating funding word cloud for each year...")
     word_cloud.funding_word_clouds(CLEAN_DATA_DIR)
+    print("\nAll years funding word cloud saved to visualization/...")
+
+    print("Opening data visualization dashboard")
     app = graph.app
     app.run_server(debug=False)
 
@@ -48,7 +55,6 @@ def run():
     )
 
     if user_input == "1":
-        print("\nOpening data visualization dashboard...")
         run_visualization()
 
     elif user_input == "2":
