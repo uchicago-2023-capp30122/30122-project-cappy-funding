@@ -28,6 +28,8 @@ def run_visualization():
     """
     Runs the data vizualisation functions
     """
+    stacked_charts.create_stacked_area_chart(CLEAN_DATA_DIR)
+    word_cloud.funding_word_clouds(CLEAN_DATA_DIR)
     app = graph.app
     app.run_server(debug=False)
 

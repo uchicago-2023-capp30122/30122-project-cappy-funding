@@ -25,9 +25,15 @@ def data_year(start_year, end_year):
     endpoint = "/api/v2/search/spending_by_category/naics"
     dict = {}
 
+    if start_year == "":
+        start_year = "2016"
+    
+    if end_year == "":
+        end_year = "2020"
+
     year_lst = []
     for year in range(int(start_year), int(end_year) + 1):
-        year_lst.append(year)
+        year_lst.append(str(year))
 
     for year in year_lst:
         

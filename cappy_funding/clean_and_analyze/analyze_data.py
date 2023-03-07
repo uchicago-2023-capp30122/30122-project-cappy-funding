@@ -13,7 +13,7 @@ pd.options.mode.chained_assignment = None
 CleanedData = namedtuple("CleanedData", ["expenditure_df", "per_capita_df",
  "funding_df_absolute", "funding_df_by_state", "funding_df_within_state"])
 
-def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
+def clean_and_analyze_all(starting_year, ending_year, from_filepath, to_filepath):
     """
     Calls on all the helper functions below to clean, analyze and output
     the required files as multiple csv.
@@ -25,6 +25,15 @@ def clean_and_analyze_all(year_lst, from_filepath, to_filepath):
     
     Returns (none)
     """
+    if starting_year == "":
+        starting_year = "2016"
+    
+    if ending_year == "":
+        ending_year = "2020"
+    
+    year_lst = []
+    for year in range(int(starting_year), int(ending_year) + 1):
+        year_lst.append(str(year))
 
     cleaned_df_dct = analyze_expenditure_and_funding(year_lst, 
     from_filepath, to_filepath)
