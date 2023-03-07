@@ -306,4 +306,4 @@ def generate_graph(option_field, option_year):
     return fig1, fig2, fig3, fig
 
 if __name__ == '__main__':
-    app.run_server(port = 12346, debug=True)
+    app.run_server(debug=True)
