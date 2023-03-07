@@ -7,14 +7,14 @@ YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "./cappy_funding/data/clean_data/"
 RAW_DATA_DIR = "./cappy_funding/data/raw_data/"
 
-def run_api_download(year_lst):
+def run_api_download(start_year, end_year):
     """
     Runs the API download and data cleaning functions
     """
     print("Downloading total federal funding by state file...\n")
     scrape_funds.total_funding()
     
-    scrape_funds.data_year(year_lst)
+    scrape_funds.data_year(start_year, end_year)
     print("\nAll years downloaded from USA Spending API...")
 
 
@@ -50,10 +50,11 @@ def run():
         run_visualization()
 
     elif user_input == "2":
-        year_lst = input("\nPlease input a list of years to download the data (E.g. ['2016', '2017'])\n")
+        print("To download data from the API, a year range is required")
+        start_year = input("\nPlease specify a starting year (inclusive)\n")
+        end_year = input("\nPlease specify an ending year (inclusive)\n")
         print("\nStarting API download to /data/raw_data/ directory...\n")
-        print("INPUT", year_lst)
-        run_api_download(year_lst)
+        run_api_download(start_year, end_year)
 
     elif user_input == "3":
         print("\nStarting data cleaning and analysis...\n")
