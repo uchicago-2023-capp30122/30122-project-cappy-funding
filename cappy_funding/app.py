@@ -1,7 +1,7 @@
 import sys
 from .data.raw_data import scrape_funds
 from .clean_and_analyze import analyze_data
-from .visualization import scatterplots, stacked_charts, word_cloud
+from .visualization import scatterplots, stacked_charts, word_cloud, graph
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "./cappy_funding/data/clean_data/"
@@ -29,7 +29,7 @@ def run_visualization():
     """
     Runs the data vizualisation functions
     """
-    pass
+    import visualization.graph
 
 
 def run():
