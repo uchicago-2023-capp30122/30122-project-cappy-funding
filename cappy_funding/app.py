@@ -1,7 +1,7 @@
 import sys
 from .data.raw_data import scrape_funds
 from .clean_and_analyze import analyze_data
-from .visualization import scatterplots, stacked_charts, word_cloud, graph
+from .visualization import stacked_charts, word_cloud, graph
 
 CLEAN_DATA_DIR = "./cappy_funding/data/clean_data/"
 RAW_DATA_DIR = "./cappy_funding/data/raw_data/"
@@ -59,7 +59,7 @@ def run():
 
     elif user_input == "2":
         print("\nTo download data from the API, a starting and ending year is required to set a year range.")
-        start_year = input("\nPlease specify a starting year (inclusive. To use the default starting year of 2016, please press Enter.\n")
+        start_year = input("\nPlease specify a starting year (inclusive). To use the default starting year of 2016, please press Enter.\n")
         end_year = input("\nPlease specify an ending year (inclusive) To use the default ending year of 2020, please press Enter.\n")
         print("\nStarting API download to /data/raw_data/ directory...\n")
         run_api_download(start_year, end_year)
