@@ -26,12 +26,6 @@ def clean_and_analyze_all(starting_year, ending_year, from_filepath, to_filepath
     
     Returns (none)
     """
-    if starting_year == "":
-        starting_year = "2016"
-    
-    if ending_year == "":
-        ending_year = "2020"
-    
     year_lst = []
     for year in range(int(starting_year), int(ending_year) + 1):
         year_lst.append(str(year))

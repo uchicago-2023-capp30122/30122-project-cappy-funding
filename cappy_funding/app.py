@@ -38,7 +38,7 @@ def run_visualization():
 
     print("\nOpening data visualization dashboard...")
     app = graph.app
-    app.run_server(debug=False)
+    app.run_server(port=12345, debug=False)
 
 
 def run():
@@ -62,6 +62,12 @@ def run():
         print("\nTo download data from the API, a starting and ending year is required to set a year range.")
         start_year = input("\nPlease specify a starting year (inclusive). To use the default starting year of 2016, please press Enter.\n")
         end_year = input("\nPlease specify an ending year (inclusive) To use the default ending year of 2020, please press Enter.\n")
+        
+        if start_year == "":
+            start_year = "2016"
+        if end_year == "":
+            end_year = "2020"
+
         print("\nStarting API download to /data/raw_data/ directory...\n")
         run_api_download(start_year, end_year)
 
@@ -73,6 +79,12 @@ def run():
         start_year = input("\nPlease specify a starting year (inclusive). To use the DEFAULT starting year of 2016, please press ENTER.\n")
         end_year = input("\nPlease specify an ending year (inclusive). To use the DEFAULT ending year of 2020, please press ENTER.\n")
         print("\nStarting data cleaning and analysis...\n")
+
+        if start_year == "":
+            start_year = "2016"
+        if end_year == "":
+            end_year = "2020"
+
         run_data_clean_and_analyze(start_year, end_year)
 
     elif user_input == "4":
