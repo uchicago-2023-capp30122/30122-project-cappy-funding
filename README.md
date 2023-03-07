@@ -4,7 +4,7 @@
 
 1. Clone the project repository to your local directory:
 ```
-'git@github.com:uchicago-capp122-spring23/30122-project-cappy-funding.git'
+git clone git@github.com:uchicago-capp122-spring23/30122-project-cappy-funding.git
 ```
 
 2. Go to the cloned repository:
