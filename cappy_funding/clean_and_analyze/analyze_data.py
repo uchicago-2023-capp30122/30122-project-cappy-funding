@@ -162,7 +162,7 @@ def create_funding_time_series_df(year_lst, clean_df_dct, to_filepath):
     funding_time_series.to_csv(to_filepath + "us_funding_time_series.csv")
 
     # Print statement to let user know that time series data has been created
-    print("Funding time series data data has been created")
+    print("Funding time series csv has been created")
 
     return funding_time_series
 
@@ -219,7 +219,7 @@ def create_expenditure_time_series_df(year_lst, clean_df_dct, to_filepath):
     expenditure_time_series.to_csv(to_filepath + "us_expenditure_time_series.csv")
 
     # Print statement to let user know that time series data has been created
-    print("Expenditure time series data data has been created")
+    print("Expenditure time series csv has been created")
             
     return expenditure_time_series
 
@@ -258,6 +258,6 @@ def combine_multiple_years(year_lst, clean_df_dct, to_filepath):
     combined_df.to_csv(to_filepath + "all_years_funding_by_state.csv")
 
     # Print statement to let user know that time series data has been created
-    print("Funding by state (all years) data data has been created")
+    print("Funding by state (all years) csv has been created")
 
     return combined_df
