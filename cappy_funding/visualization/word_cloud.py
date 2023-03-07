@@ -49,4 +49,4 @@ def funding_word_clouds(filepath):
         plt.tight_layout(pad=0)
 
         # Save word clouds to file
-        plt.savefig(f'data/clean_data/word_cloud_{year}.png', bbox_inches='tight')
+        plt.savefig(f'./cappy_funding/visualization/word_cloud_{year}.png', bbox_inches='tight')
