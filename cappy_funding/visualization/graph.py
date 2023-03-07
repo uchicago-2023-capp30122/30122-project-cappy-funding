@@ -1,3 +1,4 @@
+import base64
 import os
 import dash
 import numpy as np
@@ -114,7 +115,11 @@ def create_scatterplot():
 
     return fig
 
+# stacked area chart
+stacked_area_chart_path = os.path.join('cappy_funding', 'visualization', 'stacked_area_chart.png')
 
+with open(stacked_area_chart_path, 'rb') as f:
+    encoded_stacked_area_chart = base64.b64encode(f.read()).decode()
 
 # stacked bar chart
 def create_stacked_bar_chart():
@@ -151,6 +156,17 @@ def create_stacked_bar_chart():
 
     # Show chart
     return fig
+
+#word cloud
+word_cloud_paths = [
+    os.path.join('cappy_funding', 'visualization', 'word_cloud_2016.png'),
+    os.path.join('cappy_funding', 'visualization', 'word_cloud_2017.png'),
+    os.path.join('cappy_funding', 'visualization', 'word_cloud_2018.png'),
+    os.path.join('cappy_funding', 'visualization', 'word_cloud_2019.png'),
+    os.path.join('cappy_funding', 'visualization', 'word_cloud_2020.png')
+]
+
+encoded_word_clouds = [base64.b64encode(open(image_path, 'rb').read()) for image_path in word_cloud_paths]
 
 def expenditurepc_vs_fundingpc_scatterplot():
     """
@@ -204,14 +220,32 @@ app.layout = html.Div([
 
     dcc.Graph(id = "scatterplot", style = {"padding": "40px"}),
 
+    html.H2("Stacked Area Chart for Funding", style = {"color": "brown", "text-align": "center"}),
+
+    html.Img(src='data:image/png;base64,{}'.format(encoded_stacked_area_chart), style = {"padding": "40px", 'width': '100%'}),
+
     html.H2("Stacked Bar Charts", style = {"color": "green", "text-align": "center"}),
 
     dcc.Graph(id = "stacked_bar_charts", style = {"padding": "40px"}),
 
+    html.H2("Word Cloud", style = {"color": "pink", "text-align": "center"}),
+
+    dcc.Dropdown(id='year-dropdown', 
+            options=[
+                    {'label': '2016', 'value': 0},
+                    {'label': '2017', 'value': 1},
+                    {'label': '2018', 'value': 2},
+                    {'label': '2019', 'value': 3},
+                    {'label': '2020', 'value': 4}], 
+            value=0,
+            style = {"width": "50%", "margin": "auto"}
+    ),
+
+    html.Img(id='image', style={'display': 'block', 'margin-left': 'auto', 'margin-right': 'auto', 'width': '50%'}),
+
     html.H2("Expenditure VS Funding Scatterplot", style = {"color": "blue", "text-align": "center"}),
 
     dcc.Graph(id = "scatterplot2", style = {"padding": "40px"}),
-
 
     html.H2("Heat Map of USA States Fund Spending", style = {"text-align": "center", "padding": "40px"}),
 
@@ -238,7 +272,7 @@ app.layout = html.Div([
                     {"label": "Public Administration (not covered in economic census)", "value": "Public Administration (not covered in economic census)"}],
             multi = False,
             value = "Agriculture, Forestry, Fishing and Hunting",
-            style = {"width": "40%"}
+            style = {"width": "50%", "margin": "auto"}
     ),
 
     dcc.Graph(id = "heat-map", style = {"padding": "40px"}),
@@ -254,6 +288,14 @@ app.layout = html.Div([
 ])
 
 # app callbacks
+# Define callback to update image based on dropdown selection
+@app.callback(
+    dash.dependencies.Output('image', 'src'),
+    [dash.dependencies.Input('year-dropdown', 'value')]
+)
+def update_image_src(value):
+    return 'data:image/png;base64,{}'.format(encoded_word_clouds[value].decode())
+
 @app.callback(
     [Output(component_id = "scatterplot", component_property = "figure"),
      Output(component_id = "stacked_bar_charts", component_property = "figure"),
@@ -262,8 +304,6 @@ app.layout = html.Div([
     [Input(component_id = "select_field", component_property = "value"),
     Input(component_id = "year_slider", component_property = "value")]
 )
-
-
 def generate_graph(option_field, option_year):
     dff = df.copy()
     dff = dff[dff["Year"] == option_year]
