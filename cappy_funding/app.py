@@ -43,6 +43,7 @@ def run_visualization():
 
 def run():
     """
+    Runs the application's main user interface
     """
     print("\nWelcome to Cappy Funding!")
     print("To use the application, please input one of the following 4 options into command line:")
