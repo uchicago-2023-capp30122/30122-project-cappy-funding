@@ -19,7 +19,8 @@ def clean_and_analyze_all(starting_year, ending_year, from_filepath, to_filepath
     the required files as multiple csv.
     
     Inputs:
-        year_lst (lst of str): list of years to clean
+        starting_year (str): lower bound of year range to clean data
+        ending_year (str): upper bound of year range to clean data
         from_filepath (str): filepath to retrieve raw data files
         to_filepath (str): filepath to store cleaned data files
     
