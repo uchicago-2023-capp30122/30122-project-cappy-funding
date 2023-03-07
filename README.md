@@ -1,1 +1,18 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9906764&assignment_repo_type=AssignmentRepo)
+# **PROJECT CAPPY FUNDING**
+
+## To run the project:
+
+1. Clone the project repository to your local directory:
+```
+git clone git@github.com:uchicago-capp122-spring23/30122-project-cappy-funding.git
+```
+
+2. Go to the cloned repository:
+```
+cd 30122-project-cappy-funding/
+```
+
+3. Run the program:
+```
+poetry run python3 -m cappy_funding
+```

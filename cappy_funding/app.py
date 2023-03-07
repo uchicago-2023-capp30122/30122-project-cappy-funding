@@ -1,7 +1,7 @@
 import sys
-from cappy_funding.data.raw_data import scrape_funds
-from cappy_funding.clean_and_analyze import analyze_data
-import warnings
+from .data.raw_data import scrape_funds
+from .clean_and_analyze import analyze_data
+from .visualization import scatterplots, stacked_charts, word_cloud
 
 YEARS = ["2016", "2017", "2018", "2019", "2020"]
 CLEAN_DATA_DIR = "./cappy_funding/data/clean_data/"

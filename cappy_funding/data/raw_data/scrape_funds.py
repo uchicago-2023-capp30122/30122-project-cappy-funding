@@ -25,7 +25,7 @@ def data_year():
     endpoint = "/api/v2/search/spending_by_category/naics"
     dict = {}
 
-    for year in ['2016','2017', '2018', '2019', '2020']:
+    for year in ['2016', '2017', '2018', '2019', '2020']:
         
         for state in list_states:
 
