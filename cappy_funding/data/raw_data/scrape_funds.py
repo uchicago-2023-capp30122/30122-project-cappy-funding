@@ -17,7 +17,7 @@ def total_funding():
         for state in data:
             writer.writerow(state.values())
 
-def data_year(year_list):
+def data_year(year_list = ['2016']):
 
     total_data = pd.read_csv("./cappy_funding/data/raw_data/state_total_data.csv")
     list_states = total_data["code"]
