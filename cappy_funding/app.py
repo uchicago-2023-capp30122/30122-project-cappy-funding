@@ -29,7 +29,8 @@ def run_visualization():
     """
     Runs the data vizualisation functions
     """
-    import visualization.graph
+    app = graph.app
+    app.run_server(debug=False)
 
 
 def run():
