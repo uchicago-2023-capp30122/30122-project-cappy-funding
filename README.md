@@ -2,17 +2,17 @@
 
 ## Project Overview
 
-The main purpose of this project, Cappy Funding, is to visualize the allocation of federal fundings in the US so that to help audiences have better sense of where the money is going. Target audience are federal foundation managers, funding seekers, and anyone who’s interested in the funding distribution of the public sector. The complete data set is going to contain the federal fundings that goes to a certain industry (e.g. education, healthcare) in every state in the US. 
+The main purpose of this project, Cappy Funding, is to visualize the allocation of federal fundings in the US to allow the audience to have a better sense of how funds at the federal level are spent on different industries and categories. Our expected target audience include federal foundation managers, funding seekers, and others who are interested in the way federal funds are spent. The complete data set contains a breakdown of federal funding by industry (using the NAICS categorisation) as well as by state.
 
 
-Our project is expected to perform data visualization and analysis from the following four ways:
-1. Interactive Funding Heat Map of the US: see how much of the grant amount has flown to a certain industry in a certain state, and get its weight in this state's total federal fundings to see if the federal foundation has funded much in this industry.
-2. Interactive Scatter Graph on expenditure per capita of every state.
-3. Time-series Stacked Charts: time series analysis to see the change in the categories that federal funding has focus on. 
-4. Interactive Time-series Change in Relation between expenditure per capita and fundings per capita: to see the correlation between expenditure and funding amounts.  
-5. Top 10 Categories Word Cloud: find the top 10 industries that receive most fundings separately for five years, and make it a word cloud depending on the ranking
+Our project performs data visualization and analysis for federal funding expenditure from 2016-2020 in the following five ways:
+1. Interactive Funding Heat Map of the US: illustrates how funding grants are distributed geographically to different states for each NAICS sector.
+2. Interactive Scatter Plot on expenditure per capita of every state: illustrates how state expenditure per capita is correlated with population size.
+3. Time-series Stacked Charts: illustrates how federal funding for each sector changes over time.
+4. Interactive Scatter Plot for Expenditure per Capita and Funding per Capita: illustrates how state expenditure per capita is correlated with funding per capita in a given year and how the relationship changes over time.
+5. Top 10 Categories Word Cloud: illustrates the top ten NAICS industries that have received the greatest amount of federal funds over the last five years.
 
-Done by: Yujie Jiang, Ziyang Chen, Gongzi Chen, Bryan Foo
+Created by: Yujie Jiang, Ziyang Chen, Gongzi Chen, Bryan Foo
 
 
 ## Instructions to run the project in your local directory:
