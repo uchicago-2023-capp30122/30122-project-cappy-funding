@@ -8,13 +8,12 @@ import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 import pandas as pd
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-from PIL import Image
 
 app = dash.Dash(__name__)
 
 # Import and clean data
-df = pd.read_csv("all_years_funding_by_state.csv")
+CLEAN_DATA_DIR = "./cappy_funding/data/clean_data/"
+df = pd.read_csv(CLEAN_DATA_DIR + "all_years_funding_by_state.csv")
 
 # functions for fig
 #scatterplot
@@ -22,9 +21,9 @@ def create_scatterplot():
     # Load data for each year
     data = {}
     for year in range(2016, 2021):
-        df = pd.read_csv(f"{year}_per_capita_analysis.csv")
+        df = pd.read_csv(CLEAN_DATA_DIR + f"{year}_per_capita_analysis.csv")
         df = df.drop(df[df["State"] == "United States"].index)
-        populations = pd.read_csv("us_population_cleaned.csv")
+        populations = pd.read_csv(CLEAN_DATA_DIR + "us_population_cleaned.csv")
         populations = populations.drop(populations[populations["State"] == "United States"].index)
         df = pd.merge(df, populations, on="State")
         data[str(year)] = df
@@ -126,7 +125,7 @@ def create_stacked_bar_chart():
     """
 
     # Read in the data
-    df = pd.read_csv('us_funding_time_series.csv')
+    df = pd.read_csv(CLEAN_DATA_DIR + 'us_funding_time_series.csv')
 
     # Calculate the mean funding percentage for each category over the 5-year period
     df_mean = df.loc[:, '2016':'2020'].mean(axis=1)
@@ -153,6 +152,48 @@ def create_stacked_bar_chart():
     # Show chart
     return fig
 
+def expenditurepc_vs_fundingpc_scatterplot():
+    """
+    Create a scatter plot showing expenditure per capita versus funding per 
+    capita for each state in the United States from 2016 to 2020.
+    """
+
+    dfs = []
+
+    # Load data for each year
+    for year in range(2016, 2021):
+        # Read in the per capita analysis csv for the year
+        df = pd.read_csv(CLEAN_DATA_DIR + f"{year}_per_capita_analysis.csv")
+        df = df.drop(df[df["State"] == "United States"].index)
+        df["Year"] = year
+        dfs.append(df)
+
+    df = pd.concat(dfs)
+    df_pop = pd.read_csv(CLEAN_DATA_DIR + 'us_population_cleaned.csv')
+    df_merge = pd.merge(df, df_pop, on='State', how='left')
+
+    # Calculate the total expenditure and funding for each state for each year
+    df_grouped = df_merge.groupby(['Year', 'State', 'Population'], as_index=False).sum()
+
+    # Remove the United States from the data
+    df_grouped = df_grouped[df_grouped['State'] != 'United States']
+
+    # Create a scatter plot of expenditure per capita vs funding per capita
+    fig = px.scatter(df_grouped, 
+                    x='Funding received per Capita (in thousands)', 
+                    y='Expenditure per Capita (in thousands)', 
+                    color='State', 
+                    hover_name='State', 
+                    size='Population', 
+                    animation_frame='Year', 
+                    color_discrete_sequence=px.colors.qualitative.Alphabet
+                    )
+
+    fig.update_layout(title='Expenditure per Capita vs Funding received per Capita (2016-2020)')
+
+    # Show the plot
+    return fig
+
 
 
 # app layout
@@ -163,13 +204,14 @@ app.layout = html.Div([
 
     dcc.Graph(id = "scatterplot", style = {"padding": "40px"}),
 
-    html.H2("Stacked Area Charts", style = {"color": "blue", "text-align": "center"}),
-
-    html.Img(src = "cappy-funding/data/clean_data/stacked_area_chart.png"),
-
     html.H2("Stacked Bar Charts", style = {"color": "green", "text-align": "center"}),
 
     dcc.Graph(id = "stacked_bar_charts", style = {"padding": "40px"}),
+
+    html.H2("Expenditure VS Funding Scatterplot", style = {"color": "blue", "text-align": "center"}),
+
+    dcc.Graph(id = "scatterplot2", style = {"padding": "40px"}),
+
 
     html.H2("Heat Map of USA States Fund Spending", style = {"text-align": "center", "padding": "40px"}),
 
@@ -215,6 +257,7 @@ app.layout = html.Div([
 @app.callback(
     [Output(component_id = "scatterplot", component_property = "figure"),
      Output(component_id = "stacked_bar_charts", component_property = "figure"),
+     Output(component_id = "scatterplot2", component_property = "figure"),
      Output(component_id = "heat-map", component_property = "figure")],
     [Input(component_id = "select_field", component_property = "value"),
     Input(component_id = "year_slider", component_property = "value")]
@@ -258,8 +301,9 @@ def generate_graph(option_field, option_year):
 
     fig1 = create_scatterplot()
     fig2 = create_stacked_bar_chart()
+    fig3 = expenditurepc_vs_fundingpc_scatterplot()
 
-    return fig1, fig2, fig
+    return fig1, fig2, fig3, fig
 
 if __name__ == '__main__':
     app.run_server(port = 12346, debug=True)
