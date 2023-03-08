@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The main purpose of this project, Cappy Funding, is to visualize the allocation of federal fundings in the US to allow the audience to have a better sense of how funds at the federal level are spent on different industries and categories. Our expected target audience include federal foundation managers, funding seekers, and others who are interested in the way federal funds are spent. The complete data set contains a breakdown of federal funding by industry (using the NAICS categorisation) as well as by state.
+The main purpose of this project, Cappy Funding, is to visualize the allocation of federal fundings in the US from 2016 to 2020, allowing the audience to have a better sense of (1) how funds at the federal level are spent on different industries and categories, and (2) how states manage expenditure in accordance to those categories. Our expected target audience include federal foundation managers, funding seekers, and others who are interested in the way federal funds are spent. The complete data set contains a breakdown of federal funding by industry (using the NAICS categorization) as well as by state.
 
 
 Our project performs data visualization and analysis for federal funding expenditure from 2016-2020 in the following five ways:
