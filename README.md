@@ -12,6 +12,10 @@ Our project performs data visualization and analysis for federal funding expendi
 4. Interactive Scatter Plot for Expenditure per Capita and Funding per Capita: illustrates how state expenditure per capita is correlated with funding per capita in a given year and how the relationship changes over time.
 5. Top 10 Categories Word Cloud: illustrates the top ten NAICS industries that have received the greatest amount of federal funds over the last five years.
 
+Our data sources:
+1. USASpending: https://www.usaspending.gov
+2. United States Census Bureau: https://www.census.gov 
+
 Created by: Yujie Jiang, Ziyang Chen, Gongzi Chen, Bryan Foo
 
 
