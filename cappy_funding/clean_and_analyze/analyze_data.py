@@ -1,4 +1,4 @@
-### All the functions below were written by Foo Suon Chuang (Bryan)
+### All the functions below were written by Foo Suon Chuang (Bryan) 
 
 import pandas as pd
 from collections import namedtuple
