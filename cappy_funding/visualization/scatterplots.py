@@ -2,6 +2,8 @@ import pandas as pd
 import plotly.graph_objs as go
 import plotly.express as px
 
+# Author: Ziyang Chen
+
 def expenditurepc_scatterplot(filepath):
     """
     Create a scatter plot showing expenditure per capita versus population for 

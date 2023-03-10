@@ -9,6 +9,8 @@ from dash.dependencies import Input, Output
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Author: Gongzi Chen
+
 app = dash.Dash(__name__)
 
 # Import and clean data

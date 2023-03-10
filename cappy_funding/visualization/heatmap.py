@@ -7,6 +7,8 @@ import plotly.graph_objs as go
 from dash.dependencies import Input, Output
 import pandas as pd
 
+# Author: Gongzi Chen
+
 app = dash.Dash(__name__)
 
 # Import and clean data

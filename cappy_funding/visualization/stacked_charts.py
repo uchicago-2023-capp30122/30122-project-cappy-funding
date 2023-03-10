@@ -2,6 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
+# Author: Ziyang Chen
+
 def create_stacked_area_chart(filepath):
     """
     Create a stacked area chart showing federal funding percentage by NAICS 

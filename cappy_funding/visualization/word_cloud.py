@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors as mcolors
 
+# Author: Ziyang Chen
+
 def funding_word_clouds(filepath):
     """
     Create word cloud graphs for each year between 2016 and 2020 based on 
