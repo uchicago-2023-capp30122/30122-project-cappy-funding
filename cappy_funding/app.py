@@ -3,6 +3,8 @@ from .data.raw_data import scrape_funds
 from .clean_and_analyze import analyze_data
 from .visualization import stacked_charts, word_cloud, graph
 
+# Author: Foo Suon Chuang (Bryan), Yujie Jiang, Gongzi Chen and Ziyang Chen
+
 CLEAN_DATA_DIR = "./cappy_funding/data/clean_data/"
 RAW_DATA_DIR = "./cappy_funding/data/raw_data/"
 

@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 import csv
 
+# Author: Yujie Jiang
+
 # total amound in every state
 def total_funding():
 
