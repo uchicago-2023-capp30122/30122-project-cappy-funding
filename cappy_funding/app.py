@@ -9,6 +9,7 @@ RAW_DATA_DIR = "./cappy_funding/data/raw_data/"
 def run_api_download(start_year, end_year):
     """
     Runs the API download and data cleaning functions
+    Written by: Yujie Jiang
     """
     print("Downloading total federal funding by state file...\n")
     scrape_funds.total_funding()
@@ -20,6 +21,7 @@ def run_api_download(start_year, end_year):
 def run_data_clean_and_analyze(start_year, end_year):
     """
     Runs the data cleaning and analysis functions
+    Written by: Foo Suon Chuang (Bryan)
     """
     analyze_data.clean_and_analyze_all(start_year, end_year, RAW_DATA_DIR, CLEAN_DATA_DIR)
 
@@ -27,6 +29,7 @@ def run_data_clean_and_analyze(start_year, end_year):
 def run_visualization():
     """
     Runs the data vizualisation functions
+    Written by: Ziyang Chen, Gongzi Chen
     """
     print("\nCreating funding time series stacked chart...")
     stacked_charts.create_stacked_area_chart(CLEAN_DATA_DIR)
@@ -44,6 +47,7 @@ def run_visualization():
 def run():
     """
     Runs the application's main user interface
+    Written by: Foo Suon Chuang (Bryan)
     """
     print("\nWelcome to Cappy Funding!")
     print("To use the application, please input one of the following 4 options into command line:")

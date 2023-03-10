@@ -1,3 +1,5 @@
+### All the functions below were written by Foo Suon Chuang (Bryan)
+
 import pandas as pd
 
 # List of states in the US (exlcuding territories)

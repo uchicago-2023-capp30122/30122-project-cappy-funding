@@ -1,3 +1,5 @@
+### All the functions below were written by Foo Suon Chuang (Bryan)
+
 import pandas as pd
 from .utils_clean_and_analyze import STATE_NAMES_AND_UNITED_STATES, \
     US_STATE_CODES, NAICS_SECTOR_CODES
